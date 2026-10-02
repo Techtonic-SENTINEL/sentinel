@@ -7,6 +7,7 @@ import math
 import os
 import sys
 
+import altair as alt
 import pandas as pd
 import pydeck as pdk
 import qrcode
@@ -51,17 +52,29 @@ def graph():
     return rm.load_graph(os.path.join(DATA, "mumbai_roads.graphml"))
 
 
+def wkt_coords(wkt):
+    # "LINESTRING (72.87 19.06, 72.88 19.07)" -> [[72.87, 19.06], [72.88, 19.07]]
+    inner = wkt[wkt.index("(") + 1: wkt.rindex(")")]
+    return [[float(x) for x in pt.split()[:2]] for pt in inner.split(",")]
+
+
 @st.cache_resource
 def road_segments():
     G, seen, out = graph(), set(), []
-    for u, v in G.edges():
+    for u, v, d in G.edges(data=True):
         k = (min(u, v), max(u, v))
         if k in seen:
             continue
         seen.add(k)
         a, b = G.nodes[u], G.nodes[v]
-        out.append({"u": u, "v": v, "path": [[a["x"], a["y"]], [b["x"], b["y"]]],
-                    "mid": ((a["y"] + b["y"]) / 2, (a["x"] + b["x"]) / 2)})
+        path = [[a["x"], a["y"]], [b["x"], b["y"]]]
+        if isinstance(d.get("geometry"), str) and "(" in d["geometry"]:
+            try:
+                path = wkt_coords(d["geometry"])
+            except ValueError:
+                pass
+        mid = path[len(path) // 2]
+        out.append({"u": u, "v": v, "path": path, "mid": (mid[1], mid[0])})
     return out
 
 
@@ -243,7 +256,7 @@ with tabs[0]:
     layers.append(pdk.Layer("ScatterplotLayer", [{"p": [b["lon"], b["lat"]], "name": f"Ambulance base {b['id']}"} for b in S["bases"]],
                             get_position="p", get_fill_color=[167, 139, 250], get_radius=60, radius_min_pixels=5, pickable=True))
     st.pydeck_chart(pdk.Deck(layers=layers, map_style=None, tooltip={"text": "{name}"},
-                             initial_view_state=pdk.ViewState(latitude=area["center"][0], longitude=area["center"][1], zoom=13.2)))
+                             initial_view_state=pdk.ViewState(latitude=area["center"][0], longitude=area["center"][1], zoom=13.4)))
     st.caption("Map drawn from the real OpenStreetMap road graph the optimiser uses · blue roads = flooded · red = closed · "
                "faint dots = casualties not yet reported · hospital colour = bed load")
 
@@ -271,14 +284,41 @@ with tabs[1]:
               f"{s_['Red: avg minutes to care'] - n_['Red: avg minutes to care']:+.1f} vs nearest", delta_color="inverse")
     k3.metric("Busiest hospital load %", s_["Busiest hospital load %"],
               f"{s_['Busiest hospital load %'] - n_['Busiest hospital load %']:+d} vs nearest", delta_color="inverse")
-    chart = pd.DataFrame({"Expected survivors": [results[p]["metrics"]["Expected survivors (Red+Yellow)"] for p in POLICIES],
-                          "Red minutes to care": [results[p]["metrics"]["Red: avg minutes to care"] for p in POLICIES],
-                          "Busiest load %": [results[p]["metrics"]["Busiest hospital load %"] for p in POLICIES]},
-                         index=list(POLICIES.values()))
+    COLORS = alt.Scale(domain=list(POLICIES.values()), range=["#38BDF8", "#64748B", "#94A3B8"])
+    long = pd.DataFrame([{"policy": POLICIES[p], "metric": name, "value": float(results[p]["metrics"][key])}
+                         for p in POLICIES for name, key in [("Expected survivors ↑", "Expected survivors (Red+Yellow)"),
+                                                             ("Red: minutes to care ↓", "Red: avg minutes to care"),
+                                                             ("Busiest hospital load % ↓", "Busiest hospital load %")]])
     cc = st.columns(3)
-    for col, name in zip(cc, chart.columns):
+    for col, name in zip(cc, long["metric"].unique()):
+        d = long[long["metric"] == name]
+        base = alt.Chart(d).encode(x=alt.X("policy:N", sort=list(POLICIES.values()), title=None, axis=alt.Axis(labelAngle=0)),
+                                   y=alt.Y("value:Q", title=None, scale=alt.Scale(zero=True)))
+        chart = (base.mark_bar(cornerRadiusTopLeft=4, cornerRadiusTopRight=4).encode(color=alt.Color("policy:N", scale=COLORS, legend=None))
+                 + base.mark_text(dy=-8, color="#E2E8F0").encode(text=alt.Text("value:Q", format=".0f")))
         col.markdown(f"**{name}**")
-        col.bar_chart(chart[[name]])
+        col.altair_chart(chart.properties(height=260), width="stretch")
+
+    if has("benchmark.json"):
+        B = load_json("benchmark.json")
+        st.markdown(f"#### Across {B['n_runs']} different simulated disasters (SimPy seeds {B['seeds'][0]}–{B['seeds'][-1]})")
+        rows_ = []
+        for p in POLICIES:
+            m = B["summary"][p]
+            rows_.append({"policy": POLICIES[p],
+                          "expected survivors (mean, range)": f"{m['survivors_mean']} ({m['survivors_min']}–{m['survivors_max']})",
+                          "Red minutes to care (mean)": m["red_minutes_mean"],
+                          "busiest hospital load % (mean)": m["load_mean"],
+                          "wrong-hospital transfers (mean)": m["transfers_mean"]})
+        st.dataframe(pd.DataFrame(rows_), hide_index=True, width="stretch")
+        st.success(f"SENTINEL had more expected survivors than the nearest-hospital rule in {B['wins_vs_nearest']}/{B['n_runs']} disasters "
+                   f"(average {B['gain_vs_nearest_pct']:+.0f}%) and than FCFS in {B['wins_vs_fcfs']}/{B['n_runs']} "
+                   f"(average {B['gain_vs_fcfs_pct']:+.0f}%).")
+        per = pd.DataFrame([{"seed": r["seed"], "policy": POLICIES[p], "expected survivors": r[p]["survivors"]}
+                            for r in B["runs"] for p in POLICIES])
+        st.altair_chart(alt.Chart(per).mark_line(point=True).encode(
+            x=alt.X("seed:O", title="disaster (SimPy seed)"), y=alt.Y("expected survivors:Q", scale=alt.Scale(zero=False)),
+            color=alt.Color("policy:N", scale=COLORS)).properties(height=280), width="stretch")
     log = results["sentinel"]["log"]
     if log:
         with st.expander("Event-driven re-planning log (CP-SAT, warm start, greedy fallback)"):

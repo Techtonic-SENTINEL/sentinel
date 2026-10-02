@@ -1,0 +1,879 @@
+{
+ "n_runs": 30,
+ "seeds": [
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130
+ ],
+ "runs": [
+  {
+   "seed": 101,
+   "sentinel": {
+    "survivors": 44.3,
+    "red_minutes": 104.2,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "55/72"
+   },
+   "nearest": {
+    "survivors": 29.6,
+    "red_minutes": 195.0,
+    "load": 267,
+    "transfers": 25,
+    "overfull": 15,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 34.3,
+    "red_minutes": 180.6,
+    "load": 100,
+    "transfers": 20,
+    "overfull": 0,
+    "reached": "57/72"
+   }
+  },
+  {
+   "seed": 102,
+   "sentinel": {
+    "survivors": 45.1,
+    "red_minutes": 107.7,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "55/72"
+   },
+   "nearest": {
+    "survivors": 27.0,
+    "red_minutes": 254.7,
+    "load": 283,
+    "transfers": 31,
+    "overfull": 23,
+    "reached": "61/72"
+   },
+   "fcfs": {
+    "survivors": 34.7,
+    "red_minutes": 167.2,
+    "load": 100,
+    "transfers": 20,
+    "overfull": 0,
+    "reached": "59/72"
+   }
+  },
+  {
+   "seed": 103,
+   "sentinel": {
+    "survivors": 44.4,
+    "red_minutes": 110.0,
+    "load": 80,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "54/72"
+   },
+   "nearest": {
+    "survivors": 28.6,
+    "red_minutes": 223.0,
+    "load": 300,
+    "transfers": 31,
+    "overfull": 20,
+    "reached": "57/72"
+   },
+   "fcfs": {
+    "survivors": 35.3,
+    "red_minutes": 174.6,
+    "load": 100,
+    "transfers": 25,
+    "overfull": 0,
+    "reached": "58/72"
+   }
+  },
+  {
+   "seed": 104,
+   "sentinel": {
+    "survivors": 44.0,
+    "red_minutes": 110.3,
+    "load": 87,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "56/72"
+   },
+   "nearest": {
+    "survivors": 33.5,
+    "red_minutes": 162.0,
+    "load": 217,
+    "transfers": 16,
+    "overfull": 7,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 35.9,
+    "red_minutes": 151.7,
+    "load": 100,
+    "transfers": 12,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 105,
+   "sentinel": {
+    "survivors": 46.8,
+    "red_minutes": 102.9,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "56/72"
+   },
+   "nearest": {
+    "survivors": 32.7,
+    "red_minutes": 180.9,
+    "load": 217,
+    "transfers": 18,
+    "overfull": 19,
+    "reached": "59/72"
+   },
+   "fcfs": {
+    "survivors": 39.7,
+    "red_minutes": 158.7,
+    "load": 100,
+    "transfers": 13,
+    "overfull": 0,
+    "reached": "59/72"
+   }
+  },
+  {
+   "seed": 106,
+   "sentinel": {
+    "survivors": 45.2,
+    "red_minutes": 116.0,
+    "load": 93,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "53/72"
+   },
+   "nearest": {
+    "survivors": 33.6,
+    "red_minutes": 185.3,
+    "load": 217,
+    "transfers": 17,
+    "overfull": 13,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 36.3,
+    "red_minutes": 149.7,
+    "load": 100,
+    "transfers": 13,
+    "overfull": 0,
+    "reached": "54/72"
+   }
+  },
+  {
+   "seed": 107,
+   "sentinel": {
+    "survivors": 44.6,
+    "red_minutes": 112.9,
+    "load": 120,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "51/72"
+   },
+   "nearest": {
+    "survivors": 32.7,
+    "red_minutes": 188.8,
+    "load": 233,
+    "transfers": 23,
+    "overfull": 13,
+    "reached": "60/72"
+   },
+   "fcfs": {
+    "survivors": 36.2,
+    "red_minutes": 162.4,
+    "load": 100,
+    "transfers": 20,
+    "overfull": 0,
+    "reached": "61/72"
+   }
+  },
+  {
+   "seed": 108,
+   "sentinel": {
+    "survivors": 45.3,
+    "red_minutes": 121.4,
+    "load": 73,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "54/72"
+   },
+   "nearest": {
+    "survivors": 35.7,
+    "red_minutes": 174.4,
+    "load": 233,
+    "transfers": 18,
+    "overfull": 12,
+    "reached": "57/72"
+   },
+   "fcfs": {
+    "survivors": 38.6,
+    "red_minutes": 132.5,
+    "load": 100,
+    "transfers": 13,
+    "overfull": 0,
+    "reached": "56/72"
+   }
+  },
+  {
+   "seed": 109,
+   "sentinel": {
+    "survivors": 42.7,
+    "red_minutes": 117.5,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "52/72"
+   },
+   "nearest": {
+    "survivors": 28.7,
+    "red_minutes": 193.2,
+    "load": 233,
+    "transfers": 25,
+    "overfull": 19,
+    "reached": "58/72"
+   },
+   "fcfs": {
+    "survivors": 33.5,
+    "red_minutes": 186.1,
+    "load": 100,
+    "transfers": 20,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 110,
+   "sentinel": {
+    "survivors": 44.4,
+    "red_minutes": 112.3,
+    "load": 93,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "52/72"
+   },
+   "nearest": {
+    "survivors": 34.2,
+    "red_minutes": 149.1,
+    "load": 117,
+    "transfers": 19,
+    "overfull": 1,
+    "reached": "54/72"
+   },
+   "fcfs": {
+    "survivors": 34.9,
+    "red_minutes": 154.4,
+    "load": 100,
+    "transfers": 21,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 111,
+   "sentinel": {
+    "survivors": 45.8,
+    "red_minutes": 105.9,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "56/72"
+   },
+   "nearest": {
+    "survivors": 35.3,
+    "red_minutes": 199.6,
+    "load": 250,
+    "transfers": 23,
+    "overfull": 9,
+    "reached": "60/72"
+   },
+   "fcfs": {
+    "survivors": 37.1,
+    "red_minutes": 167.4,
+    "load": 100,
+    "transfers": 17,
+    "overfull": 0,
+    "reached": "59/72"
+   }
+  },
+  {
+   "seed": 112,
+   "sentinel": {
+    "survivors": 42.8,
+    "red_minutes": 122.4,
+    "load": 120,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "49/72"
+   },
+   "nearest": {
+    "survivors": 29.7,
+    "red_minutes": 186.9,
+    "load": 233,
+    "transfers": 32,
+    "overfull": 14,
+    "reached": "57/72"
+   },
+   "fcfs": {
+    "survivors": 34.6,
+    "red_minutes": 175.6,
+    "load": 100,
+    "transfers": 25,
+    "overfull": 0,
+    "reached": "57/72"
+   }
+  },
+  {
+   "seed": 113,
+   "sentinel": {
+    "survivors": 45.7,
+    "red_minutes": 110.6,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "54/72"
+   },
+   "nearest": {
+    "survivors": 29.0,
+    "red_minutes": 196.3,
+    "load": 283,
+    "transfers": 26,
+    "overfull": 18,
+    "reached": "59/72"
+   },
+   "fcfs": {
+    "survivors": 34.9,
+    "red_minutes": 161.8,
+    "load": 100,
+    "transfers": 15,
+    "overfull": 0,
+    "reached": "54/72"
+   }
+  },
+  {
+   "seed": 114,
+   "sentinel": {
+    "survivors": 46.6,
+    "red_minutes": 109.0,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "55/72"
+   },
+   "nearest": {
+    "survivors": 35.6,
+    "red_minutes": 168.9,
+    "load": 183,
+    "transfers": 18,
+    "overfull": 5,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 38.0,
+    "red_minutes": 158.8,
+    "load": 100,
+    "transfers": 14,
+    "overfull": 0,
+    "reached": "57/72"
+   }
+  },
+  {
+   "seed": 115,
+   "sentinel": {
+    "survivors": 42.9,
+    "red_minutes": 116.2,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "51/72"
+   },
+   "nearest": {
+    "survivors": 28.4,
+    "red_minutes": 205.9,
+    "load": 233,
+    "transfers": 25,
+    "overfull": 11,
+    "reached": "53/72"
+   },
+   "fcfs": {
+    "survivors": 30.4,
+    "red_minutes": 204.4,
+    "load": 100,
+    "transfers": 26,
+    "overfull": 0,
+    "reached": "53/72"
+   }
+  },
+  {
+   "seed": 116,
+   "sentinel": {
+    "survivors": 43.2,
+    "red_minutes": 126.1,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "53/72"
+   },
+   "nearest": {
+    "survivors": 34.0,
+    "red_minutes": 168.8,
+    "load": 183,
+    "transfers": 20,
+    "overfull": 5,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 35.9,
+    "red_minutes": 183.8,
+    "load": 100,
+    "transfers": 18,
+    "overfull": 0,
+    "reached": "57/72"
+   }
+  },
+  {
+   "seed": 117,
+   "sentinel": {
+    "survivors": 44.1,
+    "red_minutes": 106.9,
+    "load": 80,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "53/72"
+   },
+   "nearest": {
+    "survivors": 35.2,
+    "red_minutes": 201.9,
+    "load": 267,
+    "transfers": 21,
+    "overfull": 10,
+    "reached": "57/72"
+   },
+   "fcfs": {
+    "survivors": 37.3,
+    "red_minutes": 151.5,
+    "load": 100,
+    "transfers": 13,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 118,
+   "sentinel": {
+    "survivors": 43.8,
+    "red_minutes": 116.6,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "50/72"
+   },
+   "nearest": {
+    "survivors": 28.9,
+    "red_minutes": 204.2,
+    "load": 233,
+    "transfers": 28,
+    "overfull": 12,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 32.9,
+    "red_minutes": 179.3,
+    "load": 100,
+    "transfers": 22,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 119,
+   "sentinel": {
+    "survivors": 45.5,
+    "red_minutes": 119.3,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "53/72"
+   },
+   "nearest": {
+    "survivors": 29.3,
+    "red_minutes": 184.5,
+    "load": 300,
+    "transfers": 26,
+    "overfull": 19,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 34.5,
+    "red_minutes": 164.8,
+    "load": 100,
+    "transfers": 22,
+    "overfull": 0,
+    "reached": "56/72"
+   }
+  },
+  {
+   "seed": 120,
+   "sentinel": {
+    "survivors": 45.0,
+    "red_minutes": 126.1,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "54/72"
+   },
+   "nearest": {
+    "survivors": 36.4,
+    "red_minutes": 144.1,
+    "load": 150,
+    "transfers": 16,
+    "overfull": 4,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 37.9,
+    "red_minutes": 148.1,
+    "load": 100,
+    "transfers": 14,
+    "overfull": 0,
+    "reached": "57/72"
+   }
+  },
+  {
+   "seed": 121,
+   "sentinel": {
+    "survivors": 42.4,
+    "red_minutes": 114.0,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "49/72"
+   },
+   "nearest": {
+    "survivors": 28.2,
+    "red_minutes": 222.3,
+    "load": 167,
+    "transfers": 30,
+    "overfull": 10,
+    "reached": "56/72"
+   },
+   "fcfs": {
+    "survivors": 30.6,
+    "red_minutes": 211.4,
+    "load": 100,
+    "transfers": 29,
+    "overfull": 0,
+    "reached": "56/72"
+   }
+  },
+  {
+   "seed": 122,
+   "sentinel": {
+    "survivors": 42.8,
+    "red_minutes": 116.5,
+    "load": 120,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "48/72"
+   },
+   "nearest": {
+    "survivors": 27.1,
+    "red_minutes": 211.2,
+    "load": 250,
+    "transfers": 34,
+    "overfull": 18,
+    "reached": "58/72"
+   },
+   "fcfs": {
+    "survivors": 33.1,
+    "red_minutes": 188.1,
+    "load": 100,
+    "transfers": 29,
+    "overfull": 0,
+    "reached": "58/72"
+   }
+  },
+  {
+   "seed": 123,
+   "sentinel": {
+    "survivors": 46.5,
+    "red_minutes": 114.2,
+    "load": 93,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "55/72"
+   },
+   "nearest": {
+    "survivors": 37.2,
+    "red_minutes": 139.2,
+    "load": 150,
+    "transfers": 15,
+    "overfull": 4,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 38.9,
+    "red_minutes": 134.1,
+    "load": 100,
+    "transfers": 12,
+    "overfull": 0,
+    "reached": "56/72"
+   }
+  },
+  {
+   "seed": 124,
+   "sentinel": {
+    "survivors": 43.4,
+    "red_minutes": 115.7,
+    "load": 73,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "51/72"
+   },
+   "nearest": {
+    "survivors": 30.8,
+    "red_minutes": 161.3,
+    "load": 250,
+    "transfers": 21,
+    "overfull": 9,
+    "reached": "58/72"
+   },
+   "fcfs": {
+    "survivors": 33.2,
+    "red_minutes": 151.4,
+    "load": 100,
+    "transfers": 21,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 125,
+   "sentinel": {
+    "survivors": 45.6,
+    "red_minutes": 114.3,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "56/72"
+   },
+   "nearest": {
+    "survivors": 32.8,
+    "red_minutes": 179.7,
+    "load": 233,
+    "transfers": 22,
+    "overfull": 13,
+    "reached": "60/72"
+   },
+   "fcfs": {
+    "survivors": 36.8,
+    "red_minutes": 170.9,
+    "load": 100,
+    "transfers": 18,
+    "overfull": 0,
+    "reached": "58/72"
+   }
+  },
+  {
+   "seed": 126,
+   "sentinel": {
+    "survivors": 43.4,
+    "red_minutes": 117.2,
+    "load": 120,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "50/72"
+   },
+   "nearest": {
+    "survivors": 31.3,
+    "red_minutes": 208.7,
+    "load": 217,
+    "transfers": 20,
+    "overfull": 10,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 33.8,
+    "red_minutes": 195.6,
+    "load": 100,
+    "transfers": 21,
+    "overfull": 0,
+    "reached": "54/72"
+   }
+  },
+  {
+   "seed": 127,
+   "sentinel": {
+    "survivors": 43.6,
+    "red_minutes": 119.0,
+    "load": 100,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "53/72"
+   },
+   "nearest": {
+    "survivors": 29.4,
+    "red_minutes": 193.1,
+    "load": 250,
+    "transfers": 27,
+    "overfull": 19,
+    "reached": "59/72"
+   },
+   "fcfs": {
+    "survivors": 34.9,
+    "red_minutes": 172.0,
+    "load": 100,
+    "transfers": 18,
+    "overfull": 0,
+    "reached": "55/72"
+   }
+  },
+  {
+   "seed": 128,
+   "sentinel": {
+    "survivors": 46.2,
+    "red_minutes": 107.2,
+    "load": 87,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "55/72"
+   },
+   "nearest": {
+    "survivors": 31.2,
+    "red_minutes": 218.0,
+    "load": 183,
+    "transfers": 26,
+    "overfull": 12,
+    "reached": "57/72"
+   },
+   "fcfs": {
+    "survivors": 37.0,
+    "red_minutes": 192.1,
+    "load": 100,
+    "transfers": 24,
+    "overfull": 0,
+    "reached": "58/72"
+   }
+  },
+  {
+   "seed": 129,
+   "sentinel": {
+    "survivors": 44.9,
+    "red_minutes": 109.1,
+    "load": 120,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "54/72"
+   },
+   "nearest": {
+    "survivors": 32.1,
+    "red_minutes": 195.2,
+    "load": 217,
+    "transfers": 23,
+    "overfull": 9,
+    "reached": "58/72"
+   },
+   "fcfs": {
+    "survivors": 33.4,
+    "red_minutes": 186.1,
+    "load": 100,
+    "transfers": 22,
+    "overfull": 0,
+    "reached": "59/72"
+   }
+  },
+  {
+   "seed": 130,
+   "sentinel": {
+    "survivors": 44.7,
+    "red_minutes": 114.1,
+    "load": 107,
+    "transfers": 0,
+    "overfull": 0,
+    "reached": "52/72"
+   },
+   "nearest": {
+    "survivors": 26.9,
+    "red_minutes": 241.7,
+    "load": 233,
+    "transfers": 38,
+    "overfull": 19,
+    "reached": "55/72"
+   },
+   "fcfs": {
+    "survivors": 33.0,
+    "red_minutes": 185.7,
+    "load": 100,
+    "transfers": 28,
+    "overfull": 0,
+    "reached": "53/72"
+   }
+  }
+ ],
+ "summary": {
+  "sentinel": {
+   "survivors_mean": 44.5,
+   "survivors_min": 42.4,
+   "survivors_max": 46.8,
+   "red_minutes_mean": 113.9,
+   "load_mean": 100,
+   "transfers_mean": 0
+  },
+  "nearest": {
+   "survivors_mean": 31.5,
+   "survivors_min": 26.9,
+   "survivors_max": 37.2,
+   "red_minutes_mean": 191.3,
+   "load_mean": 226,
+   "transfers_mean": 23.8
+  },
+  "fcfs": {
+   "survivors_mean": 35.3,
+   "survivors_min": 30.4,
+   "survivors_max": 39.7,
+   "red_minutes_mean": 170.0,
+   "load_mean": 100,
+   "transfers_mean": 19.5
+  }
+ },
+ "wins_vs_nearest": 30,
+ "gain_vs_nearest_pct": 41.3,
+ "red_faster_vs_nearest_pct": 40.5,
+ "wins_vs_fcfs": 30,
+ "gain_vs_fcfs_pct": 26.1,
+ "red_faster_vs_fcfs_pct": 33.0
+}
