@@ -1,0 +1,1762 @@
+[
+ {
+  "minute": 0,
+  "zone": "Z1",
+  "beds": 29.79,
+  "icu": 3.72,
+  "ot": 9.53,
+  "blood_units": 33.51,
+  "als_trips": 7.45,
+  "bls_trips": 14.52,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 2.72
+  }
+ },
+ {
+  "minute": 0,
+  "zone": "Z2",
+  "beds": 18.62,
+  "icu": 3.72,
+  "ot": 7.75,
+  "blood_units": 27.93,
+  "als_trips": 7.45,
+  "bls_trips": 5.96,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 2.72
+  }
+ },
+ {
+  "minute": 0,
+  "zone": "Z3",
+  "beds": 3.72,
+  "icu": 1.86,
+  "ot": 2.98,
+  "blood_units": 11.17,
+  "als_trips": 3.72,
+  "bls_trips": 1.12,
+  "dialysis": 0.19,
+  "U": {
+   "flood": 2.72
+  }
+ },
+ {
+  "minute": 0,
+  "zone": "Z4",
+  "beds": 14.89,
+  "icu": 3.72,
+  "ot": 7.15,
+  "blood_units": 26.07,
+  "als_trips": 7.45,
+  "bls_trips": 4.84,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 2.72
+  }
+ },
+ {
+  "minute": 0,
+  "zone": "Z5",
+  "beds": 0.0,
+  "icu": 0.0,
+  "ot": 0.0,
+  "blood_units": 0.0,
+  "als_trips": 0.0,
+  "bls_trips": 1.49,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 2.72
+  }
+ },
+ {
+  "minute": 5,
+  "zone": "Z1",
+  "beds": 22.65,
+  "icu": 2.83,
+  "ot": 7.25,
+  "blood_units": 25.48,
+  "als_trips": 5.66,
+  "bls_trips": 11.04,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 1.83
+  }
+ },
+ {
+  "minute": 5,
+  "zone": "Z2",
+  "beds": 14.15,
+  "icu": 2.83,
+  "ot": 5.89,
+  "blood_units": 21.23,
+  "als_trips": 5.66,
+  "bls_trips": 4.53,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 1.83
+  }
+ },
+ {
+  "minute": 5,
+  "zone": "Z3",
+  "beds": 2.83,
+  "icu": 1.42,
+  "ot": 2.26,
+  "blood_units": 8.49,
+  "als_trips": 2.83,
+  "bls_trips": 0.85,
+  "dialysis": 0.14,
+  "U": {
+   "flood": 1.83
+  }
+ },
+ {
+  "minute": 5,
+  "zone": "Z4",
+  "beds": 11.32,
+  "icu": 2.83,
+  "ot": 5.44,
+  "blood_units": 19.82,
+  "als_trips": 5.66,
+  "bls_trips": 3.68,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 1.83
+  }
+ },
+ {
+  "minute": 5,
+  "zone": "Z5",
+  "beds": 0.0,
+  "icu": 0.0,
+  "ot": 0.0,
+  "blood_units": 0.0,
+  "als_trips": 0.0,
+  "bls_trips": 1.13,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 1.83
+  }
+ },
+ {
+  "minute": 10,
+  "zone": "Z1",
+  "beds": 18.7,
+  "icu": 2.34,
+  "ot": 5.98,
+  "blood_units": 21.04,
+  "als_trips": 4.68,
+  "bls_trips": 9.12,
+  "dialysis": 0.23,
+  "U": {
+   "flood": 1.34
+  }
+ },
+ {
+  "minute": 10,
+  "zone": "Z2",
+  "beds": 11.69,
+  "icu": 2.34,
+  "ot": 4.86,
+  "blood_units": 17.53,
+  "als_trips": 4.68,
+  "bls_trips": 3.74,
+  "dialysis": 0.23,
+  "U": {
+   "flood": 1.34
+  }
+ },
+ {
+  "minute": 10,
+  "zone": "Z3",
+  "beds": 2.34,
+  "icu": 1.17,
+  "ot": 1.87,
+  "blood_units": 7.01,
+  "als_trips": 2.34,
+  "bls_trips": 0.7,
+  "dialysis": 0.12,
+  "U": {
+   "flood": 1.34
+  }
+ },
+ {
+  "minute": 10,
+  "zone": "Z4",
+  "beds": 9.35,
+  "icu": 2.34,
+  "ot": 4.49,
+  "blood_units": 16.36,
+  "als_trips": 4.68,
+  "bls_trips": 3.04,
+  "dialysis": 0.23,
+  "U": {
+   "flood": 1.34
+  }
+ },
+ {
+  "minute": 10,
+  "zone": "Z5",
+  "beds": 0.0,
+  "icu": 0.0,
+  "ot": 0.0,
+  "blood_units": 0.0,
+  "als_trips": 0.0,
+  "bls_trips": 0.94,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 1.34
+  }
+ },
+ {
+  "minute": 15,
+  "zone": "Z1",
+  "beds": 16.22,
+  "icu": 2.03,
+  "ot": 5.19,
+  "blood_units": 18.24,
+  "als_trips": 4.05,
+  "bls_trips": 7.9,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 1.03
+  }
+ },
+ {
+  "minute": 15,
+  "zone": "Z2",
+  "beds": 10.13,
+  "icu": 2.03,
+  "ot": 4.22,
+  "blood_units": 15.2,
+  "als_trips": 4.05,
+  "bls_trips": 3.24,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 1.03
+  }
+ },
+ {
+  "minute": 15,
+  "zone": "Z3",
+  "beds": 2.03,
+  "icu": 1.01,
+  "ot": 1.62,
+  "blood_units": 6.08,
+  "als_trips": 2.03,
+  "bls_trips": 0.61,
+  "dialysis": 0.1,
+  "U": {
+   "flood": 1.03
+  }
+ },
+ {
+  "minute": 15,
+  "zone": "Z4",
+  "beds": 8.11,
+  "icu": 2.03,
+  "ot": 3.89,
+  "blood_units": 14.19,
+  "als_trips": 4.05,
+  "bls_trips": 2.63,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 1.03
+  }
+ },
+ {
+  "minute": 15,
+  "zone": "Z5",
+  "beds": 0.0,
+  "icu": 0.0,
+  "ot": 0.0,
+  "blood_units": 0.0,
+  "als_trips": 0.0,
+  "bls_trips": 0.81,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 1.03
+  }
+ },
+ {
+  "minute": 20,
+  "zone": "Z1",
+  "beds": 23.82,
+  "icu": 3.66,
+  "ot": 8.5,
+  "blood_units": 30.23,
+  "als_trips": 7.33,
+  "bls_trips": 11.36,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 0.83
+  }
+ },
+ {
+  "minute": 20,
+  "zone": "Z2",
+  "beds": 16.53,
+  "icu": 3.67,
+  "ot": 7.34,
+  "blood_units": 26.62,
+  "als_trips": 7.34,
+  "bls_trips": 5.32,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 0.84
+  }
+ },
+ {
+  "minute": 20,
+  "zone": "Z3",
+  "beds": 7.36,
+  "icu": 2.76,
+  "ot": 4.71,
+  "blood_units": 17.48,
+  "als_trips": 5.52,
+  "bls_trips": 2.02,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 0.84
+  }
+ },
+ {
+  "minute": 20,
+  "zone": "Z4",
+  "beds": 12.8,
+  "icu": 1.83,
+  "ot": 4.39,
+  "blood_units": 15.54,
+  "als_trips": 3.66,
+  "bls_trips": 5.3,
+  "dialysis": 0.18,
+  "U": {
+   "flood": 0.83
+  }
+ },
+ {
+  "minute": 20,
+  "zone": "Z5",
+  "beds": 3.68,
+  "icu": 0.0,
+  "ot": 0.59,
+  "blood_units": 1.84,
+  "als_trips": 0.0,
+  "bls_trips": 3.5,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 0.84
+  }
+ },
+ {
+  "minute": 25,
+  "zone": "Z1",
+  "beds": 21.83,
+  "icu": 3.36,
+  "ot": 7.79,
+  "blood_units": 27.7,
+  "als_trips": 6.72,
+  "bls_trips": 10.41,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.68
+  }
+ },
+ {
+  "minute": 25,
+  "zone": "Z2",
+  "beds": 15.15,
+  "icu": 3.37,
+  "ot": 6.73,
+  "blood_units": 24.4,
+  "als_trips": 6.73,
+  "bls_trips": 4.88,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.68
+  }
+ },
+ {
+  "minute": 25,
+  "zone": "Z3",
+  "beds": 6.75,
+  "icu": 2.53,
+  "ot": 4.32,
+  "blood_units": 16.02,
+  "als_trips": 5.06,
+  "bls_trips": 1.86,
+  "dialysis": 0.25,
+  "U": {
+   "flood": 0.69
+  }
+ },
+ {
+  "minute": 25,
+  "zone": "Z4",
+  "beds": 11.72,
+  "icu": 1.67,
+  "ot": 4.02,
+  "blood_units": 14.23,
+  "als_trips": 3.35,
+  "bls_trips": 4.86,
+  "dialysis": 0.17,
+  "U": {
+   "flood": 0.67
+  }
+ },
+ {
+  "minute": 25,
+  "zone": "Z5",
+  "beds": 3.37,
+  "icu": 0.0,
+  "ot": 0.54,
+  "blood_units": 1.69,
+  "als_trips": 0.0,
+  "bls_trips": 3.2,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 0.69
+  }
+ },
+ {
+  "minute": 30,
+  "zone": "Z1",
+  "beds": 20.33,
+  "icu": 3.13,
+  "ot": 7.26,
+  "blood_units": 25.81,
+  "als_trips": 6.26,
+  "bls_trips": 9.7,
+  "dialysis": 0.31,
+  "U": {
+   "flood": 0.56
+  }
+ },
+ {
+  "minute": 30,
+  "zone": "Z2",
+  "beds": 14.11,
+  "icu": 3.14,
+  "ot": 6.27,
+  "blood_units": 22.73,
+  "als_trips": 6.27,
+  "bls_trips": 4.55,
+  "dialysis": 0.31,
+  "U": {
+   "flood": 0.57
+  }
+ },
+ {
+  "minute": 30,
+  "zone": "Z3",
+  "beds": 6.29,
+  "icu": 2.36,
+  "ot": 4.02,
+  "blood_units": 14.93,
+  "als_trips": 4.72,
+  "bls_trips": 1.73,
+  "dialysis": 0.24,
+  "U": {
+   "flood": 0.57
+  }
+ },
+ {
+  "minute": 30,
+  "zone": "Z4",
+  "beds": 10.92,
+  "icu": 1.56,
+  "ot": 3.74,
+  "blood_units": 13.26,
+  "als_trips": 3.12,
+  "bls_trips": 4.52,
+  "dialysis": 0.16,
+  "U": {
+   "flood": 0.56
+  }
+ },
+ {
+  "minute": 30,
+  "zone": "Z5",
+  "beds": 3.14,
+  "icu": 0.0,
+  "ot": 0.5,
+  "blood_units": 1.57,
+  "als_trips": 0.0,
+  "bls_trips": 2.99,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 0.57
+  }
+ },
+ {
+  "minute": 35,
+  "zone": "Z1",
+  "beds": 19.18,
+  "icu": 2.95,
+  "ot": 6.84,
+  "blood_units": 24.34,
+  "als_trips": 5.9,
+  "bls_trips": 9.15,
+  "dialysis": 0.3,
+  "U": {
+   "flood": 0.48
+  }
+ },
+ {
+  "minute": 35,
+  "zone": "Z2",
+  "beds": 13.31,
+  "icu": 2.96,
+  "ot": 5.92,
+  "blood_units": 21.44,
+  "als_trips": 5.92,
+  "bls_trips": 4.29,
+  "dialysis": 0.3,
+  "U": {
+   "flood": 0.48
+  }
+ },
+ {
+  "minute": 35,
+  "zone": "Z3",
+  "beds": 5.93,
+  "icu": 2.22,
+  "ot": 3.8,
+  "blood_units": 14.09,
+  "als_trips": 4.45,
+  "bls_trips": 1.63,
+  "dialysis": 0.22,
+  "U": {
+   "flood": 0.48
+  }
+ },
+ {
+  "minute": 35,
+  "zone": "Z4",
+  "beds": 10.3,
+  "icu": 1.47,
+  "ot": 3.53,
+  "blood_units": 12.5,
+  "als_trips": 2.94,
+  "bls_trips": 4.27,
+  "dialysis": 0.15,
+  "U": {
+   "flood": 0.47
+  }
+ },
+ {
+  "minute": 35,
+  "zone": "Z5",
+  "beds": 2.97,
+  "icu": 0.0,
+  "ot": 0.47,
+  "blood_units": 1.48,
+  "als_trips": 0.0,
+  "bls_trips": 2.82,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 0.48
+  }
+ },
+ {
+  "minute": 40,
+  "zone": "Z1",
+  "beds": 18.26,
+  "icu": 2.81,
+  "ot": 6.52,
+  "blood_units": 23.18,
+  "als_trips": 5.62,
+  "bls_trips": 8.71,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 0.4
+  }
+ },
+ {
+  "minute": 40,
+  "zone": "Z2",
+  "beds": 12.68,
+  "icu": 2.82,
+  "ot": 5.63,
+  "blood_units": 20.43,
+  "als_trips": 5.63,
+  "bls_trips": 4.09,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 0.41
+  }
+ },
+ {
+  "minute": 40,
+  "zone": "Z3",
+  "beds": 5.65,
+  "icu": 2.12,
+  "ot": 3.62,
+  "blood_units": 13.42,
+  "als_trips": 4.24,
+  "bls_trips": 1.55,
+  "dialysis": 0.21,
+  "U": {
+   "flood": 0.41
+  }
+ },
+ {
+  "minute": 40,
+  "zone": "Z4",
+  "beds": 9.8,
+  "icu": 1.4,
+  "ot": 3.36,
+  "blood_units": 11.9,
+  "als_trips": 2.8,
+  "bls_trips": 4.06,
+  "dialysis": 0.14,
+  "U": {
+   "flood": 0.4
+  }
+ },
+ {
+  "minute": 40,
+  "zone": "Z5",
+  "beds": 2.83,
+  "icu": 0.0,
+  "ot": 0.45,
+  "blood_units": 1.41,
+  "als_trips": 0.0,
+  "bls_trips": 2.68,
+  "dialysis": 0.0,
+  "U": {
+   "flood": 0.41
+  }
+ },
+ {
+  "minute": 45,
+  "zone": "Z1",
+  "beds": 21.54,
+  "icu": 4.04,
+  "ot": 8.62,
+  "blood_units": 30.96,
+  "als_trips": 8.08,
+  "bls_trips": 10.23,
+  "dialysis": 0.4,
+  "U": {
+   "flood": 0.35
+  }
+ },
+ {
+  "minute": 45,
+  "zone": "Z2",
+  "beds": 14.85,
+  "icu": 3.37,
+  "ot": 6.7,
+  "blood_units": 24.3,
+  "als_trips": 6.75,
+  "bls_trips": 4.72,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.35
+  }
+ },
+ {
+  "minute": 45,
+  "zone": "Z3",
+  "beds": 6.75,
+  "icu": 2.03,
+  "ot": 3.67,
+  "blood_units": 13.5,
+  "als_trips": 4.05,
+  "bls_trips": 2.97,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 0.35
+  }
+ },
+ {
+  "minute": 45,
+  "zone": "Z4",
+  "beds": 10.74,
+  "icu": 2.01,
+  "ot": 4.3,
+  "blood_units": 15.44,
+  "als_trips": 4.03,
+  "bls_trips": 4.43,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 0.34
+  }
+ },
+ {
+  "minute": 45,
+  "zone": "Z5",
+  "beds": 9.45,
+  "icu": 0.68,
+  "ot": 2.38,
+  "blood_units": 8.1,
+  "als_trips": 1.35,
+  "bls_trips": 5.54,
+  "dialysis": 0.07,
+  "U": {
+   "flood": 0.35
+  }
+ },
+ {
+  "minute": 50,
+  "zone": "Z1",
+  "beds": 20.8,
+  "icu": 3.9,
+  "ot": 8.32,
+  "blood_units": 29.9,
+  "als_trips": 7.8,
+  "bls_trips": 9.88,
+  "dialysis": 0.39,
+  "U": {
+   "flood": 0.3
+  }
+ },
+ {
+  "minute": 50,
+  "zone": "Z2",
+  "beds": 14.34,
+  "icu": 3.26,
+  "ot": 6.47,
+  "blood_units": 23.47,
+  "als_trips": 6.52,
+  "bls_trips": 4.56,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.3
+  }
+ },
+ {
+  "minute": 50,
+  "zone": "Z3",
+  "beds": 6.52,
+  "icu": 1.96,
+  "ot": 3.55,
+  "blood_units": 13.04,
+  "als_trips": 3.91,
+  "bls_trips": 2.87,
+  "dialysis": 0.2,
+  "U": {
+   "flood": 0.3
+  }
+ },
+ {
+  "minute": 50,
+  "zone": "Z4",
+  "beds": 10.37,
+  "icu": 1.95,
+  "ot": 4.15,
+  "blood_units": 14.91,
+  "als_trips": 3.89,
+  "bls_trips": 4.28,
+  "dialysis": 0.19,
+  "U": {
+   "flood": 0.3
+  }
+ },
+ {
+  "minute": 50,
+  "zone": "Z5",
+  "beds": 9.13,
+  "icu": 0.65,
+  "ot": 2.29,
+  "blood_units": 7.82,
+  "als_trips": 1.3,
+  "bls_trips": 5.35,
+  "dialysis": 0.07,
+  "U": {
+   "flood": 0.3
+  }
+ },
+ {
+  "minute": 55,
+  "zone": "Z1",
+  "beds": 20.19,
+  "icu": 3.79,
+  "ot": 8.08,
+  "blood_units": 29.03,
+  "als_trips": 7.57,
+  "bls_trips": 9.59,
+  "dialysis": 0.38,
+  "U": {
+   "flood": 0.26
+  }
+ },
+ {
+  "minute": 55,
+  "zone": "Z2",
+  "beds": 13.92,
+  "icu": 3.16,
+  "ot": 6.28,
+  "blood_units": 22.78,
+  "als_trips": 6.33,
+  "bls_trips": 4.43,
+  "dialysis": 0.32,
+  "U": {
+   "flood": 0.27
+  }
+ },
+ {
+  "minute": 55,
+  "zone": "Z3",
+  "beds": 6.33,
+  "icu": 1.9,
+  "ot": 3.44,
+  "blood_units": 12.66,
+  "als_trips": 3.8,
+  "bls_trips": 2.78,
+  "dialysis": 0.19,
+  "U": {
+   "flood": 0.27
+  }
+ },
+ {
+  "minute": 55,
+  "zone": "Z4",
+  "beds": 10.07,
+  "icu": 1.89,
+  "ot": 4.03,
+  "blood_units": 14.48,
+  "als_trips": 3.78,
+  "bls_trips": 4.15,
+  "dialysis": 0.19,
+  "U": {
+   "flood": 0.26
+  }
+ },
+ {
+  "minute": 55,
+  "zone": "Z5",
+  "beds": 8.86,
+  "icu": 0.63,
+  "ot": 2.23,
+  "blood_units": 7.59,
+  "als_trips": 1.27,
+  "bls_trips": 5.19,
+  "dialysis": 0.06,
+  "U": {
+   "flood": 0.27
+  }
+ },
+ {
+  "minute": 60,
+  "zone": "Z1",
+  "beds": 19.68,
+  "icu": 3.69,
+  "ot": 7.87,
+  "blood_units": 28.3,
+  "als_trips": 7.38,
+  "bls_trips": 9.35,
+  "dialysis": 0.37,
+  "U": {
+   "flood": 0.23
+  }
+ },
+ {
+  "minute": 60,
+  "zone": "Z2",
+  "beds": 13.57,
+  "icu": 3.08,
+  "ot": 6.12,
+  "blood_units": 22.21,
+  "als_trips": 6.17,
+  "bls_trips": 4.32,
+  "dialysis": 0.31,
+  "U": {
+   "flood": 0.23
+  }
+ },
+ {
+  "minute": 60,
+  "zone": "Z3",
+  "beds": 6.17,
+  "icu": 1.85,
+  "ot": 3.36,
+  "blood_units": 12.34,
+  "als_trips": 3.7,
+  "bls_trips": 2.71,
+  "dialysis": 0.19,
+  "U": {
+   "flood": 0.23
+  }
+ },
+ {
+  "minute": 60,
+  "zone": "Z4",
+  "beds": 9.82,
+  "icu": 1.84,
+  "ot": 3.93,
+  "blood_units": 14.11,
+  "als_trips": 3.68,
+  "bls_trips": 4.05,
+  "dialysis": 0.18,
+  "U": {
+   "flood": 0.23
+  }
+ },
+ {
+  "minute": 60,
+  "zone": "Z5",
+  "beds": 8.64,
+  "icu": 0.62,
+  "ot": 2.17,
+  "blood_units": 7.4,
+  "als_trips": 1.23,
+  "bls_trips": 5.06,
+  "dialysis": 0.06,
+  "U": {
+   "flood": 0.23
+  }
+ },
+ {
+  "minute": 65,
+  "zone": "Z1",
+  "beds": 19.26,
+  "icu": 3.61,
+  "ot": 7.7,
+  "blood_units": 27.68,
+  "als_trips": 7.22,
+  "bls_trips": 9.15,
+  "dialysis": 0.36,
+  "U": {
+   "flood": 0.2
+  }
+ },
+ {
+  "minute": 65,
+  "zone": "Z2",
+  "beds": 13.28,
+  "icu": 3.62,
+  "ot": 6.76,
+  "blood_units": 24.75,
+  "als_trips": 7.24,
+  "bls_trips": 3.62,
+  "dialysis": 0.36,
+  "U": {
+   "flood": 0.21
+  }
+ },
+ {
+  "minute": 65,
+  "zone": "Z3",
+  "beds": 6.04,
+  "icu": 1.81,
+  "ot": 3.28,
+  "blood_units": 12.07,
+  "als_trips": 3.62,
+  "bls_trips": 2.66,
+  "dialysis": 0.18,
+  "U": {
+   "flood": 0.21
+  }
+ },
+ {
+  "minute": 65,
+  "zone": "Z4",
+  "beds": 9.6,
+  "icu": 1.8,
+  "ot": 3.84,
+  "blood_units": 13.8,
+  "als_trips": 3.6,
+  "bls_trips": 3.96,
+  "dialysis": 0.18,
+  "U": {
+   "flood": 0.2
+  }
+ },
+ {
+  "minute": 65,
+  "zone": "Z5",
+  "beds": 8.45,
+  "icu": 1.21,
+  "ot": 2.9,
+  "blood_units": 10.26,
+  "als_trips": 2.41,
+  "bls_trips": 4.35,
+  "dialysis": 0.12,
+  "U": {
+   "flood": 0.21
+  }
+ },
+ {
+  "minute": 70,
+  "zone": "Z1",
+  "beds": 18.89,
+  "icu": 3.54,
+  "ot": 7.56,
+  "blood_units": 27.16,
+  "als_trips": 7.09,
+  "bls_trips": 8.98,
+  "dialysis": 0.35,
+  "U": {
+   "flood": 0.18
+  }
+ },
+ {
+  "minute": 70,
+  "zone": "Z2",
+  "beds": 13.03,
+  "icu": 3.55,
+  "ot": 6.63,
+  "blood_units": 24.29,
+  "als_trips": 7.11,
+  "bls_trips": 3.55,
+  "dialysis": 0.36,
+  "U": {
+   "flood": 0.18
+  }
+ },
+ {
+  "minute": 70,
+  "zone": "Z3",
+  "beds": 5.92,
+  "icu": 1.78,
+  "ot": 3.22,
+  "blood_units": 11.85,
+  "als_trips": 3.55,
+  "bls_trips": 2.61,
+  "dialysis": 0.18,
+  "U": {
+   "flood": 0.18
+  }
+ },
+ {
+  "minute": 70,
+  "zone": "Z4",
+  "beds": 9.42,
+  "icu": 2.36,
+  "ot": 4.52,
+  "blood_units": 16.49,
+  "als_trips": 4.71,
+  "bls_trips": 3.3,
+  "dialysis": 0.24,
+  "U": {
+   "flood": 0.18
+  }
+ },
+ {
+  "minute": 70,
+  "zone": "Z5",
+  "beds": 8.29,
+  "icu": 1.18,
+  "ot": 2.84,
+  "blood_units": 10.07,
+  "als_trips": 2.37,
+  "bls_trips": 4.27,
+  "dialysis": 0.12,
+  "U": {
+   "flood": 0.18
+  }
+ },
+ {
+  "minute": 75,
+  "zone": "Z1",
+  "beds": 18.59,
+  "icu": 4.07,
+  "ot": 8.18,
+  "blood_units": 29.62,
+  "als_trips": 8.13,
+  "bls_trips": 8.25,
+  "dialysis": 0.41,
+  "U": {
+   "flood": 0.16
+  }
+ },
+ {
+  "minute": 75,
+  "zone": "Z2",
+  "beds": 12.82,
+  "icu": 3.5,
+  "ot": 6.53,
+  "blood_units": 23.89,
+  "als_trips": 6.99,
+  "bls_trips": 3.5,
+  "dialysis": 0.35,
+  "U": {
+   "flood": 0.17
+  }
+ },
+ {
+  "minute": 75,
+  "zone": "Z3",
+  "beds": 46.79,
+  "icu": 12.92,
+  "ot": 37.8,
+  "blood_units": 98.79,
+  "als_trips": 22.12,
+  "bls_trips": 14.48,
+  "dialysis": 4.2,
+  "U": {
+   "flood": 0.17,
+   "collapse": 2.72
+  }
+ },
+ {
+  "minute": 75,
+  "zone": "Z4",
+  "beds": 9.27,
+  "icu": 2.32,
+  "ot": 4.45,
+  "blood_units": 16.22,
+  "als_trips": 4.63,
+  "bls_trips": 3.24,
+  "dialysis": 0.23,
+  "U": {
+   "flood": 0.16
+  }
+ },
+ {
+  "minute": 75,
+  "zone": "Z5",
+  "beds": 8.16,
+  "icu": 1.17,
+  "ot": 2.8,
+  "blood_units": 9.91,
+  "als_trips": 2.33,
+  "bls_trips": 4.2,
+  "dialysis": 0.12,
+  "U": {
+   "flood": 0.17
+  }
+ },
+ {
+  "minute": 80,
+  "zone": "Z1",
+  "beds": 18.32,
+  "icu": 4.58,
+  "ot": 8.8,
+  "blood_units": 32.07,
+  "als_trips": 9.16,
+  "bls_trips": 7.56,
+  "dialysis": 0.46,
+  "U": {
+   "flood": 0.15
+  }
+ },
+ {
+  "minute": 80,
+  "zone": "Z2",
+  "beds": 12.64,
+  "icu": 3.45,
+  "ot": 6.43,
+  "blood_units": 23.55,
+  "als_trips": 6.89,
+  "bls_trips": 3.45,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.15
+  }
+ },
+ {
+  "minute": 80,
+  "zone": "Z3",
+  "beds": 36.88,
+  "icu": 10.22,
+  "ot": 29.45,
+  "blood_units": 77.73,
+  "als_trips": 17.6,
+  "bls_trips": 11.59,
+  "dialysis": 3.23,
+  "U": {
+   "flood": 0.15,
+   "collapse": 1.83
+  }
+ },
+ {
+  "minute": 80,
+  "zone": "Z4",
+  "beds": 9.14,
+  "icu": 2.85,
+  "ot": 5.12,
+  "blood_units": 18.84,
+  "als_trips": 5.71,
+  "bls_trips": 2.63,
+  "dialysis": 0.29,
+  "U": {
+   "flood": 0.14
+  }
+ },
+ {
+  "minute": 80,
+  "zone": "Z5",
+  "beds": 8.04,
+  "icu": 1.15,
+  "ot": 2.76,
+  "blood_units": 9.77,
+  "als_trips": 2.3,
+  "bls_trips": 4.14,
+  "dialysis": 0.11,
+  "U": {
+   "flood": 0.15
+  }
+ },
+ {
+  "minute": 85,
+  "zone": "Z1",
+  "beds": 18.1,
+  "icu": 5.09,
+  "ot": 9.41,
+  "blood_units": 34.5,
+  "als_trips": 10.18,
+  "bls_trips": 6.9,
+  "dialysis": 0.51,
+  "U": {
+   "flood": 0.13
+  }
+ },
+ {
+  "minute": 85,
+  "zone": "Z2",
+  "beds": 12.48,
+  "icu": 3.4,
+  "ot": 6.36,
+  "blood_units": 23.27,
+  "als_trips": 6.81,
+  "bls_trips": 3.4,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.13
+  }
+ },
+ {
+  "minute": 85,
+  "zone": "Z3",
+  "beds": 31.39,
+  "icu": 8.72,
+  "ot": 24.83,
+  "blood_units": 66.05,
+  "als_trips": 15.09,
+  "bls_trips": 9.98,
+  "dialysis": 2.69,
+  "U": {
+   "flood": 0.13,
+   "collapse": 1.34
+  }
+ },
+ {
+  "minute": 85,
+  "zone": "Z4",
+  "beds": 9.02,
+  "icu": 2.82,
+  "ot": 5.05,
+  "blood_units": 18.61,
+  "als_trips": 5.64,
+  "bls_trips": 2.59,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 0.13
+  }
+ },
+ {
+  "minute": 85,
+  "zone": "Z5",
+  "beds": 7.94,
+  "icu": 1.13,
+  "ot": 2.72,
+  "blood_units": 9.65,
+  "als_trips": 2.27,
+  "bls_trips": 4.09,
+  "dialysis": 0.11,
+  "U": {
+   "flood": 0.13
+  }
+ },
+ {
+  "minute": 90,
+  "zone": "Z1",
+  "beds": 21.21,
+  "icu": 6.7,
+  "ot": 11.97,
+  "blood_units": 44.1,
+  "als_trips": 13.4,
+  "bls_trips": 7.37,
+  "dialysis": 0.67,
+  "U": {
+   "flood": 0.12
+  }
+ },
+ {
+  "minute": 90,
+  "zone": "Z2",
+  "beds": 12.31,
+  "icu": 3.36,
+  "ot": 6.27,
+  "blood_units": 22.94,
+  "als_trips": 6.71,
+  "bls_trips": 3.8,
+  "dialysis": 0.34,
+  "U": {
+   "flood": 0.12
+  }
+ },
+ {
+  "minute": 90,
+  "zone": "Z3",
+  "beds": 29.02,
+  "icu": 8.32,
+  "ot": 22.8,
+  "blood_units": 62.0,
+  "als_trips": 14.62,
+  "bls_trips": 9.06,
+  "dialysis": 2.41,
+  "U": {
+   "flood": 0.12,
+   "collapse": 1.03
+  }
+ },
+ {
+  "minute": 90,
+  "zone": "Z4",
+  "beds": 10.02,
+  "icu": 3.34,
+  "ot": 5.88,
+  "blood_units": 21.72,
+  "als_trips": 6.68,
+  "bls_trips": 2.78,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.11
+  }
+ },
+ {
+  "minute": 90,
+  "zone": "Z5",
+  "beds": 10.09,
+  "icu": 1.68,
+  "ot": 3.77,
+  "blood_units": 13.45,
+  "als_trips": 3.36,
+  "bls_trips": 4.6,
+  "dialysis": 0.17,
+  "U": {
+   "flood": 0.12
+  }
+ },
+ {
+  "minute": 95,
+  "zone": "Z1",
+  "beds": 21.01,
+  "icu": 6.64,
+  "ot": 11.86,
+  "blood_units": 43.68,
+  "als_trips": 13.27,
+  "bls_trips": 7.3,
+  "dialysis": 0.66,
+  "U": {
+   "flood": 0.11
+  }
+ },
+ {
+  "minute": 95,
+  "zone": "Z2",
+  "beds": 12.19,
+  "icu": 3.33,
+  "ot": 6.21,
+  "blood_units": 22.72,
+  "als_trips": 6.65,
+  "bls_trips": 3.77,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.11
+  }
+ },
+ {
+  "minute": 95,
+  "zone": "Z3",
+  "beds": 39.41,
+  "icu": 11.51,
+  "ot": 31.91,
+  "blood_units": 85.8,
+  "als_trips": 20.11,
+  "bls_trips": 12.19,
+  "dialysis": 3.42,
+  "U": {
+   "flood": 0.11,
+   "collapse": 0.82
+  }
+ },
+ {
+  "minute": 95,
+  "zone": "Z4",
+  "beds": 9.93,
+  "icu": 3.31,
+  "ot": 5.83,
+  "blood_units": 21.52,
+  "als_trips": 6.62,
+  "bls_trips": 2.76,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.1
+  }
+ },
+ {
+  "minute": 95,
+  "zone": "Z5",
+  "beds": 9.99,
+  "icu": 2.22,
+  "ot": 4.44,
+  "blood_units": 16.1,
+  "als_trips": 4.44,
+  "bls_trips": 4.0,
+  "dialysis": 0.22,
+  "U": {
+   "flood": 0.11
+  }
+ },
+ {
+  "minute": 100,
+  "zone": "Z1",
+  "beds": 20.84,
+  "icu": 6.58,
+  "ot": 11.76,
+  "blood_units": 43.32,
+  "als_trips": 13.16,
+  "bls_trips": 7.24,
+  "dialysis": 0.66,
+  "U": {
+   "flood": 0.1
+  }
+ },
+ {
+  "minute": 100,
+  "zone": "Z2",
+  "beds": 12.09,
+  "icu": 3.85,
+  "ot": 6.86,
+  "blood_units": 25.28,
+  "als_trips": 7.69,
+  "bls_trips": 3.19,
+  "dialysis": 0.38,
+  "U": {
+   "flood": 0.1
+  }
+ },
+ {
+  "minute": 100,
+  "zone": "Z3",
+  "beds": 36.6,
+  "icu": 10.75,
+  "ot": 29.57,
+  "blood_units": 79.88,
+  "als_trips": 18.84,
+  "bls_trips": 11.31,
+  "dialysis": 3.15,
+  "U": {
+   "flood": 0.1,
+   "collapse": 0.67
+  }
+ },
+ {
+  "minute": 100,
+  "zone": "Z4",
+  "beds": 9.85,
+  "icu": 3.28,
+  "ot": 5.78,
+  "blood_units": 21.34,
+  "als_trips": 6.57,
+  "bls_trips": 2.74,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 100,
+  "zone": "Z5",
+  "beds": 9.91,
+  "icu": 2.75,
+  "ot": 5.11,
+  "blood_units": 18.72,
+  "als_trips": 5.51,
+  "bls_trips": 3.41,
+  "dialysis": 0.28,
+  "U": {
+   "flood": 0.1
+  }
+ },
+ {
+  "minute": 105,
+  "zone": "Z1",
+  "beds": 20.69,
+  "icu": 6.53,
+  "ot": 11.67,
+  "blood_units": 43.01,
+  "als_trips": 13.07,
+  "bls_trips": 7.19,
+  "dialysis": 0.65,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 105,
+  "zone": "Z2",
+  "beds": 12.0,
+  "icu": 4.91,
+  "ot": 8.21,
+  "blood_units": 30.56,
+  "als_trips": 9.82,
+  "bls_trips": 2.07,
+  "dialysis": 0.49,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 105,
+  "zone": "Z3",
+  "beds": 34.48,
+  "icu": 10.18,
+  "ot": 27.82,
+  "blood_units": 75.42,
+  "als_trips": 17.88,
+  "bls_trips": 10.65,
+  "dialysis": 2.95,
+  "U": {
+   "flood": 0.09,
+   "collapse": 0.55
+  }
+ },
+ {
+  "minute": 105,
+  "zone": "Z4",
+  "beds": 9.78,
+  "icu": 3.26,
+  "ot": 5.74,
+  "blood_units": 21.18,
+  "als_trips": 6.52,
+  "bls_trips": 2.72,
+  "dialysis": 0.33,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 105,
+  "zone": "Z5",
+  "beds": 9.84,
+  "icu": 2.73,
+  "ot": 5.07,
+  "blood_units": 18.59,
+  "als_trips": 5.47,
+  "bls_trips": 3.39,
+  "dialysis": 0.27,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 110,
+  "zone": "Z1",
+  "beds": 20.56,
+  "icu": 6.49,
+  "ot": 11.6,
+  "blood_units": 42.74,
+  "als_trips": 12.98,
+  "bls_trips": 7.14,
+  "dialysis": 0.65,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 110,
+  "zone": "Z2",
+  "beds": 11.93,
+  "icu": 4.88,
+  "ot": 8.16,
+  "blood_units": 30.36,
+  "als_trips": 9.76,
+  "bls_trips": 2.06,
+  "dialysis": 0.49,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 110,
+  "zone": "Z3",
+  "beds": 32.84,
+  "icu": 9.73,
+  "ot": 26.45,
+  "blood_units": 71.97,
+  "als_trips": 17.13,
+  "bls_trips": 10.14,
+  "dialysis": 2.8,
+  "U": {
+   "flood": 0.09,
+   "collapse": 0.46
+  }
+ },
+ {
+  "minute": 110,
+  "zone": "Z4",
+  "beds": 9.72,
+  "icu": 3.78,
+  "ot": 6.39,
+  "blood_units": 23.75,
+  "als_trips": 7.56,
+  "bls_trips": 2.16,
+  "dialysis": 0.38,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 110,
+  "zone": "Z5",
+  "beds": 9.78,
+  "icu": 2.72,
+  "ot": 5.04,
+  "blood_units": 18.47,
+  "als_trips": 5.43,
+  "bls_trips": 3.37,
+  "dialysis": 0.27,
+  "U": {
+   "flood": 0.09
+  }
+ },
+ {
+  "minute": 115,
+  "zone": "Z1",
+  "beds": 20.44,
+  "icu": 6.46,
+  "ot": 11.54,
+  "blood_units": 42.5,
+  "als_trips": 12.91,
+  "bls_trips": 7.1,
+  "dialysis": 0.65,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 115,
+  "zone": "Z2",
+  "beds": 11.86,
+  "icu": 5.39,
+  "ot": 8.8,
+  "blood_units": 32.89,
+  "als_trips": 10.78,
+  "bls_trips": 1.51,
+  "dialysis": 0.54,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 115,
+  "zone": "Z3",
+  "beds": 31.54,
+  "icu": 9.38,
+  "ot": 25.37,
+  "blood_units": 69.22,
+  "als_trips": 16.54,
+  "bls_trips": 9.74,
+  "dialysis": 2.68,
+  "U": {
+   "flood": 0.08,
+   "collapse": 0.39
+  }
+ },
+ {
+  "minute": 115,
+  "zone": "Z4",
+  "beds": 9.66,
+  "icu": 4.29,
+  "ot": 7.04,
+  "blood_units": 26.3,
+  "als_trips": 8.59,
+  "bls_trips": 1.61,
+  "dialysis": 0.43,
+  "U": {
+   "flood": 0.07
+  }
+ },
+ {
+  "minute": 115,
+  "zone": "Z5",
+  "beds": 9.72,
+  "icu": 3.24,
+  "ot": 5.7,
+  "blood_units": 21.07,
+  "als_trips": 6.48,
+  "bls_trips": 2.81,
+  "dialysis": 0.32,
+  "U": {
+   "flood": 0.08
+  }
+ },
+ {
+  "minute": 120,
+  "zone": "Z1",
+  "beds": 20.35,
+  "icu": 8.03,
+  "ot": 13.53,
+  "blood_units": 50.33,
+  "als_trips": 16.06,
+  "bls_trips": 5.46,
+  "dialysis": 0.8,
+  "U": {
+   "flood": 0.07
+  }
+ },
+ {
+  "minute": 120,
+  "zone": "Z2",
+  "beds": 11.81,
+  "icu": 5.37,
+  "ot": 8.76,
+  "blood_units": 32.73,
+  "als_trips": 10.73,
+  "bls_trips": 1.5,
+  "dialysis": 0.54,
+  "U": {
+   "flood": 0.07
+  }
+ },
+ {
+  "minute": 120,
+  "zone": "Z3",
+  "beds": 30.49,
+  "icu": 9.1,
+  "ot": 24.5,
+  "blood_units": 67.01,
+  "als_trips": 16.06,
+  "bls_trips": 9.41,
+  "dialysis": 2.58,
+  "U": {
+   "flood": 0.08,
+   "collapse": 0.34
+  }
+ },
+ {
+  "minute": 120,
+  "zone": "Z4",
+  "beds": 9.61,
+  "icu": 4.27,
+  "ot": 7.01,
+  "blood_units": 26.17,
+  "als_trips": 8.55,
+  "bls_trips": 1.6,
+  "dialysis": 0.43,
+  "U": {
+   "flood": 0.07
+  }
+ },
+ {
+  "minute": 120,
+  "zone": "Z5",
+  "beds": 9.68,
+  "icu": 3.76,
+  "ot": 6.37,
+  "blood_units": 23.65,
+  "als_trips": 7.53,
+  "bls_trips": 2.26,
+  "dialysis": 0.38,
+  "U": {
+   "flood": 0.08
+  }
+ }
+]

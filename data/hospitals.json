@@ -1,0 +1,86 @@
+[
+  {
+    "id": "H1",
+    "name": "JOY Hospital",
+    "lat": 19.0558773,
+    "lon": 72.8973945,
+    "node": 4357273820
+  },
+  {
+    "id": "H2",
+    "name": "Inlaks Hospital",
+    "lat": 19.0466131,
+    "lon": 72.8964218,
+    "node": 2248801212
+  },
+  {
+    "id": "H3",
+    "name": "Ameeta Patil Nursing Home",
+    "lat": 19.0622247,
+    "lon": 72.8997288,
+    "node": 3376195596
+  },
+  {
+    "id": "H4",
+    "name": "Mata Ramabai B Ambedkar Hospital",
+    "lat": 19.0557141,
+    "lon": 72.8946408,
+    "node": 13676994255
+  },
+  {
+    "id": "H5",
+    "name": "maa hospital",
+    "lat": 19.0585059,
+    "lon": 72.8904048,
+    "node": 10666025044
+  },
+  {
+    "id": "H6",
+    "name": "Kurla Nursing Room",
+    "lat": 19.0708167,
+    "lon": 72.8806792,
+    "node": 4357358499
+  },
+  {
+    "id": "H7",
+    "name": "new life hospital",
+    "lat": 19.0897614,
+    "lon": 72.9049996,
+    "node": 2244961567
+  },
+  {
+    "id": "H8",
+    "name": "muktabai hospital",
+    "lat": 19.0946018,
+    "lon": 72.9032913,
+    "node": 13715481691
+  },
+  {
+    "id": "H9",
+    "name": "v care hospital intensive& unit care",
+    "lat": 19.0634778,
+    "lon": 72.8817876,
+    "node": 13681073487
+  },
+  {
+    "id": "H10",
+    "name": "arpan nursing home",
+    "lat": 19.0693933,
+    "lon": 72.8781202,
+    "node": 4357358501
+  },
+  {
+    "id": "H11",
+    "name": "fauziya hospital",
+    "lat": 19.0627584,
+    "lon": 72.8731765,
+    "node": 6494896736
+  },
+  {
+    "id": "H12",
+    "name": "arayan hospital",
+    "lat": 19.0636096,
+    "lon": 72.8819271,
+    "node": 13681073487
+  }
+]

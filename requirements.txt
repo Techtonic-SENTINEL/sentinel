@@ -1,0 +1,8 @@
+streamlit>=1.50
+pydeck>=0.9
+ortools>=9.10
+networkx>=3.2
+pandas>=2.0
+simpy>=4.1
+qrcode[pil]>=7.4
+cryptography>=42

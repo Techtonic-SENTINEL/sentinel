@@ -1,0 +1,23 @@
+{
+  "center": [
+    19.07,
+    72.88
+  ],
+  "radius_m": 3000,
+  "flood_center": [
+    19.0705,
+    72.8705
+  ],
+  "flood_radius_m": 700,
+  "flood_factor": 3.0,
+  "speeds_kph": {
+    "motorway": 50,
+    "trunk": 40,
+    "primary": 30,
+    "secondary": 25,
+    "tertiary": 20,
+    "residential": 15,
+    "unclassified": 15,
+    "living_street": 10
+  }
+}

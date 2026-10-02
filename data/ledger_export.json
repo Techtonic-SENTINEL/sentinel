@@ -1,0 +1,5440 @@
+{
+ "records": [
+  {
+   "seq": 1,
+   "minute": 0.0,
+   "type": "DONATION_RECEIVED",
+   "actor_role": "donor_portal",
+   "payload": {
+    "amount": 1500000,
+    "donation": "DN-01",
+    "donor": "CSR donor A",
+    "earmark": "treatment"
+   },
+   "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+   "hash": "7d8993c2ff125258a8efa5ca0516a32e02f44f8f5786cb73864b93f4681c1374",
+   "signature": "092fd75ee51403ab6c31150fe5632805f7ed522ae53741e08319202796b9c7d1706448d7ca688fc4342e76b48ea4912a34dc30ff04fab3e8e335b8b237613b06"
+  },
+  {
+   "seq": 2,
+   "minute": 0.0,
+   "type": "DONATION_RECEIVED",
+   "actor_role": "donor_portal",
+   "payload": {
+    "amount": 800000,
+    "donation": "DN-02",
+    "donor": "NGO B",
+    "earmark": "blood"
+   },
+   "prev_hash": "7d8993c2ff125258a8efa5ca0516a32e02f44f8f5786cb73864b93f4681c1374",
+   "hash": "964eb2ed7fa7d7e6868e783644d06fe0093fa6859ebebcdbc91c731891732230",
+   "signature": "f638919ecf17e3c5538f055cf38ab95c42f39f544d5a8ec1e6f3c5abda1cb93bd2654bc3699026146f904f4b5190d9c87e1d51adcbf1817bccbab3d8d2db6406"
+  },
+  {
+   "seq": 3,
+   "minute": 0.0,
+   "type": "DONATION_RECEIVED",
+   "actor_role": "donor_portal",
+   "payload": {
+    "amount": 600000,
+    "donation": "DN-03",
+    "donor": "Citizens UPI pool",
+    "earmark": "transport"
+   },
+   "prev_hash": "964eb2ed7fa7d7e6868e783644d06fe0093fa6859ebebcdbc91c731891732230",
+   "hash": "9b6392394cc31bcfc41c7b6b9240777cd3aa8be1e67a1f169d1897abdefdf817",
+   "signature": "825e0f2a769cf472be964eba267b5d39807fb9363d1fad7502889090919066ffff894420223aa13d61e36f922d5446a36651e931ea5ac0792686965481f6f90a"
+  },
+  {
+   "seq": 4,
+   "minute": 0.0,
+   "type": "DONATION_RECEIVED",
+   "actor_role": "donor_portal",
+   "payload": {
+    "amount": 1200000,
+    "donation": "DN-04",
+    "donor": "CSR donor C",
+    "earmark": "treatment"
+   },
+   "prev_hash": "9b6392394cc31bcfc41c7b6b9240777cd3aa8be1e67a1f169d1897abdefdf817",
+   "hash": "fbc191e7e6bd81cf66af931f2eae444900a819c9d1f9c602b7f6b3d0828f7692",
+   "signature": "b9d3efff0e4ef980813d291e7915026af00c8c846fd75b50f34877da5ad1e8bb230b93a75c860b15440482ead4f55714a647f22cda30cd09d2e903cc2bb44907"
+  },
+  {
+   "seq": 5,
+   "minute": 0.0,
+   "type": "DONATION_RECEIVED",
+   "actor_role": "donor_portal",
+   "payload": {
+    "amount": 900000,
+    "donation": "DN-05",
+    "donor": "State relief fund",
+    "earmark": "any"
+   },
+   "prev_hash": "fbc191e7e6bd81cf66af931f2eae444900a819c9d1f9c602b7f6b3d0828f7692",
+   "hash": "09d9df6889730598ffac5f11bdb8c54eaefb59ee272ad73b1ff5e79bd81e6d00",
+   "signature": "b2017469bb7129f1fbb29fa9f17a94002acd33c6913256fc335a554383b49b6949c7c26d6917f447c2c8c6a43d4984bc02d8fd5ca928d5498ea3c4fd49790f04"
+  },
+  {
+   "seq": 6,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A05",
+    "expected_survival": 0.7458,
+    "hospital": "H3",
+    "patient": "PT-69ae54182d",
+    "triage": "RED",
+    "trip": "T001"
+   },
+   "prev_hash": "09d9df6889730598ffac5f11bdb8c54eaefb59ee272ad73b1ff5e79bd81e6d00",
+   "hash": "0cf93a97585734954bc1a1645ca874cff6d3f637256beea3db3a9047e0f6e334",
+   "signature": "625aed590f9d2b7d3bb1e64849cd0b18b81f8ac511581d0913f923b5cfd5d8c0474857d1772a38903c425ab28dfc6972f1bf24e8c4940107cd0520dcbd0a8a06"
+  },
+  {
+   "seq": 7,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A02",
+    "expected_survival": 0.7308,
+    "hospital": "H10",
+    "patient": "PT-2d13051880",
+    "triage": "RED",
+    "trip": "T002"
+   },
+   "prev_hash": "0cf93a97585734954bc1a1645ca874cff6d3f637256beea3db3a9047e0f6e334",
+   "hash": "d73e4d8931655c5922d053371dc9a79ad7479f8b1a365fb2087d1b6450d0cbde",
+   "signature": "d225c4196b0c6fed48d4ba441fb5efd8954a64e0b58fb6229af261e3b4130033e153085b0a2ef5d7a1e73205f3d770c67933535cba5252e92ea74b3b37a51b00"
+  },
+  {
+   "seq": 8,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A10",
+    "expected_survival": 0.9401,
+    "hospital": "H4",
+    "patient": "PT-56e29d1497",
+    "triage": "YELLOW",
+    "trip": "T003"
+   },
+   "prev_hash": "d73e4d8931655c5922d053371dc9a79ad7479f8b1a365fb2087d1b6450d0cbde",
+   "hash": "79e474520349c58359e109e5db329b4ae2db8c874c2e623e5e5cc94127c3dde2",
+   "signature": "df0d62e1ca71b774bf0f3afe4d0cd83a0ee9a88971bb05b821d72ed217c53745c106334c8fb52fcbf8e8322ea4a2d9494c86e22d30fb13ec108fdc0d1d33b409"
+  },
+  {
+   "seq": 9,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A06",
+    "expected_survival": 0.9404,
+    "hospital": "H4",
+    "patient": "PT-2c7ee2d01e",
+    "triage": "YELLOW",
+    "trip": "T004"
+   },
+   "prev_hash": "79e474520349c58359e109e5db329b4ae2db8c874c2e623e5e5cc94127c3dde2",
+   "hash": "f42ff428757fd548e567d56d61be5807a3ab7a57b6e6573c5309c2fe08c297ea",
+   "signature": "d547e9cecf95352cf918c2e3971bb6345706240510437ea46c44f0a30e9f6f91fa5f68ac97c70f71813792377381e5f031d7c916eecfa9927754bfc94174690d"
+  },
+  {
+   "seq": 10,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A04",
+    "expected_survival": 0.7491,
+    "hospital": "H10",
+    "patient": "PT-918fc134d3",
+    "triage": "RED",
+    "trip": "T005"
+   },
+   "prev_hash": "f42ff428757fd548e567d56d61be5807a3ab7a57b6e6573c5309c2fe08c297ea",
+   "hash": "8423a2acd7590de74384af575cf785b3c7366061ebfeece71831f32875f96121",
+   "signature": "a41de73c812d376dfa727518080d14b2f82e28d39902960d5ae04e81b2f6531d1fd4e25ebfd754d19beb94e631c4a7c9fbe494e061bb3e24354b571eceae330d"
+  },
+  {
+   "seq": 11,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A03",
+    "expected_survival": 0.7845,
+    "hospital": "H9",
+    "patient": "PT-f7958df12e",
+    "triage": "RED",
+    "trip": "T006"
+   },
+   "prev_hash": "8423a2acd7590de74384af575cf785b3c7366061ebfeece71831f32875f96121",
+   "hash": "597017c78068aabe23e59adf7ba292034608fc6f4fcd6db6c82f14079b3c8804",
+   "signature": "273f7e78b2aa5914d23127cc6e26e4d8c349dd8b6e7d29ee0d10c04b86178ade0db663e60c2c33b728ab63be3b716e0c41f327accfe1be1f8cb3eca91dca8c0d"
+  },
+  {
+   "seq": 12,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A14",
+    "expected_survival": 0.9232,
+    "hospital": "H10",
+    "patient": "PT-820da161d1",
+    "triage": "YELLOW",
+    "trip": "T007"
+   },
+   "prev_hash": "597017c78068aabe23e59adf7ba292034608fc6f4fcd6db6c82f14079b3c8804",
+   "hash": "2db74f7cb710c1ff34fb1e430865434e65ad17590a3f04c039a82b9b2a40cd84",
+   "signature": "9fcbd528db94b066ad460c460995bbfd87416f4c564e4a13a28bc4369a516592a0eeb5c916f90132123aeaa5c444abde7713b0ca8bee58d6092dfb13baf5b10f"
+  },
+  {
+   "seq": 13,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A09",
+    "expected_survival": 0.9275,
+    "hospital": "H10",
+    "patient": "PT-d77e3571b5",
+    "triage": "YELLOW",
+    "trip": "T008"
+   },
+   "prev_hash": "2db74f7cb710c1ff34fb1e430865434e65ad17590a3f04c039a82b9b2a40cd84",
+   "hash": "64ce2c98b301038d43b3e8e860c8f63d9e67de02f1331d387bc3a35dee3b02af",
+   "signature": "93d73efcd423378a4e345c7d268b746b1f409e41ab740403197a8cebb6a40b7d740ed049cf96ee7de41db809b33f6cf03d69d5270e7155d7a9a25711db07f405"
+  },
+  {
+   "seq": 14,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A01",
+    "expected_survival": 0.7424,
+    "hospital": "H4",
+    "patient": "PT-cca7dd8942",
+    "triage": "RED",
+    "trip": "T009"
+   },
+   "prev_hash": "64ce2c98b301038d43b3e8e860c8f63d9e67de02f1331d387bc3a35dee3b02af",
+   "hash": "aef056c46361e685c3d24df3cee5607e48101c4dae9d76cac2bd0729d0620617",
+   "signature": "d52d889be014fa4954d09025a9506e8edc008555a396fb59200b1c1431fd6b675a1ce9e8f7916a4d05f037d3a7211640e5395c9b8a4239e3ea3234cb8893e20a"
+  },
+  {
+   "seq": 15,
+   "minute": 0.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A11",
+    "expected_survival": 0.9241,
+    "hospital": "H10",
+    "patient": "PT-ddb4afd814",
+    "triage": "YELLOW",
+    "trip": "T010"
+   },
+   "prev_hash": "aef056c46361e685c3d24df3cee5607e48101c4dae9d76cac2bd0729d0620617",
+   "hash": "3a3d889df6aa7942ec658f7ee260d66afb7e3c81792b86e627be0796780cfeb9",
+   "signature": "c826cf77f55e03e3f5f71a4dc211c2d335712fb459d158b5d654942639553c35292e1ff831755df8312500f67c88138dfdb0d625c4e39d7b2bb203464aa2980a"
+  },
+  {
+   "seq": 16,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A05",
+    "eta_min": 16.9,
+    "hospital": "H3",
+    "otp_hash": "b33cd44327be4fc76f026b2204d7a536732399ed7647ef00308232ba20c7bcd2",
+    "patient": "PT-69ae54182d",
+    "trip": "T001"
+   },
+   "prev_hash": "3a3d889df6aa7942ec658f7ee260d66afb7e3c81792b86e627be0796780cfeb9",
+   "hash": "cd63329a41b33ae441a4ba3c39bbca19a4faef8facb14c36c621f145bfd25c3c",
+   "signature": "50b7ec3adc0c3fa6d710b24a58b36f0c14e25b3d77ddbef694f8ee9244263061b67bbb7deea57a59658cb9794d92269c3832c2ca673a4a11da3e4bcf5102490d"
+  },
+  {
+   "seq": 17,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A02",
+    "eta_min": 18.7,
+    "hospital": "H10",
+    "otp_hash": "c8ab11c018e6d9680b099ccc588146852bc97e9616b6401dc9e1cf6e68b5eae3",
+    "patient": "PT-2d13051880",
+    "trip": "T002"
+   },
+   "prev_hash": "cd63329a41b33ae441a4ba3c39bbca19a4faef8facb14c36c621f145bfd25c3c",
+   "hash": "43eee9070f9fd09abda8e1a05930b0182eee9a455c9488380df78e81d0c1d2fe",
+   "signature": "efc5d5e50c9fa589579f7f478bd4753938500841f10b50c399d02b7fb59f5465091c46866b4bb7f0d80ac89781d0d961299afa7b6afdf8e3faafa76e41cc3f0e"
+  },
+  {
+   "seq": 18,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A10",
+    "eta_min": 12.5,
+    "hospital": "H4",
+    "otp_hash": "b661ddebcf30ac43a6eabe043ce4a9f46e7e0c6546121c6458ccb9bcc61fed13",
+    "patient": "PT-56e29d1497",
+    "trip": "T003"
+   },
+   "prev_hash": "43eee9070f9fd09abda8e1a05930b0182eee9a455c9488380df78e81d0c1d2fe",
+   "hash": "511561bf02611f353cd5c4222c626b1e270163454f3296166135d82aeff016df",
+   "signature": "2e5d323fec1e9b71318074d8701ff5f456baf6741d8bff00f9e9a4951f350327205f647d377b9f12238556bab4b290b98b101945565120931838b85bb18db00e"
+  },
+  {
+   "seq": 19,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A06",
+    "eta_min": 12.4,
+    "hospital": "H4",
+    "otp_hash": "69ae070caff23367b79ec0a8b816d0d00b3c5e53a580e5c37660097c9e9ebeec",
+    "patient": "PT-2c7ee2d01e",
+    "trip": "T004"
+   },
+   "prev_hash": "511561bf02611f353cd5c4222c626b1e270163454f3296166135d82aeff016df",
+   "hash": "c6bf0ebee7208d16696479b0bdf69c1d086601578a294d8e38edd4db6069a155",
+   "signature": "b6f33c9e54a6d1cd25f6e0ad5df3edfc210ad332780d0795927387d492207777adbdf21f5f99f13bdae67213597939403b73554f03ee0dc3f75c44fd19006608"
+  },
+  {
+   "seq": 20,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A04",
+    "eta_min": 16.5,
+    "hospital": "H10",
+    "otp_hash": "312887bd0a73c614413d4ead9c95d015bf98cdfd418f32c639d8486fe6bd4569",
+    "patient": "PT-918fc134d3",
+    "trip": "T005"
+   },
+   "prev_hash": "c6bf0ebee7208d16696479b0bdf69c1d086601578a294d8e38edd4db6069a155",
+   "hash": "d3f2e80982e76d20ed8645abaa57797a2498e7f6370f51cbf7e7f81bf8910120",
+   "signature": "5b0d66043725a3b5c05d007abd4932945c4bf7abba77d3909122a2932cf831e00c918d7a5fe53db34a9ce4290e38dc07f640fe3987d6a861c39a48d6474d2b0d"
+  },
+  {
+   "seq": 21,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A03",
+    "eta_min": 12.4,
+    "hospital": "H9",
+    "otp_hash": "fc6eaeb539f43c99060272bd835111e0132ff7421e89cd841685ef3d79a19857",
+    "patient": "PT-f7958df12e",
+    "trip": "T006"
+   },
+   "prev_hash": "d3f2e80982e76d20ed8645abaa57797a2498e7f6370f51cbf7e7f81bf8910120",
+   "hash": "917a020ca37abba99f5dae289a5ddc563eab2f95ae39edd1692dcabc33f250b1",
+   "signature": "899bfaf6e1119db3729dcbfb360ef536f534c634b6f3b1c11af0c7b9839bec972990da5aa851488353762bfb4c46efc066b3989954229154a392328bb2040208"
+  },
+  {
+   "seq": 22,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A14",
+    "eta_min": 19.8,
+    "hospital": "H10",
+    "otp_hash": "41c7003f6e9407c4273d85636d9a3f07c232feed05f98c2f1fdf9633d9b55f3a",
+    "patient": "PT-820da161d1",
+    "trip": "T007"
+   },
+   "prev_hash": "917a020ca37abba99f5dae289a5ddc563eab2f95ae39edd1692dcabc33f250b1",
+   "hash": "6eac17d4a9d3f4fc89149602fa4e061a9c628ea8a5648181773d12031333a048",
+   "signature": "54e25c125dbafb504ca8d3cf22a056f19b1d65bd7ef43e7eb70933e81104c7bd0d506fe11735be155c7b2ff58f542605524ce54a33a9ecb4a82fe39725874b09"
+  },
+  {
+   "seq": 23,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A09",
+    "eta_min": 17.9,
+    "hospital": "H10",
+    "otp_hash": "05c68011682d15fdc3b62e84f7160e2d77aa9050518d16622b3b006e5dcff60f",
+    "patient": "PT-d77e3571b5",
+    "trip": "T008"
+   },
+   "prev_hash": "6eac17d4a9d3f4fc89149602fa4e061a9c628ea8a5648181773d12031333a048",
+   "hash": "e0b696dca86457923806a492304af8b2a3cbf07d0cd003376bc3421999158cc6",
+   "signature": "2657d31d40a6656cbd58553bcc6071b692479f3c6b19a7506de68b32156f0d2379eea740087313f50dbc340031cb0cd4f20ac6df6eb02fd8349bde0b7918d508"
+  },
+  {
+   "seq": 24,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A01",
+    "eta_min": 17.3,
+    "hospital": "H4",
+    "otp_hash": "5ffd2cd441eb9660ecb607d12b26892b34938b085cbdbc277b116c0fe7ada453",
+    "patient": "PT-cca7dd8942",
+    "trip": "T009"
+   },
+   "prev_hash": "e0b696dca86457923806a492304af8b2a3cbf07d0cd003376bc3421999158cc6",
+   "hash": "d418af6c8f6e68be485c57b600d6071d2df20cc0ebd50b6fb01b6276a30cb2ed",
+   "signature": "2f2b846d2346fc4f46513177056c61e8ad0c31062d73d581d5277a0fcda457d81e1b73d98bf6c965e3cbea91d2dd07e31ba3de2fd51d958b6f97ec3196655402"
+  },
+  {
+   "seq": 25,
+   "minute": 0.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A11",
+    "eta_min": 19.4,
+    "hospital": "H10",
+    "otp_hash": "60033af028038902206ac9ef63f7dffe1e4e95c2897a9d2863c2ca13f44f8ba9",
+    "patient": "PT-ddb4afd814",
+    "trip": "T010"
+   },
+   "prev_hash": "d418af6c8f6e68be485c57b600d6071d2df20cc0ebd50b6fb01b6276a30cb2ed",
+   "hash": "20d6ddba8e46118b8a03b3e69c36d041a52d91e5ec645bcf1807b2f428e3a47b",
+   "signature": "02c0bfa02bbebc1767e5ef49c7430dc5ec2925c862dd55ebba71b3b70415698e932bcb7a0378a2c57180046cd50d17f7cb09c284e4c2ecdcb1c2ea73f619e50a"
+  },
+  {
+   "seq": 26,
+   "minute": 0.0,
+   "type": "OVERRIDE",
+   "actor_role": "commander",
+   "payload": {
+    "actor_id": "commander-01",
+    "from": "H3",
+    "patient": "PT-69ae54182d",
+    "reason": "Family requested hospital near home",
+    "to": "H1"
+   },
+   "prev_hash": "20d6ddba8e46118b8a03b3e69c36d041a52d91e5ec645bcf1807b2f428e3a47b",
+   "hash": "27897ed35a45d0e284a1a9540a7637638d9bb5d5cc9bdeb8f0c84c7717ba3140",
+   "signature": "bd416fc3551c83d9271eabdfcd7a976db16e5299743c4cdd4f3b199369cf99356d2ca1db19905a9a5c4eb011db3dc3757eaa90f04fc8760038a1d807f6264a02"
+  },
+  {
+   "seq": 27,
+   "minute": 5.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A08",
+    "expected_survival": 0.9084,
+    "hospital": "H10",
+    "patient": "PT-54cc9af25a",
+    "triage": "YELLOW",
+    "trip": "T011"
+   },
+   "prev_hash": "27897ed35a45d0e284a1a9540a7637638d9bb5d5cc9bdeb8f0c84c7717ba3140",
+   "hash": "d59e6c88b5b411b86e985a0f5fe177a77ee786b570d98ae8b4c67df10a489d30",
+   "signature": "96bb17e3adc5bd3bafbba948d52efad5e2ad524f381ed845833c992a27e1c4da324cdf0814ff88690740117b422c4ed70e5dcb924e1d90dc3b418c5e088bcb08"
+  },
+  {
+   "seq": 28,
+   "minute": 5.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A12",
+    "expected_survival": 0.8997,
+    "hospital": "H10",
+    "patient": "PT-61db4bdad0",
+    "triage": "YELLOW",
+    "trip": "T012"
+   },
+   "prev_hash": "d59e6c88b5b411b86e985a0f5fe177a77ee786b570d98ae8b4c67df10a489d30",
+   "hash": "df4bb664f387dfe7f53f1f70039fe143f675c672cfa98f92b32d168b6b7fbdee",
+   "signature": "9a2357c248e2631a1df2d749f6a2773e1bdeff83d681cb8342dffe746347af2e2e24fb11e3ccc278963aa0a17e8783eb4cd560648385907a2895cae98daf040a"
+  },
+  {
+   "seq": 29,
+   "minute": 5.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A13",
+    "expected_survival": 0.9115,
+    "hospital": "H10",
+    "patient": "PT-5115ef1b5d",
+    "triage": "YELLOW",
+    "trip": "T013"
+   },
+   "prev_hash": "df4bb664f387dfe7f53f1f70039fe143f675c672cfa98f92b32d168b6b7fbdee",
+   "hash": "06f87cc9f88f364f962a8f03fb900d5476a1821f07a9871e60279c03e6ef8c83",
+   "signature": "4ac00f47d904ab366c2c6be688a6a4695892292f2fee49df192d6b5e582013ff3cc02570f3972a094824b441215c0d842c0bc2a7f8c7ae1f730d8f81d362640a"
+  },
+  {
+   "seq": 30,
+   "minute": 5.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A07",
+    "expected_survival": 0.9031,
+    "hospital": "H10",
+    "patient": "PT-1d1ebcec6a",
+    "triage": "YELLOW",
+    "trip": "T014"
+   },
+   "prev_hash": "06f87cc9f88f364f962a8f03fb900d5476a1821f07a9871e60279c03e6ef8c83",
+   "hash": "a3b86de9f3ce3dcd7c855193b8d7bc39c1bc7e2d7f9b398b2a051baec4cb42c5",
+   "signature": "68eec5cf9983a02d156d50c1fa5536950fa65fe2c964fe68ff7a73df08d446ebc27e7380ee9d0bb37fd4500ce30a160071bc04e220d7c55389340a32a3d35706"
+  },
+  {
+   "seq": 31,
+   "minute": 5.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A08",
+    "eta_min": 26.3,
+    "hospital": "H10",
+    "otp_hash": "78a9c1707782aefbbdbfbc8d3bd1094496d961c0cb02897a391f697873b3f11d",
+    "patient": "PT-54cc9af25a",
+    "trip": "T011"
+   },
+   "prev_hash": "a3b86de9f3ce3dcd7c855193b8d7bc39c1bc7e2d7f9b398b2a051baec4cb42c5",
+   "hash": "7f474c659d37311b7d5193ad3af8470a704d90d6a90d338c779c72540a4ce699",
+   "signature": "188b206fd9be4b5db7d11f9951dc9279bd97a414359a9c6500fa14306d082981063530527cfcc12c4da228da0b24fc2f5b278daffa2bda6ae94ea2b115f09f0c"
+  },
+  {
+   "seq": 32,
+   "minute": 5.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A12",
+    "eta_min": 30.1,
+    "hospital": "H10",
+    "otp_hash": "4e40f97ff232425456a8e4efbe872d9c6effe53bd235a66760886ed884e0a6d8",
+    "patient": "PT-61db4bdad0",
+    "trip": "T012"
+   },
+   "prev_hash": "7f474c659d37311b7d5193ad3af8470a704d90d6a90d338c779c72540a4ce699",
+   "hash": "96d7475df250b8213bc384e234df082f03b2f2afc59e097b183a35f77ef507be",
+   "signature": "45c45d129588b21d59b164c696204f482678bc32acc2446d950b4f0f0655471e39a43c9504ef1b9d1bbb19513228c5435cb7caddd6ed7d6bd2092572fac43606"
+  },
+  {
+   "seq": 33,
+   "minute": 5.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A13",
+    "eta_min": 24.9,
+    "hospital": "H10",
+    "otp_hash": "269c1ed74ea0bf08cfc956435a65abb91e4387d4f0e735ffc296c68b3b76ee37",
+    "patient": "PT-5115ef1b5d",
+    "trip": "T013"
+   },
+   "prev_hash": "96d7475df250b8213bc384e234df082f03b2f2afc59e097b183a35f77ef507be",
+   "hash": "abdaf9612b4250356cd3f4b12ecac5d51d8f788e7189b0f78aaf7b58ae3b74ae",
+   "signature": "8f6471d52fcf45454bdcdbff7c38ef3acdaeb149344a79dc47db2c9f0996422303e39fcea764009b16f42de584258967bb5f623cfa9c6dbade68a10403b5c305"
+  },
+  {
+   "seq": 34,
+   "minute": 5.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A07",
+    "eta_min": 28.6,
+    "hospital": "H10",
+    "otp_hash": "86ebc4a0de10935850c9da973bc7100b4a6c6a10c8571f5360458fba1ce379ca",
+    "patient": "PT-1d1ebcec6a",
+    "trip": "T014"
+   },
+   "prev_hash": "abdaf9612b4250356cd3f4b12ecac5d51d8f788e7189b0f78aaf7b58ae3b74ae",
+   "hash": "438da6dbbf2f3752a42c7e6702390820a4e68d9d3b5886df48740932e6141826",
+   "signature": "2ef47fb20b00f8764a889cd459cef70f942b1478d1d3593eb4fd430c4bc02528176e7d2aaa743aef14bafb1e90c25b7ab7287940856a23a1047e0842706e7308"
+  },
+  {
+   "seq": 35,
+   "minute": 12.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-2c7ee2d01e",
+    "trip": "T004"
+   },
+   "prev_hash": "438da6dbbf2f3752a42c7e6702390820a4e68d9d3b5886df48740932e6141826",
+   "hash": "3340f29e72cdb291be0334ed4d7cef988b3e601eee255af6325a2a21d4655adb",
+   "signature": "c2c4bfd464f8ab1e6f6440fd38d7f94126c416576a964e5e21ea4d5b711ee962ff6ef1dd09e5f465de0591429ddb09a7ff9a1f7d9bce53b56336334d2d66500a"
+  },
+  {
+   "seq": 36,
+   "minute": 12.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-f7958df12e",
+    "trip": "T006"
+   },
+   "prev_hash": "3340f29e72cdb291be0334ed4d7cef988b3e601eee255af6325a2a21d4655adb",
+   "hash": "96611e20e184cfc8379eb17f94a97b1f154c62abf9eac4492c35fda8aeaacf93",
+   "signature": "88ac5b4dc2613e1c29affe0b17b8fc992a2c239eac928cd0c39e9cf040647cd914ae7e3528eb554efa5b607d40fe4b82ba5cc658711878eadd706f6baaac2603"
+  },
+  {
+   "seq": 37,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-2c7ee2d01e",
+    "trip": "T004"
+   },
+   "prev_hash": "96611e20e184cfc8379eb17f94a97b1f154c62abf9eac4492c35fda8aeaacf93",
+   "hash": "6303976905b09c453506d5d27d2dfecc23f1c99808fecbf9813bf579ec29fe02",
+   "signature": "1662f518e02fffc165642b67913501f19272a131bc2362656d17b21f8da154b00fddb5ffac9f519b9d20937552678fb1eb63956fae984882a0897d7c8a22fd0d"
+  },
+  {
+   "seq": 38,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H4",
+    "patient": "PT-2c7ee2d01e",
+    "trip": "T004"
+   },
+   "prev_hash": "6303976905b09c453506d5d27d2dfecc23f1c99808fecbf9813bf579ec29fe02",
+   "hash": "69a46b3e0d9c7ce86b2052836e18f29fa24fff18892e8e37bff07999f963ecd6",
+   "signature": "450d431270b59d4b0a22b8aa8937bd4fcda98652d09819b2182e2d5a737bc4fa0a209eed42c44dee0c7028802cc913ff00f61f53667eb5c0999ca32c06c43108"
+  },
+  {
+   "seq": 39,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 89,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-2c7ee2d01e",
+    "trip": "T004"
+   },
+   "prev_hash": "69a46b3e0d9c7ce86b2052836e18f29fa24fff18892e8e37bff07999f963ecd6",
+   "hash": "de6786d71dda2eec20f4cfdd89dfb29e1a82e0cc52fddbc410c91e7923a05f3f",
+   "signature": "137c7d5b50222a9ef7a316b0d53cd1df28fe22dd98a15978b1541214262c2b3eb2c28bcdeb8778b678a4d22b1c614d1cd135304420d679f69dbc55e4fb35bd08"
+  },
+  {
+   "seq": 40,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H9",
+    "patient": "PT-f7958df12e",
+    "trip": "T006"
+   },
+   "prev_hash": "de6786d71dda2eec20f4cfdd89dfb29e1a82e0cc52fddbc410c91e7923a05f3f",
+   "hash": "9dc45f7981360dbdb0bae179fe2c76390a4dc175b036456a397b3962a950328a",
+   "signature": "b470f14954cf1cd0ed80f3edb1e7906b577687a678b973c867db4e31dedd549cec3fae4f46966f946178fe5008a57e3f048041b5ed6c7269cb56d76f555d000c"
+  },
+  {
+   "seq": 41,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H9",
+    "patient": "PT-f7958df12e",
+    "trip": "T006"
+   },
+   "prev_hash": "9dc45f7981360dbdb0bae179fe2c76390a4dc175b036456a397b3962a950328a",
+   "hash": "61b8cda6ea19d14c34bb7010a30379e05bac838807ea47c70290b405959abada",
+   "signature": "95da5f67cec61f1d49a1b321d90028c3da5628d488211ff359d5c147cd363e8653c36ac2708bc74f8f84235a4b2646900719bb30add81728fa22750c81a1900b"
+  },
+  {
+   "seq": 42,
+   "minute": 12.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 177,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-f7958df12e",
+    "trip": "T006"
+   },
+   "prev_hash": "61b8cda6ea19d14c34bb7010a30379e05bac838807ea47c70290b405959abada",
+   "hash": "8a46db11ec959869033924af899ef1f6f01d0cc76be3c7703b19f5bc86e320ab",
+   "signature": "067b31aa569d34818ce23ceaf249eaea18c401ee634ed38042d6d5f33b1f3831dbace62b5768db77a182c621a950f64ffd841abe8eb5ad1b6f9b59de3a074b0e"
+  },
+  {
+   "seq": 43,
+   "minute": 12.5,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-56e29d1497",
+    "trip": "T003"
+   },
+   "prev_hash": "8a46db11ec959869033924af899ef1f6f01d0cc76be3c7703b19f5bc86e320ab",
+   "hash": "9f0ebdd2853994c0a8b97b8b680f657b938dd8d76ea454e4e1799eb3c5ced74c",
+   "signature": "819b9a66845fe219450c79beaebbef28c7f07cc00f6f7eb7491be07d588c874d5f9a75a0a384e837777e9b25be89e1cc7f3c620b6a2e3a30f90dbc1290748504"
+  },
+  {
+   "seq": 44,
+   "minute": 12.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-56e29d1497",
+    "trip": "T003"
+   },
+   "prev_hash": "9f0ebdd2853994c0a8b97b8b680f657b938dd8d76ea454e4e1799eb3c5ced74c",
+   "hash": "2df4190fefb4524b44d8dd11e8ffe11b05a4b1bcad993e2a7866c67ae8b8f35e",
+   "signature": "e34de9c0d39a37d13ac30cc14676c5f4950b1e462526d258b3a6c9715e1be931c93a7bc52e4cb36c4d7cbe8f0a95d858a4a70f93de8008852b49211c8dd5920d"
+  },
+  {
+   "seq": 45,
+   "minute": 12.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 90,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-56e29d1497",
+    "trip": "T003"
+   },
+   "prev_hash": "2df4190fefb4524b44d8dd11e8ffe11b05a4b1bcad993e2a7866c67ae8b8f35e",
+   "hash": "d7bf8b5cb02a6112350ba60fc822716b3d0465d60795446bb89821b4828cb5a0",
+   "signature": "d6659048693e60cabd727cf03e9c3570a77d50649a69644b49a3eade8c978726a6e1dd0934c39d96fa3fcf909f56a393f45627b74c074ba4098ca9f7cae92d0b"
+  },
+  {
+   "seq": 46,
+   "minute": 16.5,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-918fc134d3",
+    "trip": "T005"
+   },
+   "prev_hash": "d7bf8b5cb02a6112350ba60fc822716b3d0465d60795446bb89821b4828cb5a0",
+   "hash": "8ffc371597d81f3d7856b95b17340d7ed8eeb53e6661e9286b7b5c082a9e084f",
+   "signature": "c5599b7118a03b657421ccd3105db8e20db574429c6ffeb83845793f8e6b83d77e3520cf2893f4ff62d74bee09d39d4e1561e23993cbc951bb5e9f4dee665e06"
+  },
+  {
+   "seq": 47,
+   "minute": 16.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-918fc134d3",
+    "trip": "T005"
+   },
+   "prev_hash": "8ffc371597d81f3d7856b95b17340d7ed8eeb53e6661e9286b7b5c082a9e084f",
+   "hash": "2094faf0ec037c70d005d37bbfb7364647fb9d5d8167818b287e6c64a47d7353",
+   "signature": "4077173af5cc1872bb8595449f1b379e2fd37678b13dadd02ce673449b30536d82ea43e0fcfdc8488f6819ea7bf71dc52d4103a7dd561ec88d129449ee09ad02"
+  },
+  {
+   "seq": 48,
+   "minute": 16.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 6000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-918fc134d3",
+    "trip": "T005"
+   },
+   "prev_hash": "2094faf0ec037c70d005d37bbfb7364647fb9d5d8167818b287e6c64a47d7353",
+   "hash": "6b343dcf6061884cac1503e8a377a9bd8ea7725fd1866309e31ab9689506be30",
+   "signature": "8b78ed5c10a97cf9cdbfdfdf378222ae92918180fbcd6933339a2af497375a746b45aad0c117f19e8611c563fd3a65ddfc0cf5d55cae2664645c0c98549ea305"
+  },
+  {
+   "seq": 49,
+   "minute": 16.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 276,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-918fc134d3",
+    "trip": "T005"
+   },
+   "prev_hash": "6b343dcf6061884cac1503e8a377a9bd8ea7725fd1866309e31ab9689506be30",
+   "hash": "bbe00e6b0a8abf95c9b087f5a914028626e5dd30b4d54256ff3ec2ff65b7c82c",
+   "signature": "22f1255d0bdf61c6f571c27436c7dfd0b363c0e117505ee998fd100bef65a025695f17e1b812a6dd6ee0c4b5d0703303de7d83cdd84c38856a90392c3cb6b50c"
+  },
+  {
+   "seq": 50,
+   "minute": 16.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-69ae54182d",
+    "trip": "T001"
+   },
+   "prev_hash": "bbe00e6b0a8abf95c9b087f5a914028626e5dd30b4d54256ff3ec2ff65b7c82c",
+   "hash": "2bdd68c4170435dc004532b2e1793e08fcf8f263566ff99b608a15a6d69f0fd2",
+   "signature": "c5e90b07d7422ceea9182459654c3576e4ab788b22fa2191d3f2c79941287b4ec8993ae44e12d118d0935f8054f5d51b0ea2d7ab9bcd4849aa9229840f2bc105"
+  },
+  {
+   "seq": 51,
+   "minute": 16.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-69ae54182d",
+    "trip": "T001"
+   },
+   "prev_hash": "2bdd68c4170435dc004532b2e1793e08fcf8f263566ff99b608a15a6d69f0fd2",
+   "hash": "cc2fcd669dc181fb5ab425ae82a38e7c04bf0f7ad3b801d1a2ea944117bd0d20",
+   "signature": "55a20b5a87986b37c8d51390ebdb221ebf465268db2f71866efa9b165d54636d2d3fffdce891cbeeff5a3e6de0e764c7055e233f450b70a1235eaa14c4a86203"
+  },
+  {
+   "seq": 52,
+   "minute": 16.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H3",
+    "patient": "PT-69ae54182d",
+    "trip": "T001"
+   },
+   "prev_hash": "cc2fcd669dc181fb5ab425ae82a38e7c04bf0f7ad3b801d1a2ea944117bd0d20",
+   "hash": "9261bdf84297e33d0f07fb07fdb0aab9bf601e38548e0b27a594f5f110cb0a8e",
+   "signature": "2cced254b57926a54ca30e9d87a52f67db87cade2b0e0a33475f03bd5538dda7d39f425847a84da13ff94365ec4315a58ceb018aa102392c4e7cf9f3dbc69400"
+  },
+  {
+   "seq": 53,
+   "minute": 16.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 286,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-69ae54182d",
+    "trip": "T001"
+   },
+   "prev_hash": "9261bdf84297e33d0f07fb07fdb0aab9bf601e38548e0b27a594f5f110cb0a8e",
+   "hash": "3943d13d8259f4b70d162eceb699a9a7f6131aa9c294dca7ba282de5cb926d03",
+   "signature": "79cf31a0161983c428a578d4ed505ed2ac2c22bccfc731194fc379abf682a2dabe38a94c98b478e3e3d0909c295bf537ed3bfc5e0ce2f653f5d6b37bd6b55b02"
+  },
+  {
+   "seq": 54,
+   "minute": 17.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-cca7dd8942",
+    "trip": "T009"
+   },
+   "prev_hash": "3943d13d8259f4b70d162eceb699a9a7f6131aa9c294dca7ba282de5cb926d03",
+   "hash": "a4d94deaa461fa80af68c417972d45504169bd3aa5dc76213694d4b97fc3b613",
+   "signature": "1913b2fc5e18bcabd95ecfec564b76d32ef33bd71d4bca6e47f01648089be0f3d7a33becff1fbadcfd626ecd6a571a87d928eff6b923a37300a6c01d9817a500"
+  },
+  {
+   "seq": 55,
+   "minute": 17.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-cca7dd8942",
+    "trip": "T009"
+   },
+   "prev_hash": "a4d94deaa461fa80af68c417972d45504169bd3aa5dc76213694d4b97fc3b613",
+   "hash": "96a5ba680b56d6bbdc2b0fcebdf9c45aa6e13a6f526f6a0f2c4077792af1f8da",
+   "signature": "3c8fbe1afec2c19b9dd4d75754d312203eae8d5029834f1c6fdc1b1c546104f5e7b67c090a779b540ea8b852a3094196f378b85449bd54a3c65ad046fcc91306"
+  },
+  {
+   "seq": 56,
+   "minute": 17.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H4",
+    "patient": "PT-cca7dd8942",
+    "trip": "T009"
+   },
+   "prev_hash": "96a5ba680b56d6bbdc2b0fcebdf9c45aa6e13a6f526f6a0f2c4077792af1f8da",
+   "hash": "4826080bc4c87aa5616ffed698f1ddd0d97a1541e07d8863c44929e451f31956",
+   "signature": "bf39cc208051ec3cff9785eed1ef2c6d63bfbadb3274dd9134907c9be6309772a251dab92f2664b522f6b27dbc0b1a9a191b0d6507cf5deb6606e1294b91f70f"
+  },
+  {
+   "seq": 57,
+   "minute": 17.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 296,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-cca7dd8942",
+    "trip": "T009"
+   },
+   "prev_hash": "4826080bc4c87aa5616ffed698f1ddd0d97a1541e07d8863c44929e451f31956",
+   "hash": "547cd0218a3ad44cc9fa0553823f10be62ecfb15fe4d36c327baa762a1c61b61",
+   "signature": "7b842d7db31df888ffef524d042100ec0446db28e5453f75dfaf2088eacd686dc6f1379c945887e28e96cc0e5bcae5469bd314b30e579e62b9b8fce47fc4f908"
+  },
+  {
+   "seq": 58,
+   "minute": 17.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-d77e3571b5",
+    "trip": "T008"
+   },
+   "prev_hash": "547cd0218a3ad44cc9fa0553823f10be62ecfb15fe4d36c327baa762a1c61b61",
+   "hash": "1c7a2f7959c92fa0e1ff4b9f278bf4011588962206d0884eddc0859014716796",
+   "signature": "9a8ac29e25069fcfffb8ae106a56e8bd676882c7aa3fb1d8c0ab89d942a04e696153af93d3614c9803ee4396abb52ddfa361b70a2b5df5ccc04928c62c90c109"
+  },
+  {
+   "seq": 59,
+   "minute": 17.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-d77e3571b5",
+    "trip": "T008"
+   },
+   "prev_hash": "1c7a2f7959c92fa0e1ff4b9f278bf4011588962206d0884eddc0859014716796",
+   "hash": "86741d95dbb55d532df30961f342cf409982744e6fd9f92f290f309c5503b8bb",
+   "signature": "7d9696506bc71d2228916058b53bdc34073bcd5d3cc0f0faa9c366b96e0268c1475d6da0eb2eeef8dd4cb3d789440e7a51bec31fd9c191602b2bb6840dc08e01"
+  },
+  {
+   "seq": 60,
+   "minute": 17.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-d77e3571b5",
+    "trip": "T008"
+   },
+   "prev_hash": "86741d95dbb55d532df30961f342cf409982744e6fd9f92f290f309c5503b8bb",
+   "hash": "f7ed63bcbaae85c312000ff6e83ea971c3997353b31dbb104f529acb48affb78",
+   "signature": "8f748efffd98159093629e2871f3b1ec25af30b5fda2322b5a3728713b27059c9066b1d70ae519e8f2441023dde183b032943985c45369617ec745848d025f0a"
+  },
+  {
+   "seq": 61,
+   "minute": 17.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 155,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-d77e3571b5",
+    "trip": "T008"
+   },
+   "prev_hash": "f7ed63bcbaae85c312000ff6e83ea971c3997353b31dbb104f529acb48affb78",
+   "hash": "80ac21fb565f40e0d177e9acf75b3881afb5136bff298509f711720969101798",
+   "signature": "74bc268ca7169181746de3f7aead9826fda88b6ab2dab550bcf29554d4fe4282b4471a9291c119cfbb695501e3300d40fdfedb7fb3e828f2eae29e7c5da5bc06"
+  },
+  {
+   "seq": 62,
+   "minute": 18.7,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-2d13051880",
+    "trip": "T002"
+   },
+   "prev_hash": "80ac21fb565f40e0d177e9acf75b3881afb5136bff298509f711720969101798",
+   "hash": "7e079379fa475830eeb287a51a9fa3962cbbd58baf6616e9e63fb9dd09abe968",
+   "signature": "fddb7d794f3266000f460fd40b6d08059c0f96ea7507430566bed2b2a1ea99ddcb8ff6bce9d1fc931ab19edfb726ba774ffcdac02609a26d76031bd8ca747009"
+  },
+  {
+   "seq": 63,
+   "minute": 18.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-2d13051880",
+    "trip": "T002"
+   },
+   "prev_hash": "7e079379fa475830eeb287a51a9fa3962cbbd58baf6616e9e63fb9dd09abe968",
+   "hash": "70b9203e6e4af357a951d09589846f7be5c3264f959c4e71fb9e15ebb8b97ef9",
+   "signature": "03f6b265b61e56a2d9ada7160970e42c610b53d55e11cbab1954a33a1d720feae9351c3cbabe3047369bc59644b2628bbbc0c330c785d0a2ae0ecd135d15e70f"
+  },
+  {
+   "seq": 64,
+   "minute": 18.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 3000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-2d13051880",
+    "trip": "T002"
+   },
+   "prev_hash": "70b9203e6e4af357a951d09589846f7be5c3264f959c4e71fb9e15ebb8b97ef9",
+   "hash": "d474d3b714075263d1a6eb56df2ddb8006579230da24cb5575c215392e487ae2",
+   "signature": "d96065f39511fcdccd580cc01293ca81983815b6b4239b27b905174a585a413a4e72031a002281f99a382148a5c0061bbeea8f025e4f3b3832a1c6cf1efed40b"
+  },
+  {
+   "seq": 65,
+   "minute": 18.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 330,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-2d13051880",
+    "trip": "T002"
+   },
+   "prev_hash": "d474d3b714075263d1a6eb56df2ddb8006579230da24cb5575c215392e487ae2",
+   "hash": "64af2232ea230eed0a7021489abc013383f1b9221289b78435e981dd769200d8",
+   "signature": "5279d010c77cc2dfbce3027a081999a5a0cddf6a500f4bbb1f8da00d38e9ed872e3a148ef5dfc5bccf88b0a9ec75a1e363ced6e55310cf2ef76f65be3a72a60e"
+  },
+  {
+   "seq": 66,
+   "minute": 19.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-ddb4afd814",
+    "trip": "T010"
+   },
+   "prev_hash": "64af2232ea230eed0a7021489abc013383f1b9221289b78435e981dd769200d8",
+   "hash": "338c163e21d1e4ebc5ef252eda0d249043c22f74d4b2d643949bebb6f75be974",
+   "signature": "fc37fdb969d07ceee695ea14a0530a19c23b268b911357250ed9f46f24d9d25b45bc7cec8615032fb306269da550555862e5d13b30790395eaf4c276240bfb07"
+  },
+  {
+   "seq": 67,
+   "minute": 19.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-ddb4afd814",
+    "trip": "T010"
+   },
+   "prev_hash": "338c163e21d1e4ebc5ef252eda0d249043c22f74d4b2d643949bebb6f75be974",
+   "hash": "cb2e002ac8e1c4debb3178287258b4f9e22ee0ed68fb2e7de04be439c4fbd766",
+   "signature": "02696a9ad752a3eb28496dc244f454f04db4151bed4134a75d01fb840a04062e2ad7d31ba39c6b5839361aee2df6d05384049aa12426831194bc0da5b2fec304"
+  },
+  {
+   "seq": 68,
+   "minute": 19.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 173,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-ddb4afd814",
+    "trip": "T010"
+   },
+   "prev_hash": "cb2e002ac8e1c4debb3178287258b4f9e22ee0ed68fb2e7de04be439c4fbd766",
+   "hash": "c81dd6c8a9a20083390c774ba8ae0698f91394c2da2d357e2d413aca63654f62",
+   "signature": "d64e290e172c7a3ab20f3c6308c0dcc04db8fee5812027af005db9d4eb65ee82b2d865e970468062ef6459c086a35c7b7394caadc56148bcf15b0017d3f32803"
+  },
+  {
+   "seq": 69,
+   "minute": 19.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-820da161d1",
+    "trip": "T007"
+   },
+   "prev_hash": "c81dd6c8a9a20083390c774ba8ae0698f91394c2da2d357e2d413aca63654f62",
+   "hash": "59a2492177914b148fafe42e6f309fe991537cb6c65740454944f6d19ea75de1",
+   "signature": "258bba5f48976dde24611afa264d539b01af4b84e7b3b7286ee6249db0c4437e7b82cfe11e5096a496c41dded3762ecf66e721212df23b66033a501403c63005"
+  },
+  {
+   "seq": 70,
+   "minute": 19.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-820da161d1",
+    "trip": "T007"
+   },
+   "prev_hash": "59a2492177914b148fafe42e6f309fe991537cb6c65740454944f6d19ea75de1",
+   "hash": "3902b48870e03d3c2eed184a6007e65d58105bdd65a9de179b41f3fe98486abe",
+   "signature": "9a43bc7bdba464ca95803aadaf462a38284fa0e2245df45dc621938b6201b00908af1f92b68385b5b3d42d8d9b3e66ad6a4efb1305545d8792961c273a4a720e"
+  },
+  {
+   "seq": 71,
+   "minute": 19.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-820da161d1",
+    "trip": "T007"
+   },
+   "prev_hash": "3902b48870e03d3c2eed184a6007e65d58105bdd65a9de179b41f3fe98486abe",
+   "hash": "8ec00ba810d58de9f06a6ed4bf01ba907bc2463a7564aff17b6716fb1f903b38",
+   "signature": "e0b909d769ebb6245eca8be4d81669a6fb8556e5b405f18aad5151b4f36872195d2d049d065ce0b91d459e053a390261a71e7783f074d6ec622044c79068d000"
+  },
+  {
+   "seq": 72,
+   "minute": 19.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 177,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-820da161d1",
+    "trip": "T007"
+   },
+   "prev_hash": "8ec00ba810d58de9f06a6ed4bf01ba907bc2463a7564aff17b6716fb1f903b38",
+   "hash": "72c8d21292312a4452b5c260a1a8efba4cebef0cfe8e8d8a4dee666cd7bf4999",
+   "signature": "2d784d4b2cd315429cb2fad7294fd3b4a82814557918404f33111eaf9908908e9486f60b9c85920dff4824ff525ee74963bf8b2710d0f833782c9c824a87d409"
+  },
+  {
+   "seq": 73,
+   "minute": 24.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-5115ef1b5d",
+    "trip": "T013"
+   },
+   "prev_hash": "72c8d21292312a4452b5c260a1a8efba4cebef0cfe8e8d8a4dee666cd7bf4999",
+   "hash": "d9e464e0860c13085743fb0e56d115d099df2f0382abd9e177d9e4924366ac72",
+   "signature": "4bc626b2066ac50c00400fd53592e82f78d7e68300075475423e2904768077f4e9124b0028e21bdfc0318b7e1b1dafbac34b1439a4f1a1d8594a8afd439b6b04"
+  },
+  {
+   "seq": 74,
+   "minute": 24.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-5115ef1b5d",
+    "trip": "T013"
+   },
+   "prev_hash": "d9e464e0860c13085743fb0e56d115d099df2f0382abd9e177d9e4924366ac72",
+   "hash": "94af577a24a548e4f86c0392446e66a46d3a0e2d81e5c2d2b2050790b7102c95",
+   "signature": "889e9a4c4ca0ff520f99267e12804549af5f5eca6635d3ed2de9ad82e258ced50c4eac13b91217d64ae61f4787dc365e3794e2bcd23f031a8dcee4f6f5003705"
+  },
+  {
+   "seq": 75,
+   "minute": 24.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 179,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-5115ef1b5d",
+    "trip": "T013"
+   },
+   "prev_hash": "94af577a24a548e4f86c0392446e66a46d3a0e2d81e5c2d2b2050790b7102c95",
+   "hash": "900204c8849b8a8a54033c044c598fa22ebd7b42178a3dc413383ac93778d624",
+   "signature": "db8a39e0ad66115b11d30595577c7cfeb2dee7725121b6710374116c51509b653a649917895ccf0d10ea43fd49c72e86fff735823ae98afc7cff5e47a4514108"
+  },
+  {
+   "seq": 76,
+   "minute": 25.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A06",
+    "expected_survival": 0.8783,
+    "hospital": "H1",
+    "patient": "PT-d1573bde5e",
+    "triage": "YELLOW",
+    "trip": "T015"
+   },
+   "prev_hash": "900204c8849b8a8a54033c044c598fa22ebd7b42178a3dc413383ac93778d624",
+   "hash": "6c9aed3bf855b923c2b843ab32ccdf6cc110c4cb7fe8dcdd023631427f13932d",
+   "signature": "d351d228c75f616f3d2418b68f52141514d9c43e3d542ab30634a09ce7f430731d4d087db04ee6161e99a3ab9bf08d2b6e62caa490a4ac5590baa63bac95cd04"
+  },
+  {
+   "seq": 77,
+   "minute": 25.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A10",
+    "expected_survival": 0.8804,
+    "hospital": "H1",
+    "patient": "PT-e4dae1d12e",
+    "triage": "YELLOW",
+    "trip": "T016"
+   },
+   "prev_hash": "6c9aed3bf855b923c2b843ab32ccdf6cc110c4cb7fe8dcdd023631427f13932d",
+   "hash": "b5f0422a6adf4647e736b9a3240b725528f07ef2fa379b13249b5e98eec71bb6",
+   "signature": "6dafd894b4e3371fafe375df458aa1b2c06382a434a56be76032e48214947ed4271124ab857e2e173392b47606def54130918262b846d65b73eb043023f87b06"
+  },
+  {
+   "seq": 78,
+   "minute": 25.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A03",
+    "expected_survival": 0.8915,
+    "hospital": "H9",
+    "patient": "PT-c688f62042",
+    "triage": "YELLOW",
+    "trip": "T017"
+   },
+   "prev_hash": "b5f0422a6adf4647e736b9a3240b725528f07ef2fa379b13249b5e98eec71bb6",
+   "hash": "6539bd951bcce76bfda87d95e6ed6438e14d1874cd00c4b40966691740a07045",
+   "signature": "cce4de3e0bbcff30b00a3e65a797653d429d731b598b17d4e26c5ed7f22077b5082322c2291b3301f3b0ca867a7a6e9491786067f53e3b73c1acc7803411c308"
+  },
+  {
+   "seq": 79,
+   "minute": 25.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A06",
+    "eta_min": 39.7,
+    "hospital": "H1",
+    "otp_hash": "63df8f419bae516794a96e7eb5a7abbdc2da70c34873e3fa2dfc42f1a3eb350a",
+    "patient": "PT-d1573bde5e",
+    "trip": "T015"
+   },
+   "prev_hash": "6539bd951bcce76bfda87d95e6ed6438e14d1874cd00c4b40966691740a07045",
+   "hash": "2fcb288c4028974b618d4e5f4e4dc74e73d2ba87794a5a8b3a1ae1597294c2f4",
+   "signature": "182e4246bb8690461ee4b4121dd12e5ad7c5e9915bfe2ecc5dfc99ed4495d227d494299b21438abd0377bf220e71a11f3362353ff46b53d901ed73f833e7b10a"
+  },
+  {
+   "seq": 80,
+   "minute": 25.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A10",
+    "eta_min": 38.8,
+    "hospital": "H1",
+    "otp_hash": "8bc06740a9a736917ff7193c3872d3278ed01bf33f4a40b44ef30ff2089d5c13",
+    "patient": "PT-e4dae1d12e",
+    "trip": "T016"
+   },
+   "prev_hash": "2fcb288c4028974b618d4e5f4e4dc74e73d2ba87794a5a8b3a1ae1597294c2f4",
+   "hash": "e51c1dab3f8f17a3f0554b2e7b9da8475854620924882f5a1f07897a2c627e99",
+   "signature": "19a2b1a30a93a2bae52cf7e90f4ff0ae2a458002964ecf4944296e6a0e7291fb275a6d4499cc412f00464bb9a781fa32966dd9dbad22012ce8e4f21971030c0c"
+  },
+  {
+   "seq": 81,
+   "minute": 25.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A03",
+    "eta_min": 33.8,
+    "hospital": "H9",
+    "otp_hash": "3fa8872a2007934abc40b74bf8f5f1fdabb81d3462f09d0d3a147e7364700487",
+    "patient": "PT-c688f62042",
+    "trip": "T017"
+   },
+   "prev_hash": "e51c1dab3f8f17a3f0554b2e7b9da8475854620924882f5a1f07897a2c627e99",
+   "hash": "56a23dac8ade48652ba46708b8e4c2f6666d728381d70d44cad7c7bf32c961a8",
+   "signature": "2dea80c7441f14bb61d737b18311cbbc90f53b724ab9980b64e75f1c412f41fe28337cf71023e52259e02e2f213aeb4c6ac4b604b0291bb10ef4719066070b0d"
+  },
+  {
+   "seq": 82,
+   "minute": 26.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-54cc9af25a",
+    "trip": "T011"
+   },
+   "prev_hash": "56a23dac8ade48652ba46708b8e4c2f6666d728381d70d44cad7c7bf32c961a8",
+   "hash": "3626c03cd4c51063c7e57e22a267252aa87749309a13ff42874e360907c296a6",
+   "signature": "f14051008e515199d46bd553c1a7bc5420e1b59b61a6829ef5b5885f09ef841be980fe4f433decf2c384bf699ddc68ccf90a5037767520a6575c7c922a1bc700"
+  },
+  {
+   "seq": 83,
+   "minute": 26.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-54cc9af25a",
+    "trip": "T011"
+   },
+   "prev_hash": "3626c03cd4c51063c7e57e22a267252aa87749309a13ff42874e360907c296a6",
+   "hash": "f582cdb22aa15c51530efa0a2f0370a16bb4976278f2549f00492122785e76ef",
+   "signature": "684b2c0df3edd1e28bd8c205bd991eb3b41ad2f509eec7eb09f8ebdf71a2d21bcf3e432a266ad42a8db3a6c469a47c5b040a23d0e08ab1055e51ac6242ba9f02"
+  },
+  {
+   "seq": 84,
+   "minute": 26.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 195,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-54cc9af25a",
+    "trip": "T011"
+   },
+   "prev_hash": "f582cdb22aa15c51530efa0a2f0370a16bb4976278f2549f00492122785e76ef",
+   "hash": "2400ec234da34c64940b2fd66d0ad8a6dd84d31bf5f7a2b1fa9bf9f23cbb943a",
+   "signature": "c4116a4fd5f07ab6dcc15a210881ead8e4812ffc2d09c097fd1f0e642563f9ab7ca1efd96ecc9008e9cef46a0516bf73c3c484bc8b1badf4dc624cebcc417005"
+  },
+  {
+   "seq": 85,
+   "minute": 28.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-1d1ebcec6a",
+    "trip": "T014"
+   },
+   "prev_hash": "2400ec234da34c64940b2fd66d0ad8a6dd84d31bf5f7a2b1fa9bf9f23cbb943a",
+   "hash": "7895cd197ea3e9ed9722c0f66777494e4a1e92baf80985bade600942dfa21916",
+   "signature": "62590da6f370fb6d9f0775a8d056fa6360ae5c5ff3b8cee3edb2a85071cae4a689364670f8d8c310def4eeeb49c29821cbae268f07915fabe3f31f04f1617b0d"
+  },
+  {
+   "seq": 86,
+   "minute": 28.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-1d1ebcec6a",
+    "trip": "T014"
+   },
+   "prev_hash": "7895cd197ea3e9ed9722c0f66777494e4a1e92baf80985bade600942dfa21916",
+   "hash": "3a0a35cc304f1ee4a529731f095ecc73e59032f894e561871c14a6e4b01fd672",
+   "signature": "611340276725d0c26a41cdcf63945f404c8158ac8cdefac12fed1e1d3a9e181ff90fb7bbb24a87837579dce0a873caf626198b01013348b20f69630618727d01"
+  },
+  {
+   "seq": 87,
+   "minute": 28.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-1d1ebcec6a",
+    "trip": "T014"
+   },
+   "prev_hash": "3a0a35cc304f1ee4a529731f095ecc73e59032f894e561871c14a6e4b01fd672",
+   "hash": "316b425ec1710bb38c5ffc09beb3f6f5e84feab010ab0d2b9fa8b7a00e00ab3a",
+   "signature": "d7aca6ee622e05a3d220e0d27c23b17f5eca64badcb9c20747d9a5bb3646abfbaeb9c1a516b40c865423d3f9f9a4916f7b89772760a2b80cb1bcbc4392cba507"
+  },
+  {
+   "seq": 88,
+   "minute": 28.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 223,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-1d1ebcec6a",
+    "trip": "T014"
+   },
+   "prev_hash": "316b425ec1710bb38c5ffc09beb3f6f5e84feab010ab0d2b9fa8b7a00e00ab3a",
+   "hash": "5e68a5ec257c5e155b0d5d88e90cb8e31cc59c6755a4425da25383026605f36f",
+   "signature": "b3808704f03cc11ccb885a1d93c9481e4ced65a41499d3fffc4c19de9da5d7df45cdfe0bb8432d25326e674e449a42905ea3a485950c35fec95b7281aaf18004"
+  },
+  {
+   "seq": 89,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A05",
+    "expected_survival": 0.8495,
+    "hospital": "H7",
+    "patient": "PT-d6eea4feea",
+    "triage": "YELLOW",
+    "trip": "T018"
+   },
+   "prev_hash": "5e68a5ec257c5e155b0d5d88e90cb8e31cc59c6755a4425da25383026605f36f",
+   "hash": "88404e7f1fb299014f5c481543360108d40b237c75f208db1e70da7ba411d192",
+   "signature": "e7996ab1d4bca1a7a476a9fc874bf8267324b8fc930e481f03831d89b8e5a5ae349f9f1d7c84a58e3b4c30eb91a73f617066e72932fe8ddb43137834b2015506"
+  },
+  {
+   "seq": 90,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A09",
+    "expected_survival": 0.8668,
+    "hospital": "H10",
+    "patient": "PT-b79ca94306",
+    "triage": "YELLOW",
+    "trip": "T019"
+   },
+   "prev_hash": "88404e7f1fb299014f5c481543360108d40b237c75f208db1e70da7ba411d192",
+   "hash": "aa89df34a4950bb4c2553af70a3cef0163c9c634405bf51148dfbf39e56d2594",
+   "signature": "6eb95e1f81821d7c4d8dec6d162ade270e5bc2f44b14a293d3ce2625eaa4de0fc4d7e278ef98aba8f9b4e0f88028a659d507bfddbf48d4d8fbe5201b874c6909"
+  },
+  {
+   "seq": 91,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A11",
+    "expected_survival": 0.868,
+    "hospital": "H10",
+    "patient": "PT-b941418fcc",
+    "triage": "YELLOW",
+    "trip": "T020"
+   },
+   "prev_hash": "aa89df34a4950bb4c2553af70a3cef0163c9c634405bf51148dfbf39e56d2594",
+   "hash": "a9a7ce05a1db6fd8687124430b820f2b874597e571e0209fc02b1f38e424ed50",
+   "signature": "dce6b312056b4bf06bb1431a11169adbbc22d795b41d4668178580bee26bc0ba8113789dd63d8ff62accddc62f23153defe0faa4976fbcb289cd4aa3703b650a"
+  },
+  {
+   "seq": 92,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A01",
+    "expected_survival": 0.8534,
+    "hospital": "H4",
+    "patient": "PT-06f5dc730e",
+    "triage": "YELLOW",
+    "trip": "T021"
+   },
+   "prev_hash": "a9a7ce05a1db6fd8687124430b820f2b874597e571e0209fc02b1f38e424ed50",
+   "hash": "c2a0ca8217830354c138e0c151527685c6daf14b497865f13fc732d74043918a",
+   "signature": "7af36569206727a4b6eabd2e592e9d541cedee233355363e0356214f2d32587ece2e573e82e39696f583bd0faf7c8a5349393719516b364e3d14ad695cc83c0e"
+  },
+  {
+   "seq": 93,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A04",
+    "expected_survival": 0.8616,
+    "hospital": "H10",
+    "patient": "PT-92940768bc",
+    "triage": "YELLOW",
+    "trip": "T022"
+   },
+   "prev_hash": "c2a0ca8217830354c138e0c151527685c6daf14b497865f13fc732d74043918a",
+   "hash": "5ecec0aa6c48aae8281d05ecc2943b06cd79eb42194a0954df0116f075090110",
+   "signature": "3ed43a84d0512d8f2411f9c618f0ed861d25feca418139f890a880f20a162e3cb2353263145e7de58c05f14b03d11100d12c94f2d087ff269195ff2e3cfa8f0d"
+  },
+  {
+   "seq": 94,
+   "minute": 30.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A02",
+    "expected_survival": 0.8604,
+    "hospital": "H1",
+    "patient": "PT-c0c9b74512",
+    "triage": "YELLOW",
+    "trip": "T023"
+   },
+   "prev_hash": "5ecec0aa6c48aae8281d05ecc2943b06cd79eb42194a0954df0116f075090110",
+   "hash": "4aa23998796504d4df987ec5ebe94f60e90da13c36689985025b05e865c614b9",
+   "signature": "69d115f47e008679e30517f842b4ec8081090680fff3a407977817c1260974cbf9af8d2eb6e3419c032537ebbc1d78dd15b6d21edb54d0850e6f8e9720527a01"
+  },
+  {
+   "seq": 95,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A05",
+    "eta_min": 53.0,
+    "hospital": "H7",
+    "otp_hash": "8365c3517f34bd97fc1aaf5dc1078491cb490a9b036e1b975085761c14ee67fd",
+    "patient": "PT-d6eea4feea",
+    "trip": "T018"
+   },
+   "prev_hash": "4aa23998796504d4df987ec5ebe94f60e90da13c36689985025b05e865c614b9",
+   "hash": "f8ccd19a2c876965fd8f790beda057ee82c583a68389701d1507cde1ce2d08db",
+   "signature": "afe3b1b392adee2e947f02aa33bba0bc39f3ade048c328665d18202fe75934ded7b51e4754f8021f9a6b73aa4df03162131ca68a16511632d2ade257c170690d"
+  },
+  {
+   "seq": 96,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A09",
+    "eta_min": 45.0,
+    "hospital": "H10",
+    "otp_hash": "62308a66f8ea606197f74ca14855a77772410dd4383efaf180c1eea353c2f358",
+    "patient": "PT-b79ca94306",
+    "trip": "T019"
+   },
+   "prev_hash": "f8ccd19a2c876965fd8f790beda057ee82c583a68389701d1507cde1ce2d08db",
+   "hash": "5370fc9a95c314ac8a5f020745c61e82a893db9a0cbf90e19d76e8d2908696b0",
+   "signature": "8f05694c73f77473968a47d2f02eb642d14ee79bb48ad1534f4962b7b53f4fd66db2d1367cb18a7faacc216d7a80b32914bc911999db50d1d37970be8c9c2b00"
+  },
+  {
+   "seq": 97,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A11",
+    "eta_min": 44.5,
+    "hospital": "H10",
+    "otp_hash": "7daec54e1db027b07049025b8a7d34c4486c31a516b18f756bcfb30261e774b3",
+    "patient": "PT-b941418fcc",
+    "trip": "T020"
+   },
+   "prev_hash": "5370fc9a95c314ac8a5f020745c61e82a893db9a0cbf90e19d76e8d2908696b0",
+   "hash": "6783809b17981e53402d12388503f5e1d55006083042fa7b741b96f4b8a0899d",
+   "signature": "f6da2493740bcf881a6e16c8606d15d60bb7fcdaa43fafccce5e7d1d24818cc7a196e1e2e4034b9f76039dfe2aa5188c6e8bdba6e8360a28f28dcedd72358e0c"
+  },
+  {
+   "seq": 98,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A01",
+    "eta_min": 51.2,
+    "hospital": "H4",
+    "otp_hash": "1e45325e280e3a11af67c7dd93e238470ade07a23b28ae1cd733d272e1c8c620",
+    "patient": "PT-06f5dc730e",
+    "trip": "T021"
+   },
+   "prev_hash": "6783809b17981e53402d12388503f5e1d55006083042fa7b741b96f4b8a0899d",
+   "hash": "f6f6e3a46cd3472bbcfde37d0b6f016e8c2f0adf2f419384d9d17097f2f4b37f",
+   "signature": "6fedd5e18e31303bc977b08a3de61b320507f622849e4060971604158a1eedcc836da0c040d6a3d602ceb8fc8bf8db36ac52562c3ebad74134c20260aa9af002"
+  },
+  {
+   "seq": 99,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A04",
+    "eta_min": 47.4,
+    "hospital": "H10",
+    "otp_hash": "2210edb48e2aff4530558f2902c4052f7c2e8970547b1214e6f9ecc36ee9c0af",
+    "patient": "PT-92940768bc",
+    "trip": "T022"
+   },
+   "prev_hash": "f6f6e3a46cd3472bbcfde37d0b6f016e8c2f0adf2f419384d9d17097f2f4b37f",
+   "hash": "ea54492b7bd5e94c8a36af119df1d27f30cb81ae15b7676b19378ebca092938d",
+   "signature": "9134ba11099b6a5fca9c40c79b763e1c8a2ce67acabe70d28d0070c16ca7f0718336db4e75c2f7fadbfdcc23dd87ffc0bcd57e1758d32f10a979e019b8f08903"
+  },
+  {
+   "seq": 100,
+   "minute": 30.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A02",
+    "eta_min": 48.0,
+    "hospital": "H1",
+    "otp_hash": "831237a39f2bd8d2248578337809c13d385af976889c1d681d981c54c6b3a708",
+    "patient": "PT-c0c9b74512",
+    "trip": "T023"
+   },
+   "prev_hash": "ea54492b7bd5e94c8a36af119df1d27f30cb81ae15b7676b19378ebca092938d",
+   "hash": "718273b1baab84b0e2d34d9118f3bf9b444baf3ab36c3c7f51348ceb0b88f6dd",
+   "signature": "1b571c38d4d6eb2cf2e22b0f218aa7b3bc7cfc7bfb5f521be787f67378ed2cc30523792952ca6475b46125774c63802c2ddaeb62b314a861345f4e4c5d3a410c"
+  },
+  {
+   "seq": 101,
+   "minute": 30.1,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-61db4bdad0",
+    "trip": "T012"
+   },
+   "prev_hash": "718273b1baab84b0e2d34d9118f3bf9b444baf3ab36c3c7f51348ceb0b88f6dd",
+   "hash": "f3d9d9dc615574378db88ffc769852d39f45d3e4176ab2236076628b4ef4b20d",
+   "signature": "606b697d2fd40d07fe743a7a8153773dfbb72c144cd42d55464e885de684f6330d8ae5c5e5a4291e8df0c9df9e219d6c0a653981ce45236e42476c88faec1308"
+  },
+  {
+   "seq": 102,
+   "minute": 30.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-61db4bdad0",
+    "trip": "T012"
+   },
+   "prev_hash": "f3d9d9dc615574378db88ffc769852d39f45d3e4176ab2236076628b4ef4b20d",
+   "hash": "e8e69c76ebfb9d6280d8afaf6ada8b42f7f6a9f793db24ca329c8d834465c863",
+   "signature": "c4c2f7af1b57db3d37d05bceeb35a367c8bf2feefedf87eaa932d332116064f2b02c18e4248a8b9984efdaef8a5e4dc1f93a789fafa8a5c05cfa143ed8abf50b"
+  },
+  {
+   "seq": 103,
+   "minute": 30.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-61db4bdad0",
+    "trip": "T012"
+   },
+   "prev_hash": "e8e69c76ebfb9d6280d8afaf6ada8b42f7f6a9f793db24ca329c8d834465c863",
+   "hash": "93dacab64f25b8b85ace5c056eb6bf319e08d8a28ec7dcedcee527e55a3a6b44",
+   "signature": "7973080c411bcec05488776d4b8ead72c775943c640eb0d15b2be1a267046d334bbdd97bea57ef13161ce8febd382f74b126c7e70144bcd82f1a2e4cb8cb4603"
+  },
+  {
+   "seq": 104,
+   "minute": 30.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 241,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-61db4bdad0",
+    "trip": "T012"
+   },
+   "prev_hash": "93dacab64f25b8b85ace5c056eb6bf319e08d8a28ec7dcedcee527e55a3a6b44",
+   "hash": "c7a1a666245b901c5361e53520a9ef9a55e9b495f163c55d3c5d025eb1591004",
+   "signature": "29e79cf73129c0d5db3fc4a446321e77940d331c91e0f2f7ffafdc37432725f2ac03f78fb2cf08180b689cbcef30306f455c81aae37c4759e39d4b3ed2adcd00"
+  },
+  {
+   "seq": 105,
+   "minute": 33.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-c688f62042",
+    "trip": "T017"
+   },
+   "prev_hash": "c7a1a666245b901c5361e53520a9ef9a55e9b495f163c55d3c5d025eb1591004",
+   "hash": "545758677ded5a1a1647b3fb859957cfff8b37605fc4ba771f3f30edb66c8592",
+   "signature": "6fd0595e451983d02a9985bd9cf63af558b8859d0f0b882f87e45ed1ef929194de1096bacfe229a0747f0db06051c60d879862f9fcf64efaebd38561eae2bd09"
+  },
+  {
+   "seq": 106,
+   "minute": 33.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H9",
+    "patient": "PT-c688f62042",
+    "trip": "T017"
+   },
+   "prev_hash": "545758677ded5a1a1647b3fb859957cfff8b37605fc4ba771f3f30edb66c8592",
+   "hash": "ddcf4d6541d7c8eb45f9baa39cbc828dcb3d5d970241746e40ba330538b66633",
+   "signature": "efee0ea35a19dc5a6e27e9ce086ef6e0852902fbd37f014813b8312e80399f03c8f80d2eaad5c019131e9b395f2cab8f617d33e8c45d167050e0b37faaa6760a"
+  },
+  {
+   "seq": 107,
+   "minute": 33.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 91,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-c688f62042",
+    "trip": "T017"
+   },
+   "prev_hash": "ddcf4d6541d7c8eb45f9baa39cbc828dcb3d5d970241746e40ba330538b66633",
+   "hash": "a4c7b4a4eb315d88e07f3e5275be3c57122b3aa4e3c969d4af74f45d913ccd3b",
+   "signature": "2790091984d47c89e906cbebcdc4f1daff535760159fe90f5ce4954b2727069bb580faff6e180f15ebe92262f52db353c077edb636c46d2cd302bc2b13270707"
+  },
+  {
+   "seq": 108,
+   "minute": 35.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A13",
+    "expected_survival": 0.844,
+    "hospital": "H10",
+    "patient": "PT-6623a89fe6",
+    "triage": "YELLOW",
+    "trip": "T024"
+   },
+   "prev_hash": "a4c7b4a4eb315d88e07f3e5275be3c57122b3aa4e3c969d4af74f45d913ccd3b",
+   "hash": "ab5b15730ae1716c0d1a0bc22b06afa458087e72735c101714b185a40456c0f8",
+   "signature": "4640abdb3b0236670e49f41e9478334a94ea6f47da102dbdd54fe3179d7b1be8e12505fb8e08b68f7660e054d60c20a3146f3e4e7d70228cb6765b3b26141306"
+  },
+  {
+   "seq": 109,
+   "minute": 35.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A14",
+    "expected_survival": 0.831,
+    "hospital": "H1",
+    "patient": "PT-500fe1f6d7",
+    "triage": "YELLOW",
+    "trip": "T025"
+   },
+   "prev_hash": "ab5b15730ae1716c0d1a0bc22b06afa458087e72735c101714b185a40456c0f8",
+   "hash": "7449e0e6c0f29def8f23a66d249b117c1b88fd17d4516be960080da22097aae1",
+   "signature": "02b901e2779c40052797eb3735af815527c2fec950207fe0e1f219ca5e68db8ad6cad4dcc17f4efef0c568675566f9e2e81b54f7b6270b6c3e013aa3abd2d104"
+  },
+  {
+   "seq": 110,
+   "minute": 35.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A13",
+    "eta_min": 55.7,
+    "hospital": "H10",
+    "otp_hash": "61275035f821169baf4f708133ad0d779105e149e786fc3261fc241e128da654",
+    "patient": "PT-6623a89fe6",
+    "trip": "T024"
+   },
+   "prev_hash": "7449e0e6c0f29def8f23a66d249b117c1b88fd17d4516be960080da22097aae1",
+   "hash": "fae805532412096d3b9b1a8e29dfe712c6ba38c25773d760913fc47f99a805bf",
+   "signature": "3544d320bbd838c1e9a5463792e0292c148aca8c672093f02ed240fbcda9270c6b9fb3b689989619ec21984749cfb1cff628ca18acb23344be0dc29bbe790f01"
+  },
+  {
+   "seq": 111,
+   "minute": 35.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A14",
+    "eta_min": 61.9,
+    "hospital": "H1",
+    "otp_hash": "7aacfc7fc741372646928a712e13e3d7ad10f15592271e21a91256a6b7dcfe38",
+    "patient": "PT-500fe1f6d7",
+    "trip": "T025"
+   },
+   "prev_hash": "fae805532412096d3b9b1a8e29dfe712c6ba38c25773d760913fc47f99a805bf",
+   "hash": "50c852f685ee9b441fea5190ba936636479f303587adcda97952ec51e786d6df",
+   "signature": "fe178ec7cece4a43e9cbd803cb4111c4bf2fa23591385277571f4285343de895bf283e4eb312f8e4e4d94513b8202543d4d7b3f8a354d3a25d8c4d6420771a01"
+  },
+  {
+   "seq": 112,
+   "minute": 38.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-e4dae1d12e",
+    "trip": "T016"
+   },
+   "prev_hash": "50c852f685ee9b441fea5190ba936636479f303587adcda97952ec51e786d6df",
+   "hash": "2140def3afcad5e4fbb6f0969c30eb537b204632c927f445c1249fe4e91753bf",
+   "signature": "9ca348114e9daef4436d2d9777eea3c55b00a9943b9ea181c24a54fdf62088a2fc7082c9c421bc070163f0ffa0e5b5858a7fccd63ad49c99d29bf72d79530707"
+  },
+  {
+   "seq": 113,
+   "minute": 38.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-e4dae1d12e",
+    "trip": "T016"
+   },
+   "prev_hash": "2140def3afcad5e4fbb6f0969c30eb537b204632c927f445c1249fe4e91753bf",
+   "hash": "14a19877ca57d217da1039bb773ebfdeeea3f7534737771d74e5d18cfcd83008",
+   "signature": "88fbcae12342d458487f0aa43006bc5b43241a4a272c3326a2ba03437e277533a37082beab3b4cfc0d84ed0f1bdaca2276f19b427500fe20adeb3bbdb11c180f"
+  },
+  {
+   "seq": 114,
+   "minute": 38.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-e4dae1d12e",
+    "trip": "T016"
+   },
+   "prev_hash": "14a19877ca57d217da1039bb773ebfdeeea3f7534737771d74e5d18cfcd83008",
+   "hash": "f8b2a4f28b95ecc0844e662b670b9cc6888e6708ac38884c30edbfeffb2af0ce",
+   "signature": "22cc7f4677f99cfdff4e453933b09e17c9c7929819fc22c27e53f52aaf78c26f851d73aefe98f546e560dff5c440b070b8a6cb1f42b2c8e82f0673fc081cd908"
+  },
+  {
+   "seq": 115,
+   "minute": 38.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 105,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-e4dae1d12e",
+    "trip": "T016"
+   },
+   "prev_hash": "f8b2a4f28b95ecc0844e662b670b9cc6888e6708ac38884c30edbfeffb2af0ce",
+   "hash": "0001d3951e0cc68aace354a9bc7e3746015cadfd31eda4970b51d84201e2cddb",
+   "signature": "d4d03b05821f6f0a21a547dc13245d5949bd8fc4199c14f187b76eb3ed1ceea846f91dc6ba7681304cf0ed8a54c81aebec854bc1d0fcafc80c5941e73dd23e0f"
+  },
+  {
+   "seq": 116,
+   "minute": 39.7,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-d1573bde5e",
+    "trip": "T015"
+   },
+   "prev_hash": "0001d3951e0cc68aace354a9bc7e3746015cadfd31eda4970b51d84201e2cddb",
+   "hash": "94510d696d43634f9ce72a27cd4e4a56bb416952112a8a7fc6c52d00c9ad9e69",
+   "signature": "f0ca1afecb2b336a5fd2ddddccc8073901cd576fb7e35ec8c7e058403569828a4f08f3292072fb46e1d2f7e3c7eae7b54ec8b6ad4f26df6e6ab45dca8c06170b"
+  },
+  {
+   "seq": 117,
+   "minute": 39.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-d1573bde5e",
+    "trip": "T015"
+   },
+   "prev_hash": "94510d696d43634f9ce72a27cd4e4a56bb416952112a8a7fc6c52d00c9ad9e69",
+   "hash": "d222902c5bea72229d98e736f21b977f04e8092af9a72d9d3df6641b27e2ba3c",
+   "signature": "d8433283f0fd5f4f0f61025cf19a28605fcecc8205a6e866545a997059f4f684184267e8c502f86385779ab988e669eacb61f2d8c9d004ad4014265cda4c8a0a"
+  },
+  {
+   "seq": 118,
+   "minute": 39.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 116,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-d1573bde5e",
+    "trip": "T015"
+   },
+   "prev_hash": "d222902c5bea72229d98e736f21b977f04e8092af9a72d9d3df6641b27e2ba3c",
+   "hash": "e22ebaa11ce834f8371b1994516acc0bde351c10fb21ce7cca0344cf26ab0110",
+   "signature": "ad84768028744de8d1b54fd9bc194abacac088757736756437e4c92638847864deb02c887018d9c25e71302b549bbbb618e8a4c127be7e2ec07c02a70c1a1404"
+  },
+  {
+   "seq": 119,
+   "minute": 40.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A07",
+    "expected_survival": 0.8175,
+    "hospital": "H1",
+    "patient": "PT-2ffafd55d7",
+    "triage": "YELLOW",
+    "trip": "T026"
+   },
+   "prev_hash": "e22ebaa11ce834f8371b1994516acc0bde351c10fb21ce7cca0344cf26ab0110",
+   "hash": "e84eefade63e479b10ef6a06849558944719e8c2ed8467e3aaaeda1831717071",
+   "signature": "673a76b4c83a2ae31122eb97c22a273a0b83874ae378934c41aa6562eadc1c4d6a764638edc8e1e63730e4a1a82d3ff7843416d2742fe5318bb015e9c701bb0f"
+  },
+  {
+   "seq": 120,
+   "minute": 40.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A08",
+    "expected_survival": 0.819,
+    "hospital": "H1",
+    "patient": "PT-a97ab20b21",
+    "triage": "YELLOW",
+    "trip": "T027"
+   },
+   "prev_hash": "e84eefade63e479b10ef6a06849558944719e8c2ed8467e3aaaeda1831717071",
+   "hash": "9cfb408c7e333fb3e2002bb9c10ba65d8faca5ec0d0a795137732debf554804b",
+   "signature": "b37da5b9416c2e700869b1a8fbe4bb66f42e92d02cc3b4616fdcf896d7ac7a47cc96af5934486a92efb6dd6da7616ca67f4ee63165b9b75728ad2ed27397040a"
+  },
+  {
+   "seq": 121,
+   "minute": 40.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A07",
+    "eta_min": 68.4,
+    "hospital": "H1",
+    "otp_hash": "c3f609730c924f8d78ef6acd0f0b6a3d36bf17851b89ac82a659edbe824053ff",
+    "patient": "PT-2ffafd55d7",
+    "trip": "T026"
+   },
+   "prev_hash": "9cfb408c7e333fb3e2002bb9c10ba65d8faca5ec0d0a795137732debf554804b",
+   "hash": "1528a2ebc7f0d41b15c599c00d2d26d742480a7771cb233cbec7a0917844925d",
+   "signature": "ccd0f93f589b653b34f5cffa2c6a3ac5a2ce94f6a6cf63db894dd5d1b27e912c22d4a99b813a77ef26a284f70ba1a03e8b6f861293ec22f0f0b9b92006b3b203"
+  },
+  {
+   "seq": 122,
+   "minute": 40.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A08",
+    "eta_min": 67.7,
+    "hospital": "H1",
+    "otp_hash": "e005165814a60a0e4d9c88854724c56af009054f2eccd008da0850d289e8e24f",
+    "patient": "PT-a97ab20b21",
+    "trip": "T027"
+   },
+   "prev_hash": "1528a2ebc7f0d41b15c599c00d2d26d742480a7771cb233cbec7a0917844925d",
+   "hash": "8a8310e206dd3b5810a76515d36da9095b91d366f53280accd5d5486c2fd45b8",
+   "signature": "f50f82723e59579f8615aadcc4e304a05cbd232ab4eebd060f79be8064052b4313c53c642134f6dd8011113907820688254b663a4c2532a1e90662d8bf19410f"
+  },
+  {
+   "seq": 123,
+   "minute": 44.5,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-b941418fcc",
+    "trip": "T020"
+   },
+   "prev_hash": "8a8310e206dd3b5810a76515d36da9095b91d366f53280accd5d5486c2fd45b8",
+   "hash": "39aaf265291273785c214630357181112ceab04d56fff49c79c677c4fbae394d",
+   "signature": "6bbcf709692afadd4436cc6b9bc12723769ede3496eace803c2533557a07935d9ad4ba008299911c9239e2a5bc16706ec4b337a0ad9265d533ef2f075f35930d"
+  },
+  {
+   "seq": 124,
+   "minute": 44.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-b941418fcc",
+    "trip": "T020"
+   },
+   "prev_hash": "39aaf265291273785c214630357181112ceab04d56fff49c79c677c4fbae394d",
+   "hash": "8e8f990dff041693e0696db36e037864700d2e1ba98143651a155116c6ede1ff",
+   "signature": "c91fec807791dc1804067f63bdae6668920affcdb458e80fbee000e266db652de39aa9f0ac5e341068978e98b6437969d6704f59132fab10c32ef2ae40a8aa01"
+  },
+  {
+   "seq": 125,
+   "minute": 44.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 113,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-b941418fcc",
+    "trip": "T020"
+   },
+   "prev_hash": "8e8f990dff041693e0696db36e037864700d2e1ba98143651a155116c6ede1ff",
+   "hash": "6ac2854254cc1f9de430fbd4b9f1fe23825bb18e5a2e5a53e22507f85f57d24e",
+   "signature": "97a3265e7137b14f3395e61542d1d906625b26e526d532f5727faa53e423afd4e718ee802a320edae13b1a7c28689241a8365aec2f28342923fef5b5d96ca40b"
+  },
+  {
+   "seq": 126,
+   "minute": 45.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A12",
+    "expected_survival": 0.8432,
+    "hospital": "H11",
+    "patient": "PT-af55bee4ea",
+    "triage": "YELLOW",
+    "trip": "T028"
+   },
+   "prev_hash": "6ac2854254cc1f9de430fbd4b9f1fe23825bb18e5a2e5a53e22507f85f57d24e",
+   "hash": "2d02019de024f20b690a25df6409c270be0fb592dd4fde23040303eceae7056c",
+   "signature": "32211a11babfcaf68e3012f347ebd9894543ff2323797db6a1a9aeb9eee265f10ebd92472de05f22d73d9e967011f6522926d70b13c7b4b5136d7baf9b75ca0c"
+  },
+  {
+   "seq": 127,
+   "minute": 45.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A03",
+    "expected_survival": 0.8335,
+    "hospital": "H3",
+    "patient": "PT-1e7b6533cd",
+    "triage": "YELLOW",
+    "trip": "T029"
+   },
+   "prev_hash": "2d02019de024f20b690a25df6409c270be0fb592dd4fde23040303eceae7056c",
+   "hash": "ce309c3a0ac14a2f35539b43ca957ac782c6142feec65778d548bb8b878babc1",
+   "signature": "0d6406e38574b93defa6a5926754f453b3039c42d2428786da0b9b2e4a0be4a7e9e62cf56561423b114092cd1c5c0c8df7b7f56ced2c15e48f6c63cc3c711708"
+  },
+  {
+   "seq": 128,
+   "minute": 45.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A12",
+    "eta_min": 56.0,
+    "hospital": "H11",
+    "otp_hash": "130a10972cd7a5655285224958c6e360bf6d9f5e256f528ffe33a32a5cecf46b",
+    "patient": "PT-af55bee4ea",
+    "trip": "T028"
+   },
+   "prev_hash": "ce309c3a0ac14a2f35539b43ca957ac782c6142feec65778d548bb8b878babc1",
+   "hash": "d3d135fc5dc943f2d0783a0bb0418d897b2534ae62941963f952ffd572e08f7d",
+   "signature": "57020487dc66f59a639ca67b61ee00e7c0045a75a240ed41fb3f34ce0e8cb16011758b599ddd4873db35165b9926ac6588c780a920cef81eb0543a1dd709cc0b"
+  },
+  {
+   "seq": 129,
+   "minute": 45.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A03",
+    "eta_min": 60.6,
+    "hospital": "H3",
+    "otp_hash": "272e7192445e101af736d8266fb1f07283185befe84482f859743eeda3ff97ad",
+    "patient": "PT-1e7b6533cd",
+    "trip": "T029"
+   },
+   "prev_hash": "d3d135fc5dc943f2d0783a0bb0418d897b2534ae62941963f952ffd572e08f7d",
+   "hash": "658b3486be2ee5e458eb257955dafbc886b260dbcbddf9e3fb9613bc366cb0b5",
+   "signature": "affa6c66d881a7e6cb345be00f7fc83f1b1a0d868dc511b75bcdde782772fc12c6defd2bee51d6db1eea87624e82b3fb1315b5bff4690507dd4d0f91e350a70a"
+  },
+  {
+   "seq": 130,
+   "minute": 45.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-b79ca94306",
+    "trip": "T019"
+   },
+   "prev_hash": "658b3486be2ee5e458eb257955dafbc886b260dbcbddf9e3fb9613bc366cb0b5",
+   "hash": "1e9bee8eb106105c413899b224d02403039eca06f9ca23804f225d225352c49f",
+   "signature": "ed7ca7ed68c305ef47d82fd434982b03af3befda28fa985d43b5e6b01a3a4495037fe24b8ca1960a2645fe03468b1563a126598885cd14419a362eb16dd75900"
+  },
+  {
+   "seq": 131,
+   "minute": 45.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-b79ca94306",
+    "trip": "T019"
+   },
+   "prev_hash": "1e9bee8eb106105c413899b224d02403039eca06f9ca23804f225d225352c49f",
+   "hash": "4f770239bfe9fe255c9f2610b18425a551f79f545e07026c4504723de56b09e9",
+   "signature": "2c3b31dc74681661df4e68fb9c09caeef1c6bbfc55b8c7df8323ee91f0877e318daec92c89381ee167f1450955b87082c38a3b92a861d814737f16e11b9f8904"
+  },
+  {
+   "seq": 132,
+   "minute": 45.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 120,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-b79ca94306",
+    "trip": "T019"
+   },
+   "prev_hash": "4f770239bfe9fe255c9f2610b18425a551f79f545e07026c4504723de56b09e9",
+   "hash": "5dbf079d24340bc841bf349890aeb53569bade3848328df194e173c3e10d384d",
+   "signature": "5459a8567006ba266f8ac91bfb2369d5eb079c59a36cc6f0232913a8ae84c4fa5cc541136d332650df0ca6e12c8b59e59517f1791f3f65f6146827f7a25ed90e"
+  },
+  {
+   "seq": 133,
+   "minute": 47.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-92940768bc",
+    "trip": "T022"
+   },
+   "prev_hash": "5dbf079d24340bc841bf349890aeb53569bade3848328df194e173c3e10d384d",
+   "hash": "cf5232198a2b165df5a02ce0fa2578b98a5278589a1f6d60a2d661c1d56b298f",
+   "signature": "99424b4df0c944da799a89db2b7498f48fcd0fe23fb14477a77916ff71bc97c8c7624266fb88398c458d877a5100c8ca0e9e3ab952cade140224392ba3e0460d"
+  },
+  {
+   "seq": 134,
+   "minute": 47.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-92940768bc",
+    "trip": "T022"
+   },
+   "prev_hash": "cf5232198a2b165df5a02ce0fa2578b98a5278589a1f6d60a2d661c1d56b298f",
+   "hash": "c08d13d56bf4aefc2d936d8f2378ea03d9028c5cfa1285cf734c349af515a98b",
+   "signature": "9b0bda48d60abc22521289395b966a329184a19922da1a7758cebeebfe1baca9becc131ce68f753ef7a123795fb67723a3fd24dd7d947fb32c8ddaadbb509102"
+  },
+  {
+   "seq": 135,
+   "minute": 47.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 297,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-92940768bc",
+    "trip": "T022"
+   },
+   "prev_hash": "c08d13d56bf4aefc2d936d8f2378ea03d9028c5cfa1285cf734c349af515a98b",
+   "hash": "d4db69894b2bdb9034306681b28b8030411f520441cd96ceb0f6dd5599fa291d",
+   "signature": "ac4340b6a9d0250a9f34ce061ac0e1bec0079dfb478a640e832ff974757417bf1efbd854414310be05ed54fed54e722be403ebe6887b7b4e6798bd8f481da009"
+  },
+  {
+   "seq": 136,
+   "minute": 48.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-c0c9b74512",
+    "trip": "T023"
+   },
+   "prev_hash": "d4db69894b2bdb9034306681b28b8030411f520441cd96ceb0f6dd5599fa291d",
+   "hash": "c519f51b90b8b23b6307a399937aeaf86180d36262da31cd019ee1d5cb545842",
+   "signature": "30e9493888e0434ecf01b31eaefe737f2a5efcd551ad5ff122d1542bac8cced2bfb2eada7cb9487347b3e9c59498edcba34c18bc99eb1c819146e298f343ac03"
+  },
+  {
+   "seq": 137,
+   "minute": 48.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-c0c9b74512",
+    "trip": "T023"
+   },
+   "prev_hash": "c519f51b90b8b23b6307a399937aeaf86180d36262da31cd019ee1d5cb545842",
+   "hash": "704d77eb90e725b65e1514b6f1776882c36cb128df2565d84aae0aa71e4bf1ad",
+   "signature": "231d75c84d94c9e9e52f561fbe47781267cfc1234cefc836ebd05f6824b1a62a9d43072dbf3ec807174cb17a067aa20d2d641e2d6a3cd84b562c84d9056b9e00"
+  },
+  {
+   "seq": 138,
+   "minute": 48.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-c0c9b74512",
+    "trip": "T023"
+   },
+   "prev_hash": "704d77eb90e725b65e1514b6f1776882c36cb128df2565d84aae0aa71e4bf1ad",
+   "hash": "330c6f793756ecc28c5fe56a20f87d19dcc1004077b25aaca7ad4b3dd221658e",
+   "signature": "388abb9defd6cc24561b752786366bb4978e103cd90943ef6599eaa28ab50ed96675e5ff6e6a0bf38a72765af4ec9162b6db98b8ece28c3eb98620e01e80bb0c"
+  },
+  {
+   "seq": 139,
+   "minute": 48.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 311,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-c0c9b74512",
+    "trip": "T023"
+   },
+   "prev_hash": "330c6f793756ecc28c5fe56a20f87d19dcc1004077b25aaca7ad4b3dd221658e",
+   "hash": "c2415dab57d61fd0bcbec51a8225726cdcbc8132650830727c73b8dd01712819",
+   "signature": "3aa457c1129f5ae1082bcdd2b5763d1f9208640c758a1b0212f25dd2cb6fd6c524e28c69ba5659652381580885db0e028981b6c6b9fd8cad0ed36fc64ca5310f"
+  },
+  {
+   "seq": 140,
+   "minute": 50.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A06",
+    "expected_survival": 0.8084,
+    "hospital": "H4",
+    "patient": "PT-4de48ed740",
+    "triage": "YELLOW",
+    "trip": "T030"
+   },
+   "prev_hash": "c2415dab57d61fd0bcbec51a8225726cdcbc8132650830727c73b8dd01712819",
+   "hash": "bb7f4136fe36a014155d505ef3e7ffad87b5f4d4c6ae0ea0ef01eebda548bdc1",
+   "signature": "caceb6671ef93e716546c397cf452c5cf049631eadf8a843c0070c2d103a424eafab871a633460c58a1e7dbc1fcb5b54866914c2bdc1a5d80a465da979fc0e0b"
+  },
+  {
+   "seq": 141,
+   "minute": 50.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A10",
+    "expected_survival": 0.81,
+    "hospital": "H4",
+    "patient": "PT-e4d8f1bc81",
+    "triage": "YELLOW",
+    "trip": "T031"
+   },
+   "prev_hash": "bb7f4136fe36a014155d505ef3e7ffad87b5f4d4c6ae0ea0ef01eebda548bdc1",
+   "hash": "120bcb98ebb12813c2012d956b10fb21f61b4abbad07308150161b3a14577cdd",
+   "signature": "9fd9a3c4bfa95949f3ed153e27169edda4b389f3ec13b7ea038a38e147e67db5a44e99b2f58fafe8228ba28bbe1c3bf544804735c8affa25ea7a10b5751b7c0f"
+  },
+  {
+   "seq": 142,
+   "minute": 50.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A06",
+    "eta_min": 72.9,
+    "hospital": "H4",
+    "otp_hash": "9fd3bc5636dcf74717145dca6324bfb567d783f08e34b4033679344ac3e813d0",
+    "patient": "PT-4de48ed740",
+    "trip": "T030"
+   },
+   "prev_hash": "120bcb98ebb12813c2012d956b10fb21f61b4abbad07308150161b3a14577cdd",
+   "hash": "5ec2649ff599d782b559a5990f7a3d5a57808ce1156cdd869f7d58089d8e9ccd",
+   "signature": "593c8ff095e083af9b1b765665ad363bb6ad2a04d3b74758390408e39e070da532eea8909f52fc579d0486fbd9ce9d60ccd4b1155a9f851fda646ef9186f1206"
+  },
+  {
+   "seq": 143,
+   "minute": 50.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A10",
+    "eta_min": 72.1,
+    "hospital": "H4",
+    "otp_hash": "bc81525a5afb46078b8f38e11b375cfa43c0555a3ad6429b3bcf75affaef0a4e",
+    "patient": "PT-e4d8f1bc81",
+    "trip": "T031"
+   },
+   "prev_hash": "5ec2649ff599d782b559a5990f7a3d5a57808ce1156cdd869f7d58089d8e9ccd",
+   "hash": "30dc3393a34c79a49d16aae1950dded373dbbc6896ef4ba865d589d35c694d4a",
+   "signature": "9bb3dd77fa2b3d91f5f68610a962b960393b8dff5b0e4ebc890117ac4c9e596388a8c6d3cd71d41fe8c11a015bba160b4cd89e5ffe8ad48a8fc5cf794e9e9707"
+  },
+  {
+   "seq": 144,
+   "minute": 51.2,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-06f5dc730e",
+    "trip": "T021"
+   },
+   "prev_hash": "30dc3393a34c79a49d16aae1950dded373dbbc6896ef4ba865d589d35c694d4a",
+   "hash": "3e562a16316ca4c46338b1d5543e1df506ea06a9f3abc8f7339cfc6f31956e3e",
+   "signature": "4eac4c1e2ec17fc4769cd2f0875d599bd8b0722431f351692ea71deaa1623ddda479afb864a1ead29eb4b1ac2a4fea32873949c4c9475efa82f491ae5f597d06"
+  },
+  {
+   "seq": 145,
+   "minute": 51.2,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-06f5dc730e",
+    "trip": "T021"
+   },
+   "prev_hash": "3e562a16316ca4c46338b1d5543e1df506ea06a9f3abc8f7339cfc6f31956e3e",
+   "hash": "2de6688339a812ac0367b722f93a6a5dad994b31bf5dce34c90039046b1946ca",
+   "signature": "191de1d4e81e95dff8da108825a35bac9b838344e49b5dfa9681d30bbe740e72bd3df085b4e62e9d39e0c211c575dee5cc5c71c2b4d34d3a104c142dcbedb40b"
+  },
+  {
+   "seq": 146,
+   "minute": 51.2,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 389,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-06f5dc730e",
+    "trip": "T021"
+   },
+   "prev_hash": "2de6688339a812ac0367b722f93a6a5dad994b31bf5dce34c90039046b1946ca",
+   "hash": "c2be864f4d14d627856fea2c05792afc44de438d39fa043e3364ffd1fedefe70",
+   "signature": "af7c6c07f22fecb3e69326e5075adc2a4d0b5ad9d9dbf2f9900f71da6fb9419b9e23615cf9bb8d8333324ef08d3550a96b16a61ad09917ae3c76a639957def02"
+  },
+  {
+   "seq": 147,
+   "minute": 53.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H7",
+    "otp_verified": true,
+    "patient": "PT-d6eea4feea",
+    "trip": "T018"
+   },
+   "prev_hash": "c2be864f4d14d627856fea2c05792afc44de438d39fa043e3364ffd1fedefe70",
+   "hash": "98e38f93d954377d57d08584d25b5ab79f14b8abd38e90a84120cf6315a69919",
+   "signature": "d1ca60f332bf526b9d303eb1c0d338a7ea15f4faad7fcd4afd698fad55e90ee9d1f7c189ea73229c3233357e179160928d37f3f6354c81d363bdc5d578b12a0f"
+  },
+  {
+   "seq": 148,
+   "minute": 53.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H7",
+    "patient": "PT-d6eea4feea",
+    "trip": "T018"
+   },
+   "prev_hash": "98e38f93d954377d57d08584d25b5ab79f14b8abd38e90a84120cf6315a69919",
+   "hash": "f97d8a28f1ff4afca24b6416de598745ead951d3975ae46ee1fce9b3a759f800",
+   "signature": "944cc8185eff4b9ebd0dea5bba6dc2153673cf59688f5f951dedf178249d5d4039af2aa02fe296c7cc90b7f38f0cbeb002ad7408356530e958af7fd8174aae07"
+  },
+  {
+   "seq": 149,
+   "minute": 53.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 433,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H7",
+    "patient": "PT-d6eea4feea",
+    "trip": "T018"
+   },
+   "prev_hash": "f97d8a28f1ff4afca24b6416de598745ead951d3975ae46ee1fce9b3a759f800",
+   "hash": "a44408d53e1e0b285122f130ce8fb623d48053713cff77411260a1242e72010d",
+   "signature": "b55dfa9b3e5052abac079cc7bdcf60c7508e46d9d961e4e9c319a0b662e4b3ec479fdd195db75275ca4cc20287d896f9b61458bf0441325d25819e561d2e9d0c"
+  },
+  {
+   "seq": 150,
+   "minute": 55.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A11",
+    "expected_survival": 0.8015,
+    "hospital": "H1",
+    "patient": "PT-52f467421d",
+    "triage": "YELLOW",
+    "trip": "T032"
+   },
+   "prev_hash": "a44408d53e1e0b285122f130ce8fb623d48053713cff77411260a1242e72010d",
+   "hash": "410210ed733259e90eab47e401a7d3a20ba818f112d647974c1d003b8cd0b411",
+   "signature": "94765c744b4700c74843a3076c067f6f2480c326d03d00ea7da14e4bf07d10d564c13fdebb6e91da11ba40557b11210f27d21a36228faa02c9d29cb57f77880b"
+  },
+  {
+   "seq": 151,
+   "minute": 55.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A09",
+    "expected_survival": 0.817,
+    "hospital": "H11",
+    "patient": "PT-a87db324af",
+    "triage": "YELLOW",
+    "trip": "T033"
+   },
+   "prev_hash": "410210ed733259e90eab47e401a7d3a20ba818f112d647974c1d003b8cd0b411",
+   "hash": "58980c1e0b882aedeaab843388b59f3743493481f069899980f1218ec97a2ff8",
+   "signature": "991b79247eecd7a7dfa7681e0b1d02156f2da5f92e3dd3798ac5f408b2f96d9af8671206f6824f0a7742dae54a549a9189ff46924b48a87a67b153b85cd0940c"
+  },
+  {
+   "seq": 152,
+   "minute": 55.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A11",
+    "eta_min": 76.3,
+    "hospital": "H1",
+    "otp_hash": "8559a1bdc6ce11a76838cd2e0f784b5e302d4f6e935dfc3965c83187b697b4a4",
+    "patient": "PT-52f467421d",
+    "trip": "T032"
+   },
+   "prev_hash": "58980c1e0b882aedeaab843388b59f3743493481f069899980f1218ec97a2ff8",
+   "hash": "52e37c109c6437d38071551880e59b2a172435bc82d4ae15a7f67ff015053c30",
+   "signature": "20a70f56d2422dbfd84bc7e0a5365e2bbe8fe929319f0870b6b33ed0a9f7d018929d701f22144f6ad77fc6f45ada7e626522d1c6f6b7c14d154bf054ad9f6d0d"
+  },
+  {
+   "seq": 153,
+   "minute": 55.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A09",
+    "eta_min": 68.6,
+    "hospital": "H11",
+    "otp_hash": "96a0a7463dca3c4ba9b025933fc77458ff76416be1a53dd807ba717e8ff5bde5",
+    "patient": "PT-a87db324af",
+    "trip": "T033"
+   },
+   "prev_hash": "52e37c109c6437d38071551880e59b2a172435bc82d4ae15a7f67ff015053c30",
+   "hash": "cbdd92d82e49a3aaeaf173be7133014a0e9bb9e123d1cf96df3527114b26e6d7",
+   "signature": "d89493957e1fcced94175505438dcd13cfeb17163a6ff94dd0d28ddfa5f4c59a1babd53cc43b9321cbeeb41d723966fe462b814c339912ceb41940c63382040a"
+  },
+  {
+   "seq": 154,
+   "minute": 55.7,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-6623a89fe6",
+    "trip": "T024"
+   },
+   "prev_hash": "cbdd92d82e49a3aaeaf173be7133014a0e9bb9e123d1cf96df3527114b26e6d7",
+   "hash": "28a2cb54897cf2db305bd8b385b71db0e5fa2351e1ae35649fbc0be7a53f1053",
+   "signature": "72019332890e0eecb2677e96b26ef52c265f565ee31c0f27e756f6a7ceda3aaef8273f7363a9ee873983d95e0c879c54a47d0d19d06d19172120d493f8aaf30b"
+  },
+  {
+   "seq": 155,
+   "minute": 55.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H10",
+    "patient": "PT-6623a89fe6",
+    "trip": "T024"
+   },
+   "prev_hash": "28a2cb54897cf2db305bd8b385b71db0e5fa2351e1ae35649fbc0be7a53f1053",
+   "hash": "3f204235b09fc06837f8067f7efcc30abcb683618ac39a3bb83ccb6cb7e2abcb",
+   "signature": "a909ff72eb05a590345d321992b0ec1bae1c08639450e816f7dba0329f4e5c206ac6620e35a97bef88154ced5a78829426122863cfd052dda082d0232d43530b"
+  },
+  {
+   "seq": 156,
+   "minute": 55.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 188,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-6623a89fe6",
+    "trip": "T024"
+   },
+   "prev_hash": "3f204235b09fc06837f8067f7efcc30abcb683618ac39a3bb83ccb6cb7e2abcb",
+   "hash": "37fb15fbb07141ea2cc525ead39bcc1476f357e91cb5c0775c1bb78f6c524d0e",
+   "signature": "90b744bf129b2cc3fc2b0906d6c8799b741989f79e13e8f56f161543b4a63e81bc2768758ced16ce5f8ffb1ddb3b35950ebf494b937f08fd03633002c6c6b50a"
+  },
+  {
+   "seq": 157,
+   "minute": 56.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H11",
+    "otp_verified": true,
+    "patient": "PT-af55bee4ea",
+    "trip": "T028"
+   },
+   "prev_hash": "37fb15fbb07141ea2cc525ead39bcc1476f357e91cb5c0775c1bb78f6c524d0e",
+   "hash": "0d4c13cfcabe1f45cf940f8a5e7fe2b72b9de88e2a322f087b1270ae02378fa0",
+   "signature": "6fcfb3b005cac5f938a595ce5b7cf0fbec4bf7f6d965db18016afacb98621bbc8f40875ae08895ed501a196e8cea03b6815c9416ef2c5ed3d697d674f7c8ec00"
+  },
+  {
+   "seq": 158,
+   "minute": 56.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H11",
+    "patient": "PT-af55bee4ea",
+    "trip": "T028"
+   },
+   "prev_hash": "0d4c13cfcabe1f45cf940f8a5e7fe2b72b9de88e2a322f087b1270ae02378fa0",
+   "hash": "2de87180ef4de7ee729189c69abcdf8d6cc5823937e30eb82f2647ad7e8dd4c1",
+   "signature": "37f27faebd2408bc71fa10154b0d91f2409791cf3045ffd99f27fe03994d0baf27cb9e453cf1559971c5fa0fc81c335579ebf32ad8e7e3fc23cb8911ba02c601"
+  },
+  {
+   "seq": 159,
+   "minute": 56.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 72,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H11",
+    "patient": "PT-af55bee4ea",
+    "trip": "T028"
+   },
+   "prev_hash": "2de87180ef4de7ee729189c69abcdf8d6cc5823937e30eb82f2647ad7e8dd4c1",
+   "hash": "6e0887db5e18468399754ce18b7c4c21d55c629c045760387cf70f8974cddf25",
+   "signature": "b69711a19fc008723247af57d8d41cf42a05459bce42920b0919607ffa842b8fb68099b52105f7f030e77eece683932925423c485dea502e77834286660e0a0c"
+  },
+  {
+   "seq": 160,
+   "minute": 60.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A02",
+    "expected_survival": 0.393,
+    "hospital": "H1",
+    "patient": "PT-3b121c0b3c",
+    "triage": "RED",
+    "trip": "T034"
+   },
+   "prev_hash": "6e0887db5e18468399754ce18b7c4c21d55c629c045760387cf70f8974cddf25",
+   "hash": "066be733daa39bba091c957ad1bc4268fb273aedc1134f103d08aa551b3522af",
+   "signature": "a460cae508a28770bd1b4e624e2a2c7cfd0723ef8828bf4d3e03b231cd1d6995c9094b99c83aacfcdb2917fead013cfff9463716a27389d0d76939c4f2de6f09"
+  },
+  {
+   "seq": 161,
+   "minute": 60.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A04",
+    "expected_survival": 0.3728,
+    "hospital": "H11",
+    "patient": "PT-a802053faf",
+    "triage": "RED",
+    "trip": "T035"
+   },
+   "prev_hash": "066be733daa39bba091c957ad1bc4268fb273aedc1134f103d08aa551b3522af",
+   "hash": "053b6b50d04f4606d8d47915b247703c040329d1cc00c7ec75108b4d5eb72f89",
+   "signature": "3b90d80f7f9b24e01bb826469b3be667afa6ef3b9bb9613aea8a58ce367a71ff06c049584a006a0771c3c8132548b5d76c162adcc953d37856cf8d1d65b4ce09"
+  },
+  {
+   "seq": 162,
+   "minute": 60.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A02",
+    "eta_min": 74.6,
+    "hospital": "H1",
+    "otp_hash": "680fe96ace8adb6785b761fcd2079e038d68a9a8f3d1b91a225c0bea5ac091f7",
+    "patient": "PT-3b121c0b3c",
+    "trip": "T034"
+   },
+   "prev_hash": "053b6b50d04f4606d8d47915b247703c040329d1cc00c7ec75108b4d5eb72f89",
+   "hash": "d2931a32445e209dfce1850df3745483e6dd575a072cbb343b34b1de8b7e3e3e",
+   "signature": "73a8857fbc637b245db71c225167e448e7fbf5b1ec19efa6c7570aab06488a10be471582ec79c8099f011f8fb8c81c14ce34c64b8cfe739a8288f76621d02c0b"
+  },
+  {
+   "seq": 163,
+   "minute": 60.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A04",
+    "eta_min": 79.3,
+    "hospital": "H11",
+    "otp_hash": "9d61acaeb4e2363526d17c80193fc6b79c154297ecb26126fa0dcd5fa948ef94",
+    "patient": "PT-a802053faf",
+    "trip": "T035"
+   },
+   "prev_hash": "d2931a32445e209dfce1850df3745483e6dd575a072cbb343b34b1de8b7e3e3e",
+   "hash": "fa583ea1bc806d3743ce2a18f427fbc092c0f15ebb36793028d585ad40aa4e47",
+   "signature": "d2287ef9ea601ed6dee488b201e2f81ae10a6c006217673f0924dde65ba515b1996e484cc7fc102a55834d8d0811a6169a984c5f6d4b280433f2016cd06acf08"
+  },
+  {
+   "seq": 164,
+   "minute": 60.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-1e7b6533cd",
+    "trip": "T029"
+   },
+   "prev_hash": "fa583ea1bc806d3743ce2a18f427fbc092c0f15ebb36793028d585ad40aa4e47",
+   "hash": "df9d9493a0c6dda6cf1d691c7e200144d999bfb1a87c1707693b09cd9c298900",
+   "signature": "e8b60b834024c123f54d7951c404c19dfa4df49472f5cbae5009f6bc46f7c3402fd39799c39162f35b104654b4fb32d3c924c0296df5e6dfa5cd0009c0e99906"
+  },
+  {
+   "seq": 165,
+   "minute": 60.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-1e7b6533cd",
+    "trip": "T029"
+   },
+   "prev_hash": "df9d9493a0c6dda6cf1d691c7e200144d999bfb1a87c1707693b09cd9c298900",
+   "hash": "44f0b13517400860469bf37c22f53ee57e3fdc8a76eebfbab850aca12c4bd66e",
+   "signature": "d6cc512b0ca0e65ad889560040cb8e1fd646b8c8c400e939e04180226207d5dca61fc49e74334789ceba6b0df000d297fd1ed6f4a0d2b0aba84a3390306dc30b"
+  },
+  {
+   "seq": 166,
+   "minute": 60.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H3",
+    "patient": "PT-1e7b6533cd",
+    "trip": "T029"
+   },
+   "prev_hash": "44f0b13517400860469bf37c22f53ee57e3fdc8a76eebfbab850aca12c4bd66e",
+   "hash": "1c4c77aeee16cdf3a1f15e81bbfbe301572c0f577cdfa9d7450a897bae4b2591",
+   "signature": "319233df5bcfdcfea69f8c23c342eac836ccba68a5931426f96a5f00f98c235b30fc2bc59de5347a84587ef49b6d861d5b5522ac5cf33cdffd44a094f0638305"
+  },
+  {
+   "seq": 167,
+   "minute": 60.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 256,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-1e7b6533cd",
+    "trip": "T029"
+   },
+   "prev_hash": "1c4c77aeee16cdf3a1f15e81bbfbe301572c0f577cdfa9d7450a897bae4b2591",
+   "hash": "9221a7905f4122b8faddd082090c8ae4160b971415ae5582efb72fa5eff4a643",
+   "signature": "948fd22b9cba33a274c0bd9c51d8f14c1bc92b14a141d3f1564bf19247f7cef758112f0a768caa05ff58c135ff874be17168e50734270b28601ba070e4fa9808"
+  },
+  {
+   "seq": 168,
+   "minute": 61.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-500fe1f6d7",
+    "trip": "T025"
+   },
+   "prev_hash": "9221a7905f4122b8faddd082090c8ae4160b971415ae5582efb72fa5eff4a643",
+   "hash": "1ed38100cc253f914fb58187e8f188194904c355676b7b693c4333cdfa6e08f5",
+   "signature": "55d870daafc5672890e19d5a351007652f7993ccbd781ce899f11d06aab3d1d2a3270f6c0652b4b390b5e1d382c211eb7000211249ead25e0bfa5acaa3c5290b"
+  },
+  {
+   "seq": 169,
+   "minute": 61.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-500fe1f6d7",
+    "trip": "T025"
+   },
+   "prev_hash": "1ed38100cc253f914fb58187e8f188194904c355676b7b693c4333cdfa6e08f5",
+   "hash": "9a2dccf6965b055e83c92b154b1dd9ea965f0be0bd92845b9ee6699c13829d6e",
+   "signature": "ee8656b73b9bdc85f3803481d6a1eb757f9e51861cbd6773f826f661963a27f6da9d5d375d2802c9cb044a86b165bef6c4dde1db1b15ad9c0237a07433926305"
+  },
+  {
+   "seq": 170,
+   "minute": 61.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-500fe1f6d7",
+    "trip": "T025"
+   },
+   "prev_hash": "9a2dccf6965b055e83c92b154b1dd9ea965f0be0bd92845b9ee6699c13829d6e",
+   "hash": "c43f524c4162411ff7f3e74b1649c5f26fc8425707cacc4855edce37165273bb",
+   "signature": "2ce340c072fe7bb007da7fbe8ec2510a59d929ad46a11ba880d111cb9664119c1a09b3f4b91b1a6a237a0586f0457affe00ff0e176c3237029e44ce2fed1690c"
+  },
+  {
+   "seq": 171,
+   "minute": 61.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 262,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-500fe1f6d7",
+    "trip": "T025"
+   },
+   "prev_hash": "c43f524c4162411ff7f3e74b1649c5f26fc8425707cacc4855edce37165273bb",
+   "hash": "2013189c9197cd8e76b24e18841805891a36ac3134fa3182701c9c9fae2fa7a2",
+   "signature": "1926df49c58fd2111ad4da4b120cb92af2e1e04a7e91457e04733dab66c93d78ea87b3de5025f57a6930d679bacc74d358e808628466e4fd6cf084b499dd1f0b"
+  },
+  {
+   "seq": 172,
+   "minute": 65.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A05",
+    "expected_survival": 0.6305,
+    "hospital": "H8",
+    "patient": "PT-b2e95f83c4",
+    "triage": "RED",
+    "trip": "T036"
+   },
+   "prev_hash": "2013189c9197cd8e76b24e18841805891a36ac3134fa3182701c9c9fae2fa7a2",
+   "hash": "8c3f75a34ab253ac0b90fc835fb798b8ea25e61fb28dda07f0d18cf1f1ddb978",
+   "signature": "8ca4cad95b2c5f0a89a72fc4dd3db6ff279d6bd85ca4b063a06b54c6856b6eabf53b75f06f403fee403cad28e06e36279af46c2a1ba4ff8d0191536cce90860b"
+  },
+  {
+   "seq": 173,
+   "minute": 65.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A01",
+    "expected_survival": 0.3689,
+    "hospital": "H3",
+    "patient": "PT-859e53deb4",
+    "triage": "RED",
+    "trip": "T037"
+   },
+   "prev_hash": "8c3f75a34ab253ac0b90fc835fb798b8ea25e61fb28dda07f0d18cf1f1ddb978",
+   "hash": "f04e38d2075117683f5a4bbcfc396b555ee1c3efe13528ea3f901f03663c3002",
+   "signature": "debae58340677aa304fc277ce84138e2adb133442b4c7878fac96bf91ffa034d092cf5c8bd3bc5ef9bb20c759ded745892c691bd2aba719f193842c17486d606"
+  },
+  {
+   "seq": 174,
+   "minute": 65.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A05",
+    "eta_min": 86.0,
+    "hospital": "H8",
+    "otp_hash": "0edcb6c442882edeac119086c16445e142b6dfff756814421b5211fa73de343e",
+    "patient": "PT-b2e95f83c4",
+    "trip": "T036"
+   },
+   "prev_hash": "f04e38d2075117683f5a4bbcfc396b555ee1c3efe13528ea3f901f03663c3002",
+   "hash": "8f77c1accf57ba9c41b309e39054448de808e41f3b7e049ea0755cab9029fdfc",
+   "signature": "04ea23d200ea661bae0065acceab9a20002411bd769f65a63cb46fa176697aed7416c626a3b1d49f6a47571cebcdff10d67691b23e5fbcefd4ef36b61fa7da0b"
+  },
+  {
+   "seq": 175,
+   "minute": 65.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A01",
+    "eta_min": 80.3,
+    "hospital": "H3",
+    "otp_hash": "772d9389614a2ed8700bde0055a33234739b05027366d93a785abf757a5a1e90",
+    "patient": "PT-859e53deb4",
+    "trip": "T037"
+   },
+   "prev_hash": "8f77c1accf57ba9c41b309e39054448de808e41f3b7e049ea0755cab9029fdfc",
+   "hash": "7568bb6e9cf5792e3a63e09f21b7a96056f448ff93b307ea8f543564c12b96ed",
+   "signature": "9a7b4deb8ef70db7e767ca5314d32e49e6844a6ea1ea00d192162fc3958a16247328214c50c59de7c8436fda38cc612ceddfe91eba82204a481a06127c6f3008"
+  },
+  {
+   "seq": 176,
+   "minute": 67.7,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-a97ab20b21",
+    "trip": "T027"
+   },
+   "prev_hash": "7568bb6e9cf5792e3a63e09f21b7a96056f448ff93b307ea8f543564c12b96ed",
+   "hash": "ec3de4787231e4155d038bd50eaeabeb50026af99b5ab352dda07cc1c07ccdf3",
+   "signature": "9d9da8a9069a5a31e101e2ef3b334d8ef0baf5a082fc368fdf4c902810f08af8de97b14cd6afc3d7ffaf4ed5ba61c1b0b6e254f221093bd8d6b374246b7ad000"
+  },
+  {
+   "seq": 177,
+   "minute": 67.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-a97ab20b21",
+    "trip": "T027"
+   },
+   "prev_hash": "ec3de4787231e4155d038bd50eaeabeb50026af99b5ab352dda07cc1c07ccdf3",
+   "hash": "513cca75c35fcdde984e52c354e870299cb2434d7aa26d2fffe186fd07452f56",
+   "signature": "b3a05c8a2521540e3af4de19955ac96a3732897a3e326b2badc9c36f9e3949af061f65011524757bbaa21b59d1fe95fc8883a5f33eebf639ac9e9ce54723e90a"
+  },
+  {
+   "seq": 178,
+   "minute": 67.7,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 272,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-a97ab20b21",
+    "trip": "T027"
+   },
+   "prev_hash": "513cca75c35fcdde984e52c354e870299cb2434d7aa26d2fffe186fd07452f56",
+   "hash": "dfa74727bb4729fb578f3a072b7b2ae7a6b8a83f837ce247c16c12004ac67c29",
+   "signature": "066e86e48819598cc4d4bd0f2c4c1b73e66567164ba4f4a1eca3af026b940940744dc003c10b1feffcf94624368286c6285929256e7fd8f9c0104350e1e49a00"
+  },
+  {
+   "seq": 179,
+   "minute": 68.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-2ffafd55d7",
+    "trip": "T026"
+   },
+   "prev_hash": "dfa74727bb4729fb578f3a072b7b2ae7a6b8a83f837ce247c16c12004ac67c29",
+   "hash": "d9b77333051de9f2725111d78619a5991d1574672e0144d88e729b13d777727a",
+   "signature": "5bc0f8368472f6990177cd76b7976da7b03d888daf82f9f3844a9351c527fdde1fb885f891de5cc3743a0df06b011dc91a57ede12d6aa0c6a1916f81b3e79208"
+  },
+  {
+   "seq": 180,
+   "minute": 68.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-2ffafd55d7",
+    "trip": "T026"
+   },
+   "prev_hash": "d9b77333051de9f2725111d78619a5991d1574672e0144d88e729b13d777727a",
+   "hash": "53a435eab7af6ae66757e4ee38d689b4703dc333af3a0c675d68c4441cf59609",
+   "signature": "04b6d7b54a7f2505ad33cea968f0bd969afce933954c47fc1129f791b13665e0d55e4667784d8ac3fc542a2adc0105c699d11a7d78401c5dba00362a0f35630e"
+  },
+  {
+   "seq": 181,
+   "minute": 68.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-2ffafd55d7",
+    "trip": "T026"
+   },
+   "prev_hash": "53a435eab7af6ae66757e4ee38d689b4703dc333af3a0c675d68c4441cf59609",
+   "hash": "4d35e291c90e206fe8b66426ef540b9d433b4397be157a9758ebc6da094c6447",
+   "signature": "2c9da49a19b6ea1c0e489b6549f1da507d499df801a32d2d033580faad83c2edb209adfe1a927ef52e26c18307d5407be0cae6c5328e064b7c853b9bf48d0300"
+  },
+  {
+   "seq": 182,
+   "minute": 68.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 281,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-2ffafd55d7",
+    "trip": "T026"
+   },
+   "prev_hash": "4d35e291c90e206fe8b66426ef540b9d433b4397be157a9758ebc6da094c6447",
+   "hash": "0a4e55211ca1ed10658f27b1db2e65555906d0be14c9471b49f3cb1fae9ec237",
+   "signature": "4cb3c6e66098b05b40cabe99d39cb595c56d17cdae57d01080433e45554ce83473c3aabb349c8a7f00b75866547b232b065b84b6e2589bcfe7aa404b8e922406"
+  },
+  {
+   "seq": 183,
+   "minute": 68.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H11",
+    "otp_verified": true,
+    "patient": "PT-a87db324af",
+    "trip": "T033"
+   },
+   "prev_hash": "0a4e55211ca1ed10658f27b1db2e65555906d0be14c9471b49f3cb1fae9ec237",
+   "hash": "c765d41793cf36f6870f59483215f5e911898807b5f459cc3a324a862c7cf38d",
+   "signature": "1a5b547c00c6103d5fbe1afda4830ac67b253a8afc3936223fb6cd54fc7ff0ea311f46b974f61f0451edff8776a67899e5deb0dc89ec04675e8396a1c7ad8500"
+  },
+  {
+   "seq": 184,
+   "minute": 68.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H11",
+    "patient": "PT-a87db324af",
+    "trip": "T033"
+   },
+   "prev_hash": "c765d41793cf36f6870f59483215f5e911898807b5f459cc3a324a862c7cf38d",
+   "hash": "3e1c6eef8fc90d43e4dfc9233ba390209062f2b2395f41eaa00fccf0e04a8530",
+   "signature": "33af8ccde6be66db5594a83d2a6b0d9630af22b8c70cfd0a632be67ad88e875133d21385a091cf1476f52762824f1f12f10cb1a81efc43b48ff90f7e80efe803"
+  },
+  {
+   "seq": 185,
+   "minute": 68.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H11",
+    "patient": "PT-a87db324af",
+    "trip": "T033"
+   },
+   "prev_hash": "3e1c6eef8fc90d43e4dfc9233ba390209062f2b2395f41eaa00fccf0e04a8530",
+   "hash": "fd8177284c2a45cc9e184c81a93f00b501db8238279bb4112e2e52ea6689dcfd",
+   "signature": "b419facda63e7202e6a2190d2c4e82869753613bf5a022fc039857b145461fd749cad17bde93ef59b97ddfd48c182138cab36d47e1de21560f6ce382cdf98203"
+  },
+  {
+   "seq": 186,
+   "minute": 68.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 104,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H11",
+    "patient": "PT-a87db324af",
+    "trip": "T033"
+   },
+   "prev_hash": "fd8177284c2a45cc9e184c81a93f00b501db8238279bb4112e2e52ea6689dcfd",
+   "hash": "355af3043d90cd09d34462e9c6687ad6f3dc389e1711ab7f68bc44ea18d5d581",
+   "signature": "9d10e138315c223eb13d6b332964427f49cb6ae4e2d5755720589864b147b4d9e7b7f1242904fc26823d01b657c93252d612d6c606b9c900e36900557d43b509"
+  },
+  {
+   "seq": 187,
+   "minute": 72.1,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-e4d8f1bc81",
+    "trip": "T031"
+   },
+   "prev_hash": "355af3043d90cd09d34462e9c6687ad6f3dc389e1711ab7f68bc44ea18d5d581",
+   "hash": "0e7ee8627a458e8e1246c02783a472be06a03202bb5251f79e70bda287ace0e5",
+   "signature": "b6110d5fddb43a512a70717f105a0d707d070404a922a2694ac6472ab0609f51283f482e81b7e76e767f8888f7e28c95d002463bce57f4b277e65da762877901"
+  },
+  {
+   "seq": 188,
+   "minute": 72.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-e4d8f1bc81",
+    "trip": "T031"
+   },
+   "prev_hash": "0e7ee8627a458e8e1246c02783a472be06a03202bb5251f79e70bda287ace0e5",
+   "hash": "935911c814502e11bff23e22dae77cff684f1db32abfb0011d1f27dab6a20f7b",
+   "signature": "765672cc99a1090c4c58ce3e8ad69d84e94b907fe02c0bd217dc0bc9e23fb88ff29845d7339f4b26c2e465868fcbe4a035ac5aa4e5538c1233ecddb916646c08"
+  },
+  {
+   "seq": 189,
+   "minute": 72.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 205,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-e4d8f1bc81",
+    "trip": "T031"
+   },
+   "prev_hash": "935911c814502e11bff23e22dae77cff684f1db32abfb0011d1f27dab6a20f7b",
+   "hash": "a7ae05b9b09d8ab2df8c9f7e89e01d8c1ffd9ece838a8cd05547b442510d7d32",
+   "signature": "2533dbd7c77e773b8cac4cff92720b6772f11197c586613e5226377ec020730f212d8c49438dcbcc09d025a1ee29d301325a5ba24204c2b73289063cff285f0f"
+  },
+  {
+   "seq": 190,
+   "minute": 72.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-4de48ed740",
+    "trip": "T030"
+   },
+   "prev_hash": "a7ae05b9b09d8ab2df8c9f7e89e01d8c1ffd9ece838a8cd05547b442510d7d32",
+   "hash": "0efbfae00899afea22e7fb4dd3ef32e501bf962c5c66ca811d2d622ace962fd4",
+   "signature": "99581fb12fedd81dad0bbb28f87b7b051fbe6b6bb6a64426986224b707b260cfecbd31cd8bed9fb0b3f8d05de68dbb1265eeec7ff84e0fa9d428e9145f67510d"
+  },
+  {
+   "seq": 191,
+   "minute": 72.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-4de48ed740",
+    "trip": "T030"
+   },
+   "prev_hash": "0efbfae00899afea22e7fb4dd3ef32e501bf962c5c66ca811d2d622ace962fd4",
+   "hash": "e0bd767fe5eb7ed713c35343e0fa92cf8c1c31f170310caf6d5109881be28de5",
+   "signature": "30b65bf6d10d1b83d60e044e1654199e5755bde48d91f6a073c2d95cb99904082b0d1d0fa6a65e9e8d73cb575d87f2344e5c544c9eaf5abf579c9a8cda47bb08"
+  },
+  {
+   "seq": 192,
+   "minute": 72.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 215,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-4de48ed740",
+    "trip": "T030"
+   },
+   "prev_hash": "e0bd767fe5eb7ed713c35343e0fa92cf8c1c31f170310caf6d5109881be28de5",
+   "hash": "15eae3b409caac314988a0e38e2ac9f704765a3c559df9020031336921750604",
+   "signature": "7bc764d3261356edf505ae55832672b05208c735400b026e30fde5fa3a02edd3cff08bffc84eb0f1e44821e96c95229d2bcc2050f81e0cbcd339a3f51494240f"
+  },
+  {
+   "seq": 193,
+   "minute": 74.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-3b121c0b3c",
+    "trip": "T034"
+   },
+   "prev_hash": "15eae3b409caac314988a0e38e2ac9f704765a3c559df9020031336921750604",
+   "hash": "9f21121feb202068b6f77821ae27d689dcba8c925b3b9e54383cc3555d4a94d2",
+   "signature": "c8d41f8c207a55148d39a27cd4b84ad94372d65328973bbdc535b8673a28a2a17bbfd0c61f930cb727a93c82e6bf526b38f8d0dc584ea4b09e1aaec6d6652600"
+  },
+  {
+   "seq": 194,
+   "minute": 74.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-3b121c0b3c",
+    "trip": "T034"
+   },
+   "prev_hash": "9f21121feb202068b6f77821ae27d689dcba8c925b3b9e54383cc3555d4a94d2",
+   "hash": "92f63623c328d02947b532a1e632701eae15db3a7d728d006e5c4e34fa195f34",
+   "signature": "6bc20d6ec9d1eda21eb713c6dbe94a7fbd67251bf27dd9b7be960aafa2fda9502d7b17ef6068290d9a257ba0aa1ab84c979949b34cb787338727cc0923dfdc0e"
+  },
+  {
+   "seq": 195,
+   "minute": 74.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 3000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-3b121c0b3c",
+    "trip": "T034"
+   },
+   "prev_hash": "92f63623c328d02947b532a1e632701eae15db3a7d728d006e5c4e34fa195f34",
+   "hash": "4aa31431b0cf4434e492c21b45ba9bfd10262afe86ef202994bc90283260f4b9",
+   "signature": "ec67f3b2b7296353259c27b1cf62f44d31cb5be1d4b9bedf5cc1dac572c7a2e4084ce89b4b4b94842eb58773f44aee26331cc41f2f481fdb9b21c07bcf523207"
+  },
+  {
+   "seq": 196,
+   "minute": 74.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 230,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-3b121c0b3c",
+    "trip": "T034"
+   },
+   "prev_hash": "4aa31431b0cf4434e492c21b45ba9bfd10262afe86ef202994bc90283260f4b9",
+   "hash": "a653b021f85ccf0da72ab3aaa65ca9eace11ef03bfdc5e4bdd72bc06aaf5f5c0",
+   "signature": "dc0f971fe944fce06eaf1846da8a969e284cb7a0854addb275799ff20d27259a40472b6824b8a6ae1f7c54d26ab4d676bb4603085df232623d2f8bb7c7b5cd0a"
+  },
+  {
+   "seq": 197,
+   "minute": 75.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A14",
+    "expected_survival": 0.9435,
+    "hospital": "H3",
+    "patient": "PT-f645c087ac",
+    "triage": "YELLOW",
+    "trip": "T038"
+   },
+   "prev_hash": "a653b021f85ccf0da72ab3aaa65ca9eace11ef03bfdc5e4bdd72bc06aaf5f5c0",
+   "hash": "bd9cfb3ce6ca7eecf33a13fa832c72db5b917abd8cd310f7b449d5a7d0cd919c",
+   "signature": "9226f196102b66f364a5dbc5ab3aa98f958099ba09a27673b10bf3e555752c52b1b04abd12b5d4fd6ced14acaa54014a8a5c0be8c6a7b1b3db184f970284230d"
+  },
+  {
+   "seq": 198,
+   "minute": 75.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A03",
+    "expected_survival": 0.7885,
+    "hospital": "H4",
+    "patient": "PT-8d320ec89a",
+    "triage": "RED",
+    "trip": "T039"
+   },
+   "prev_hash": "bd9cfb3ce6ca7eecf33a13fa832c72db5b917abd8cd310f7b449d5a7d0cd919c",
+   "hash": "b5de4bf67b0ec8c1bc0444205659e1f29aeface9e60222151a08a93961f1fc37",
+   "signature": "38e4a7400bd063885d5b01bebd574fa674845caf51c7aeae3d3f0abf9504375ba1f33c9b5d5d87d089ff606151b27bf9f8591e750b8afef9c4308c76ccef850c"
+  },
+  {
+   "seq": 199,
+   "minute": 75.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A13",
+    "expected_survival": 0.9217,
+    "hospital": "H1",
+    "patient": "PT-1261e0027d",
+    "triage": "YELLOW",
+    "trip": "T040"
+   },
+   "prev_hash": "b5de4bf67b0ec8c1bc0444205659e1f29aeface9e60222151a08a93961f1fc37",
+   "hash": "5edeeee04a7d4553d25c57755493274984520c5de79638285b1cf9c52d6bd2d5",
+   "signature": "37974321f725dc70c85f79b8fd083b920cb786fb7b8c2a16cdb5a0e1c9d98fb905ee64c6b89406c09ebcb17a05330d67ff35b9459fbc5c759fe18725ab4b750d"
+  },
+  {
+   "seq": 200,
+   "minute": 75.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A12",
+    "expected_survival": 0.9121,
+    "hospital": "H3",
+    "patient": "PT-fb525e1e09",
+    "triage": "YELLOW",
+    "trip": "T041"
+   },
+   "prev_hash": "5edeeee04a7d4553d25c57755493274984520c5de79638285b1cf9c52d6bd2d5",
+   "hash": "16312773ff5acb9b99ef58ffcc62b8c83f527bf9d70c047d39c09ed933100f42",
+   "signature": "c06eb64c65f734bda27c4377c8bba359c66afd97ce65a06df362c72ac87f06ee88c036722f7556fed2d60862c1ef41e37526e14e4d66f30e57746fb2cfe12f03"
+  },
+  {
+   "seq": 201,
+   "minute": 75.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A14",
+    "eta_min": 86.1,
+    "hospital": "H3",
+    "otp_hash": "088f2fea81a6bb8d97a340d5dac266b38036445a1c69a988ea511d3bad4aa870",
+    "patient": "PT-f645c087ac",
+    "trip": "T038"
+   },
+   "prev_hash": "16312773ff5acb9b99ef58ffcc62b8c83f527bf9d70c047d39c09ed933100f42",
+   "hash": "da1cad06da37541cca49142182ae504df01858810d92a531aecffdf6330af93a",
+   "signature": "b1c2b4fb4269459883dba8f89f03b324d564e0abad54022a630acab1b3c8114485ebaa4c2360c46dbe7ab5ce79f86b484c4be4494fe34e97652291f47f7d500b"
+  },
+  {
+   "seq": 202,
+   "minute": 75.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A03",
+    "eta_min": 86.9,
+    "hospital": "H4",
+    "otp_hash": "f74605a4e7a88d5e8290560e4b337cfa0c2131bd02c074372084aa519bb2cff5",
+    "patient": "PT-8d320ec89a",
+    "trip": "T039"
+   },
+   "prev_hash": "da1cad06da37541cca49142182ae504df01858810d92a531aecffdf6330af93a",
+   "hash": "b1d4bf7b5dad8e13b4c6d7778fd2e80430afce8435e60905efc58a041c409fc1",
+   "signature": "fde787ee60ad688db7a70a8d94aa4ec9503443bd1943ba089da3e41af77d7e97a6c72bffebdcfb2a1b07f3f2906c5359a8d75820fb7abe992946e06dd11c4007"
+  },
+  {
+   "seq": 203,
+   "minute": 75.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A13",
+    "eta_min": 95.4,
+    "hospital": "H1",
+    "otp_hash": "87d102f71ec8d35601ebadbe06d07acd94a991f545d31e476e48264fcfeaedd7",
+    "patient": "PT-1261e0027d",
+    "trip": "T040"
+   },
+   "prev_hash": "b1d4bf7b5dad8e13b4c6d7778fd2e80430afce8435e60905efc58a041c409fc1",
+   "hash": "d3cb1603e0b961e9f27be312635eab142e881c08f1818507e6ef689573ca141c",
+   "signature": "f83d31fdd947f6f78497d56d102e1cd56be87dc1e7dd0ecb5caa7fad744b0696af9970e93615349e6825333dcb00f7618308f12a560ee7a2e76994db7e268008"
+  },
+  {
+   "seq": 204,
+   "minute": 75.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A12",
+    "eta_min": 99.6,
+    "hospital": "H3",
+    "otp_hash": "41ca34131d8fcd3abe372e1e58ba97471f2c88d37f84061b987f89433f132166",
+    "patient": "PT-fb525e1e09",
+    "trip": "T041"
+   },
+   "prev_hash": "d3cb1603e0b961e9f27be312635eab142e881c08f1818507e6ef689573ca141c",
+   "hash": "9529c5d20a9ceba12bc607bb3c57ec7204b02e90e831b78269cb641966d63418",
+   "signature": "6f604a52d2a3bc71c482a8b23f86a69f37c1254011b4be8de1eaf97d6693935db523514aa4cffcb4b4a33b911b18d10d15a7bcd6886c1b1a890defae579c2208"
+  },
+  {
+   "seq": 205,
+   "minute": 76.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-52f467421d",
+    "trip": "T032"
+   },
+   "prev_hash": "9529c5d20a9ceba12bc607bb3c57ec7204b02e90e831b78269cb641966d63418",
+   "hash": "ee2e1c5a3971f6d33e29b0758e7852c580bdd20a4641c8e2f67e6c1763392778",
+   "signature": "d0af8c7d1b0a422d9ef499c39e7a11ca02749b607561a735b670f7716e3a329e094f8f5ce9aca32968a0c95efabc9204278be28f87f7cdc1dd421f20d7118404"
+  },
+  {
+   "seq": 206,
+   "minute": 76.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-52f467421d",
+    "trip": "T032"
+   },
+   "prev_hash": "ee2e1c5a3971f6d33e29b0758e7852c580bdd20a4641c8e2f67e6c1763392778",
+   "hash": "43edd519f8f94980a35455d0e79a2d34ddb30c2cfa9bc45c08a3ed44f81f88a6",
+   "signature": "5826890bb7473ca8c242a2c6b8000879af44ce3927ad0f2041d4e37207fa78aa5c2bcdb2b912d723ac9d85d0d8489e907799226a6e222a970e62184058e8c204"
+  },
+  {
+   "seq": 207,
+   "minute": 76.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 196,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-52f467421d",
+    "trip": "T032"
+   },
+   "prev_hash": "43edd519f8f94980a35455d0e79a2d34ddb30c2cfa9bc45c08a3ed44f81f88a6",
+   "hash": "a5cb77bade685fb69446ad49697eec2e3e06cc0e4ae39cc78834df950140943a",
+   "signature": "19341eee06c77de9a0feef50e4a1bbbf9908e345730258a8b0dce47ed79f16b26604d563b6abb2e33d6ae79b972d81d764635ba0eac0ede931559f0f1bb57804"
+  },
+  {
+   "seq": 208,
+   "minute": 79.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H11",
+    "otp_verified": true,
+    "patient": "PT-a802053faf",
+    "trip": "T035"
+   },
+   "prev_hash": "a5cb77bade685fb69446ad49697eec2e3e06cc0e4ae39cc78834df950140943a",
+   "hash": "12cb0b0bd6ca2fda648967414cbe5d4b5137ac68e238d178cabd313ddf0abd6b",
+   "signature": "aee904848846e3374a5d8fa6a0aa532d736a2f792bf46300f776b07180e253dc7712e18b32a066072e2020ee7d96cf9e616a8e111c4a1191f8c63f3cd39e030e"
+  },
+  {
+   "seq": 209,
+   "minute": 79.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H11",
+    "patient": "PT-a802053faf",
+    "trip": "T035"
+   },
+   "prev_hash": "12cb0b0bd6ca2fda648967414cbe5d4b5137ac68e238d178cabd313ddf0abd6b",
+   "hash": "ab0ce960e9af230205c76d5218a110460eda4cc28a7d8709bc5ebca4d56524a1",
+   "signature": "7a084dc2a17b79f82a59dfdcb3d5312af0da52f4ec5654ce26284763c738f13d6514197ab933ab1030d039531f1cde5991bcd5e9e38f0f23b13b6be765d29a07"
+  },
+  {
+   "seq": 210,
+   "minute": 79.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H11",
+    "patient": "PT-a802053faf",
+    "trip": "T035"
+   },
+   "prev_hash": "ab0ce960e9af230205c76d5218a110460eda4cc28a7d8709bc5ebca4d56524a1",
+   "hash": "d67b62a326368bc64a00258942340f3d6ad4050acf7fb73786c6c2de1f4833db",
+   "signature": "a3e822fdc2f93ebf581e32e0eafc7ee3cfd249f8eddfb1f6a930a34800dac53b397e051f29f6b058dd0985280f560c3d6e0f6d1989671dc3441228834b2c510d"
+  },
+  {
+   "seq": 211,
+   "minute": 79.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 344,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H11",
+    "patient": "PT-a802053faf",
+    "trip": "T035"
+   },
+   "prev_hash": "d67b62a326368bc64a00258942340f3d6ad4050acf7fb73786c6c2de1f4833db",
+   "hash": "b9a8fb055be59bfb1591baaeff4d99074ed99c48cc5e4a91266b28f209c2e537",
+   "signature": "9387d71a760d7d64cba9d3c2ea39286f9bb6f446c3faa3ebe0a5edaa1bad17a1dce8ac86b38200e20715a382996419ee226f4fbaa2a86c167c0468231e654c0d"
+  },
+  {
+   "seq": 212,
+   "minute": 80.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A09",
+    "expected_survival": 0.8975,
+    "hospital": "H3",
+    "patient": "PT-c243f0f857",
+    "triage": "YELLOW",
+    "trip": "T042"
+   },
+   "prev_hash": "b9a8fb055be59bfb1591baaeff4d99074ed99c48cc5e4a91266b28f209c2e537",
+   "hash": "92495e2980f1eaf47eb4b46fb082313c18cdc888b4f545494cfdcfa9c1e94324",
+   "signature": "d33c86e5485c23520f98d977d363e9440de40581e154f87dea29f166bb6da3aabc45644e66318858437f76dccc42c93791650fcc8c26568b801c4f3928511c0b"
+  },
+  {
+   "seq": 213,
+   "minute": 80.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A07",
+    "expected_survival": 0.9186,
+    "hospital": "H3",
+    "patient": "PT-dcf87a766d",
+    "triage": "YELLOW",
+    "trip": "T043"
+   },
+   "prev_hash": "92495e2980f1eaf47eb4b46fb082313c18cdc888b4f545494cfdcfa9c1e94324",
+   "hash": "b9394238d6fc56fec52e2812c30ca88915b4db6f168c535457ff27650d48d0e5",
+   "signature": "9b81cd8d2d1a45cf054a5ff3af9ae12999f73a32c78d598e02fa7b31ed4d30ccb2c76f21211b6235b2f451c82424e2495033dc28f12c242dd4298f073b833406"
+  },
+  {
+   "seq": 214,
+   "minute": 80.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A08",
+    "expected_survival": 0.922,
+    "hospital": "H3",
+    "patient": "PT-7ba7435629",
+    "triage": "YELLOW",
+    "trip": "T044"
+   },
+   "prev_hash": "b9394238d6fc56fec52e2812c30ca88915b4db6f168c535457ff27650d48d0e5",
+   "hash": "111c4ef415fbd5c83f5483c338f67892a599766207d496d4d6306438a39325bd",
+   "signature": "e8d45ff0556ed295c464f26dcce1c9b2a64531fed27a56f34cb93473e33577a667bf2cb312b38ef5badb62b83c2dde72cc970259ceda50d49e05f3fdbf16b70b"
+  },
+  {
+   "seq": 215,
+   "minute": 80.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A09",
+    "eta_min": 106.1,
+    "hospital": "H3",
+    "otp_hash": "b716ac3ddc66941b11d8137d19dbdeae374adf2343b2268e77beef27f3e77e04",
+    "patient": "PT-c243f0f857",
+    "trip": "T042"
+   },
+   "prev_hash": "111c4ef415fbd5c83f5483c338f67892a599766207d496d4d6306438a39325bd",
+   "hash": "23a0a0fa51fcd2ba1a62a129d5324de655ebadf37d0c4544acf703ac72428197",
+   "signature": "225549f745f728d8e072ead9ab55f519b2fa477322dc8a0dace22489b700d4976031f8b87fcd7abfd1aff98e387c95f560bf3d5290fbdc998ddffdb670751007"
+  },
+  {
+   "seq": 216,
+   "minute": 80.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A07",
+    "eta_min": 96.8,
+    "hospital": "H3",
+    "otp_hash": "93e15de8fcb9d8d446957bbf6c7ab1fab04db1cb10b58835b9c08eca08fc1269",
+    "patient": "PT-dcf87a766d",
+    "trip": "T043"
+   },
+   "prev_hash": "23a0a0fa51fcd2ba1a62a129d5324de655ebadf37d0c4544acf703ac72428197",
+   "hash": "f979ee47eb864072e06776590db3036dace807a38d7e218b87dd0bccd00224b2",
+   "signature": "13a29d8b0f3537e7e5de6e23c8a3bd5805134f802e72b82d30de4245f7ae8173cac43bbacd0d53e97f5e85fcbb63d49e26de22142546bab8d35e401eda81350b"
+  },
+  {
+   "seq": 217,
+   "minute": 80.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A08",
+    "eta_min": 95.3,
+    "hospital": "H3",
+    "otp_hash": "b668d7aa7dc844591b41a572ade5f10aa418f408272201b715aa8a6199934f4f",
+    "patient": "PT-7ba7435629",
+    "trip": "T044"
+   },
+   "prev_hash": "f979ee47eb864072e06776590db3036dace807a38d7e218b87dd0bccd00224b2",
+   "hash": "5bbf494db2b8efe629cb3a8fe7b650ee502f89dfb9ba5369f9defdc6761be15c",
+   "signature": "1db8c9300b366f15d0ad1f7984b2eeeccb933a5515427e821812d4bd53774bc88bc97cf0d7fe0fcc66bcf64c73916823c4f6cc5dae4950f5360d4886cc8a0c01"
+  },
+  {
+   "seq": 218,
+   "minute": 80.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-859e53deb4",
+    "trip": "T037"
+   },
+   "prev_hash": "5bbf494db2b8efe629cb3a8fe7b650ee502f89dfb9ba5369f9defdc6761be15c",
+   "hash": "14be6478d1059416cc3787a931e4637ebec65cb7d37696de67d4360700201a95",
+   "signature": "944fd9935680f90b520ea85c5a2b12b5da445b08696b5a007befdd9ad123702427da80b3ed02e3bf99268ede20a946fe33d4bd00445078c1b19e96056f34e904"
+  },
+  {
+   "seq": 219,
+   "minute": 80.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-859e53deb4",
+    "trip": "T037"
+   },
+   "prev_hash": "14be6478d1059416cc3787a931e4637ebec65cb7d37696de67d4360700201a95",
+   "hash": "421c298e4fbec9ac12eb355b4a5806d5b9d3b6de46eae38afceb7f73504681da",
+   "signature": "895436a19cbd79d906a96be974beb89865c04b884cc28398c014cd63fdd2bd472d332325de755f3d4946f4550b9ae69690bbf15c3f07ddb46a939160a110550a"
+  },
+  {
+   "seq": 220,
+   "minute": 80.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 3000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H3",
+    "patient": "PT-859e53deb4",
+    "trip": "T037"
+   },
+   "prev_hash": "421c298e4fbec9ac12eb355b4a5806d5b9d3b6de46eae38afceb7f73504681da",
+   "hash": "bc4dff743b9c1e4c9124a30b430ca26e22e30bb18a991b8e11b2094107421248",
+   "signature": "b4de39966b6f448c50597172f70b45b8f6b6408bf3b2d0320fb5fcd15d13a168df9f3ab32ec448cbacc3a37eefa05be8cd41ce0a8254ef67875363f2d457090a"
+  },
+  {
+   "seq": 221,
+   "minute": 80.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 247,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-859e53deb4",
+    "trip": "T037"
+   },
+   "prev_hash": "bc4dff743b9c1e4c9124a30b430ca26e22e30bb18a991b8e11b2094107421248",
+   "hash": "51ca0e1ca74dfa772760d98f0f8cec5f63363840dfd33df6f81d9941bb198e73",
+   "signature": "3e5bea0f2aff08d54f2e541913a25310270941f130ed6f6a9f73cbe34e8a7c2ecbbf3a767bca7d2b0340a2f0223024d98842baaa8d3f21f993bdcc734911b60d"
+  },
+  {
+   "seq": 222,
+   "minute": 85.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A02",
+    "expected_survival": 0.5585,
+    "hospital": "H1",
+    "patient": "PT-90f29b151d",
+    "triage": "RED",
+    "trip": "T045"
+   },
+   "prev_hash": "51ca0e1ca74dfa772760d98f0f8cec5f63363840dfd33df6f81d9941bb198e73",
+   "hash": "e538e8f9831b3c05a61b2a82675d25ee95e3d630ad6909192edd9521c6e0c506",
+   "signature": "0efc5dfed5611aa4a7b3160386bfd65fb688eba40359bf47278c627c2bfd7d60b0cb70b599726005bad21a516ce7fb77051346302520ba611bb0db17e0372407"
+  },
+  {
+   "seq": 223,
+   "minute": 85.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A02",
+    "eta_min": 102.9,
+    "hospital": "H1",
+    "otp_hash": "26e35840f9b8a5ed121fb902f0723b7a429578e4443f1c8ac11dd69913804e14",
+    "patient": "PT-90f29b151d",
+    "trip": "T045"
+   },
+   "prev_hash": "e538e8f9831b3c05a61b2a82675d25ee95e3d630ad6909192edd9521c6e0c506",
+   "hash": "17fec69b1e142ae1eb76211e89a7eae49da32abf9ea32e7cb6bf5bbf4e8ac1da",
+   "signature": "2cb802bfa9ff95f8b9d32a9270bc5cb612f32caa22b2bac8f62650926211e96aedf3ebe474d4959bf5b4125b790d36698d3d3a9f531e99f2b5fcb28a55c0030b"
+  },
+  {
+   "seq": 224,
+   "minute": 86.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H8",
+    "otp_verified": true,
+    "patient": "PT-b2e95f83c4",
+    "trip": "T036"
+   },
+   "prev_hash": "17fec69b1e142ae1eb76211e89a7eae49da32abf9ea32e7cb6bf5bbf4e8ac1da",
+   "hash": "e08f7e564cd60cdd13e2dd21c5fc0ecb6930ec3db908fed91030fc9224139ea3",
+   "signature": "2aafb05e8ba4f5f237304f1afa113599e168ba7f6746f75d26e85aeb29e5f9045574a147c1d42742c5d4aa8f2b6e444436196a80d4b20f0ac42718daba19ee0d"
+  },
+  {
+   "seq": 225,
+   "minute": 86.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H8",
+    "patient": "PT-b2e95f83c4",
+    "trip": "T036"
+   },
+   "prev_hash": "e08f7e564cd60cdd13e2dd21c5fc0ecb6930ec3db908fed91030fc9224139ea3",
+   "hash": "d3a20bef293a7a24f606883303846dfa065594530facf6a6667280661f6eeb11",
+   "signature": "1e48b89b3ed9b1c56db2eadb8b56f3709ba88ba965c66362d3ba6b52a998ef3873de4019b301da0d493675d3f71d28ad3b79aba04b5649162d83c129cb939a04"
+  },
+  {
+   "seq": 226,
+   "minute": 86.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H8",
+    "patient": "PT-b2e95f83c4",
+    "trip": "T036"
+   },
+   "prev_hash": "d3a20bef293a7a24f606883303846dfa065594530facf6a6667280661f6eeb11",
+   "hash": "1289fea433fad08152ff6ac509e164c30be27e766536c9470c63297cd289aa05",
+   "signature": "5ba547065a7ed2dc5ffb91420d511dc713bad00bcb82f66781e5ca00038493d5d7602dde2bf6faedeb0d3dc99018e31baa4d598b6b0b047140b548cbf7678c0b"
+  },
+  {
+   "seq": 227,
+   "minute": 86.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 385,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H8",
+    "patient": "PT-b2e95f83c4",
+    "trip": "T036"
+   },
+   "prev_hash": "1289fea433fad08152ff6ac509e164c30be27e766536c9470c63297cd289aa05",
+   "hash": "95062f7a7b257132242049815992150ee7e150a54fa79d39d4af2bc38e404064",
+   "signature": "36d29319188e5e0b7db6e0e945cb7723b70abc8ae6a9cddc0e54a699c89809887f6ea2fa965b7dfa86b5e4ca6bc42ffbfb61690b8f416d494cf192627b949e09"
+  },
+  {
+   "seq": 228,
+   "minute": 86.1,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-f645c087ac",
+    "trip": "T038"
+   },
+   "prev_hash": "95062f7a7b257132242049815992150ee7e150a54fa79d39d4af2bc38e404064",
+   "hash": "b06fb0504cf811a1931dbfc430ce0324820d9b487ad490143091df1209195858",
+   "signature": "a620641bd79328b315d72eb54c2048711bb330475ac26f4c733e45bbe768f41c62fa5f97de519716c63288f8e0acf7a27ec25d7149b388df6bddc59e5c706c0c"
+  },
+  {
+   "seq": 229,
+   "minute": 86.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-f645c087ac",
+    "trip": "T038"
+   },
+   "prev_hash": "b06fb0504cf811a1931dbfc430ce0324820d9b487ad490143091df1209195858",
+   "hash": "c11498bc2aee3f3c32f875e91465968c4db3886f8c16ae33c7fb60fd68187cf6",
+   "signature": "d7c7bef296c401984d5383c28b47a3ba1dd68bf04d49b0302d0bb17023e742d6810fcf2585f730fc71e0046ed0be5a17a2cea1f8e07652df3555850b38cd460f"
+  },
+  {
+   "seq": 230,
+   "minute": 86.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 73,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-f645c087ac",
+    "trip": "T038"
+   },
+   "prev_hash": "c11498bc2aee3f3c32f875e91465968c4db3886f8c16ae33c7fb60fd68187cf6",
+   "hash": "7315aaec55acc818d63f8ffb897cde08b486c6bc3f8a92faf21013082add8a9a",
+   "signature": "29a7b56f384d38910d82e44b81a19532d8a0d8bdd4675e17425a39f711ad1e32d4554d2ea655d64100fe3a2dd10440e0ad2258994b3acfa25c39ea4cad199f02"
+  },
+  {
+   "seq": 231,
+   "minute": 86.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-8d320ec89a",
+    "trip": "T039"
+   },
+   "prev_hash": "7315aaec55acc818d63f8ffb897cde08b486c6bc3f8a92faf21013082add8a9a",
+   "hash": "7dee3fc5a2e32399146c9a4c99a1074f1cc3e2977b855473bcb9d99f9db1873b",
+   "signature": "9e7e6cf95798c4e358dd8ce8a022b328716126d64235151792218592512e1429eb6e8c1e78b2620fa3c18ae5febc438869fe0012cc4e2c0788cbee0b7517db06"
+  },
+  {
+   "seq": 232,
+   "minute": 86.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-8d320ec89a",
+    "trip": "T039"
+   },
+   "prev_hash": "7dee3fc5a2e32399146c9a4c99a1074f1cc3e2977b855473bcb9d99f9db1873b",
+   "hash": "9d71d33c8548f34ed0108159c54790957d0829d98c795127ac960bc3cdc5f254",
+   "signature": "9b40be760181f96789ceebc92e3c3f70730ddbd94c05bb211e967a9598916c9f7360700399c0712cbfc832dae7fd7ea96dfce98a3431b9e9c76a06a34ee7d108"
+  },
+  {
+   "seq": 233,
+   "minute": 86.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 3000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H4",
+    "patient": "PT-8d320ec89a",
+    "trip": "T039"
+   },
+   "prev_hash": "9d71d33c8548f34ed0108159c54790957d0829d98c795127ac960bc3cdc5f254",
+   "hash": "03428ee82f0e5fa64814b8c7cf67d7ba21a1b7cb3ef79bf31e8fe2e028917dff",
+   "signature": "a95bf998019705dda72d9127e05469e3b367acc511713228b3a0a2006ecd3d7c3e7fa1ed1232fb1344f82e87aa9a12408f73d5e1d9b669317dd38e7a0afe2601"
+  },
+  {
+   "seq": 234,
+   "minute": 86.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 166,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-8d320ec89a",
+    "trip": "T039"
+   },
+   "prev_hash": "03428ee82f0e5fa64814b8c7cf67d7ba21a1b7cb3ef79bf31e8fe2e028917dff",
+   "hash": "25c5a6d9e310be27de8e4afd73a912931c494d17f4574a4dc832304103de33e5",
+   "signature": "dc051b7e4d002cf8719386bccd2008585b88d0f72ecc22528ee331a2548f3135715582acaae3037a299fa6d51c6182ac7118e7431cdb748b90f97128fe2e530b"
+  },
+  {
+   "seq": 235,
+   "minute": 90.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A06",
+    "expected_survival": 0.7526,
+    "hospital": "H9",
+    "patient": "PT-c611d32b9c",
+    "triage": "YELLOW",
+    "trip": "T046"
+   },
+   "prev_hash": "25c5a6d9e310be27de8e4afd73a912931c494d17f4574a4dc832304103de33e5",
+   "hash": "434aabd6e7b242cdef78452b31d6d07250a2c67d92f6fade98e7feffb00f083a",
+   "signature": "9d5060e64fbfa34088f8586e997c8b5deade1cfc474535b1c5f5a3d598a8c184251b5805c0a731a84c53645de28365e31a6119caece2c867b5a6fd7d4d09db0e"
+  },
+  {
+   "seq": 236,
+   "minute": 90.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A04",
+    "expected_survival": 0.5946,
+    "hospital": "H9",
+    "patient": "PT-50c546ebe0",
+    "triage": "RED",
+    "trip": "T047"
+   },
+   "prev_hash": "434aabd6e7b242cdef78452b31d6d07250a2c67d92f6fade98e7feffb00f083a",
+   "hash": "db4e7304e00f9d78cd98d1b27e4991bc20315fbf5e37be8609e69baa2b8d76a2",
+   "signature": "e423d9ddee9f7300d3822245b04c9e3ef9a5f07f71356f401aa5b92e14169aaecf838b9e3c05ec0823b78e3aa6a2d25824117f81a665ef956aa90d588972f70a"
+  },
+  {
+   "seq": 237,
+   "minute": 90.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A10",
+    "expected_survival": 0.4602,
+    "hospital": "H4",
+    "patient": "PT-d6be564898",
+    "triage": "YELLOW",
+    "trip": "T048"
+   },
+   "prev_hash": "db4e7304e00f9d78cd98d1b27e4991bc20315fbf5e37be8609e69baa2b8d76a2",
+   "hash": "fa8c734eff98a526cd4eec62bcf7168dffc83a192e53afc7cbf7624112d81882",
+   "signature": "94ddad91d84a0a1d3a83609ca64b058cf8722f733e6277918faa61e3edfcde32a063732ef8c121b953f380b5ce984c7d2e94818f2fd9647d4b8ba8503f3ac20e"
+  },
+  {
+   "seq": 238,
+   "minute": 90.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A06",
+    "eta_min": 101.5,
+    "hospital": "H9",
+    "otp_hash": "07adba54061f2e34758373086bff86df930f1b7177eb775ceba3b768d09d49e9",
+    "patient": "PT-c611d32b9c",
+    "trip": "T046"
+   },
+   "prev_hash": "fa8c734eff98a526cd4eec62bcf7168dffc83a192e53afc7cbf7624112d81882",
+   "hash": "345b20c3eae2831e67db56525a21c8e784aaed7f6277b2c1b6dab9ba84ca94b4",
+   "signature": "b8f23ba2002d54e642a63a0db19ab13914cc059b4ce54096d9bc8f31f98514fb0128575142ee47ef7cd4068cbb058ecdf5bd25315a49626eb733805ee78aa400"
+  },
+  {
+   "seq": 239,
+   "minute": 90.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A04",
+    "eta_min": 113.8,
+    "hospital": "H9",
+    "otp_hash": "ac8a1178642a69a78c88a5eca9a4bde7c8f2831ab08287118f29309f6efbf2ea",
+    "patient": "PT-50c546ebe0",
+    "trip": "T047"
+   },
+   "prev_hash": "345b20c3eae2831e67db56525a21c8e784aaed7f6277b2c1b6dab9ba84ca94b4",
+   "hash": "cf3d44bbb26c55ac360f4f343cc3ee5384b71d336f2021fb55371f52fdd7b67a",
+   "signature": "0e2785287f6de1de0a843ae9ea07e1043aeee6c70664591d0ea5b6af1e2414877542377c5dac891297916af70b669bd0a46d30945f1685c97ea8cf136865d80d"
+  },
+  {
+   "seq": 240,
+   "minute": 90.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A10",
+    "eta_min": 112.3,
+    "hospital": "H4",
+    "otp_hash": "a8345b0fbbe21df37544a9c021a885b98528ccd194b379b8db74bc23dfeb2135",
+    "patient": "PT-d6be564898",
+    "trip": "T048"
+   },
+   "prev_hash": "cf3d44bbb26c55ac360f4f343cc3ee5384b71d336f2021fb55371f52fdd7b67a",
+   "hash": "d275a2b3f3cbc2af95300a962d21bd7ea0cf3f8da9dea75c6775044b102b54d9",
+   "signature": "493add08e2ed9e4acee02e5a0fb9589516edeb13bdb616a72b64d2e258194cb8b967c2c09d9ca92c56da778407dee48fcec3c7fe04dafbe82c0b40906cb64807"
+  },
+  {
+   "seq": 241,
+   "minute": 95.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A01",
+    "expected_survival": 0.6313,
+    "hospital": "H9",
+    "patient": "PT-ddb93828a8",
+    "triage": "RED",
+    "trip": "T049"
+   },
+   "prev_hash": "d275a2b3f3cbc2af95300a962d21bd7ea0cf3f8da9dea75c6775044b102b54d9",
+   "hash": "da2c106895af1cf099bad0629e31c9cdcecaf182427b353dbb6a738a8937b954",
+   "signature": "ee818ab6e385ee6af985badba1f031c6a439bd7d68389c284b7cc64fd5c2058f1239566f509801f150f816a88acb05120d63b8ac71fe1b7bee501bc6ec505306"
+  },
+  {
+   "seq": 242,
+   "minute": 95.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A11",
+    "expected_survival": 0.8975,
+    "hospital": "H3",
+    "patient": "PT-2be02aafe5",
+    "triage": "YELLOW",
+    "trip": "T050"
+   },
+   "prev_hash": "da2c106895af1cf099bad0629e31c9cdcecaf182427b353dbb6a738a8937b954",
+   "hash": "ae76646001c36e0065a2112df543ff229698bfed8dc7b06c5b590ec1a7bc5122",
+   "signature": "85c43ca2668308e1023dd63db65d54e2e9f622c88bd48023f175a9478bac880dbbd3a84e82345b9a2eb277f4a36d58c85969c9f0ce6731a8d1e635c33a7d3c09"
+  },
+  {
+   "seq": 243,
+   "minute": 95.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A01",
+    "eta_min": 106.9,
+    "hospital": "H9",
+    "otp_hash": "f03fcf43804b6bfc54b59a779f941e426fd41024c7221c7447715bfc8ca9e9fb",
+    "patient": "PT-ddb93828a8",
+    "trip": "T049"
+   },
+   "prev_hash": "ae76646001c36e0065a2112df543ff229698bfed8dc7b06c5b590ec1a7bc5122",
+   "hash": "4225295357db974ca03ca681627ae8649631a13bff9f56ff87f0738e10b240e0",
+   "signature": "5049a9ef5ed7fbff34fb2b7c461a6c98770903f923323c774f8d397460ab18cbe486abdbde4b2bf13c8e17abad57fa9cb23a03db320405197674d0089eb42001"
+  },
+  {
+   "seq": 244,
+   "minute": 95.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A11",
+    "eta_min": 106.1,
+    "hospital": "H3",
+    "otp_hash": "5135a5665374e3ce0752500d6be1bd09780212876b622379a1fe87606fdc11e2",
+    "patient": "PT-2be02aafe5",
+    "trip": "T050"
+   },
+   "prev_hash": "4225295357db974ca03ca681627ae8649631a13bff9f56ff87f0738e10b240e0",
+   "hash": "fee6beddbad643df1c1a707669bf6236d38fb26466652e170f87c85e09a510ff",
+   "signature": "9f74d78f991dea81a35f9c53ee85029197adb38d72c85ddca7b61417d302f4588f9c2ddebc56ba763b06d8601982651d2c5c145a4e96d5fdec486da963d6e608"
+  },
+  {
+   "seq": 245,
+   "minute": 95.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-7ba7435629",
+    "trip": "T044"
+   },
+   "prev_hash": "fee6beddbad643df1c1a707669bf6236d38fb26466652e170f87c85e09a510ff",
+   "hash": "e998d9b399530ca4922d98869242133735e8edb7b52ac97c85a401f02eebd19d",
+   "signature": "a339ab9788890d557785ea351906cb362d4539d635cbadcfe489f5d119b45ab49a755dec361784eaea4cd595b5962cb8a5368634ed7e8ba358cc309a3d9a9f01"
+  },
+  {
+   "seq": 246,
+   "minute": 95.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-7ba7435629",
+    "trip": "T044"
+   },
+   "prev_hash": "e998d9b399530ca4922d98869242133735e8edb7b52ac97c85a401f02eebd19d",
+   "hash": "c40d0db4185d638bc2a831e1365603ee643da886bbdb33cb798508c1f1d53831",
+   "signature": "37ef1edbebaa728384c0b6fae183ff74e4943b8a3ee5801ccb009e15e45107986200bf78d7c502f003a9d4f6d640848312b899635f2c991a8d613a9403b3130f"
+  },
+  {
+   "seq": 247,
+   "minute": 95.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 124,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-7ba7435629",
+    "trip": "T044"
+   },
+   "prev_hash": "c40d0db4185d638bc2a831e1365603ee643da886bbdb33cb798508c1f1d53831",
+   "hash": "fb8216543bb9809714b6eae3c792bae9799aabf514a77c46b17a05e8cf617683",
+   "signature": "29eefe200cbde393fcc8861b1f0d8c95d8e1b99672ec2f0aafd37e55566eadc8884088a1a2f4ce94721ea721d3ceca537d93e6858e603a86877eaf5c4342b30c"
+  },
+  {
+   "seq": 248,
+   "minute": 95.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-1261e0027d",
+    "trip": "T040"
+   },
+   "prev_hash": "fb8216543bb9809714b6eae3c792bae9799aabf514a77c46b17a05e8cf617683",
+   "hash": "fd77894e3f1ea97a20357e8238371a171499a3132610edce18b76a1b673d8bf7",
+   "signature": "bc28a5ab9a7bd003246e52b45ae524c40e2abeb443e25103efdc9841f2226c4fa656648533aa61a41a6183825d7dd39b4043d077d8ed0bc906571b643b6b170c"
+  },
+  {
+   "seq": 249,
+   "minute": 95.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-1261e0027d",
+    "trip": "T040"
+   },
+   "prev_hash": "fd77894e3f1ea97a20357e8238371a171499a3132610edce18b76a1b673d8bf7",
+   "hash": "772a42ff4a34ab9e92445dcda81d78b7c85aa9cbf61930d884492729a5e7df4a",
+   "signature": "f5c6e93423b21ec6dfefc7f1ad8903044ba603f5fc0cac0d88f560dddcfe2a2949b80ec9e63053fc59b15ddc16a9ff0f1245330a0d31752907d551e6bebf1a09"
+  },
+  {
+   "seq": 250,
+   "minute": 95.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-1261e0027d",
+    "trip": "T040"
+   },
+   "prev_hash": "772a42ff4a34ab9e92445dcda81d78b7c85aa9cbf61930d884492729a5e7df4a",
+   "hash": "c4a6888dc7c720ad7546837a8bd2909ad7efa4a15785cbc4a786843f8eecbfcb",
+   "signature": "e98a531b95f38b591e90e5b830e8f897d333c43ce9278282badf2264809d590f8742ed5d702dd7891de5ceed521ea34fdab86d2812a7577fad56ef1a22dd830b"
+  },
+  {
+   "seq": 251,
+   "minute": 95.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 185,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-1261e0027d",
+    "trip": "T040"
+   },
+   "prev_hash": "c4a6888dc7c720ad7546837a8bd2909ad7efa4a15785cbc4a786843f8eecbfcb",
+   "hash": "a24cd8c3540c777875e9126ebc1ea9f9b6e12def6aaa3e4dbf77f663197b2b4b",
+   "signature": "d713c618693b5d2b3b0b458a70c501f56fe6e9e265c1739ede2468bdd624daf7a21a17db22169faa9a6df4bcaab59b9e0a3bbe93c649993e8e5f067791564f0d"
+  },
+  {
+   "seq": 252,
+   "minute": 96.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-dcf87a766d",
+    "trip": "T043"
+   },
+   "prev_hash": "a24cd8c3540c777875e9126ebc1ea9f9b6e12def6aaa3e4dbf77f663197b2b4b",
+   "hash": "672822cc9f58ce2d96103f17605f3b6c39b056138aa49599db891f547bf4ada1",
+   "signature": "db3f5fbe9965530299acfaa304400302bf0c31ef17a9b29b38df2cbcb1ba0c73c365273152f9583138ea58723649105702c8ea6fea7a708d3f9af0c5d8f53e0d"
+  },
+  {
+   "seq": 253,
+   "minute": 96.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-dcf87a766d",
+    "trip": "T043"
+   },
+   "prev_hash": "672822cc9f58ce2d96103f17605f3b6c39b056138aa49599db891f547bf4ada1",
+   "hash": "dc7878fbdc78d74a89298e38b30160f96ca6222893d0929749d347470f80d5c1",
+   "signature": "46c953831987dba417114c34a22b73389d0c5981a689fc8f41b973f1300d37ae9909fbb1d73e56108948e51e7a7f8d9521c595c7d3326b5d0bb8d6ea3d2b7704"
+  },
+  {
+   "seq": 254,
+   "minute": 96.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H3",
+    "patient": "PT-dcf87a766d",
+    "trip": "T043"
+   },
+   "prev_hash": "dc7878fbdc78d74a89298e38b30160f96ca6222893d0929749d347470f80d5c1",
+   "hash": "c7f94ae713ca8fa8e55e4af3a9090a4fad85347e6c750393679086d825236daa",
+   "signature": "6aca0d55b491e612f0e33fc730a26c5e571c0187aeadad7c771fa999e77e4682491ed41dbc322785d267e9ccc637ed5e547f237bbddee37dfafe3f6fed5ace0a"
+  },
+  {
+   "seq": 255,
+   "minute": 96.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 141,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-dcf87a766d",
+    "trip": "T043"
+   },
+   "prev_hash": "c7f94ae713ca8fa8e55e4af3a9090a4fad85347e6c750393679086d825236daa",
+   "hash": "aed8d70365b2ee5f59ca8920a143daea1e88a84718f85463f9b7583d1a74e9df",
+   "signature": "b273698dae6f418cf6dc1b226d1fe172aa8787a7fb4008da4c2a7d6522a4fc87758fa09afc28483076ed3b0fb2e7d5d43c7adaf875e02d1ac3114920a43e170b"
+  },
+  {
+   "seq": 256,
+   "minute": 99.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-fb525e1e09",
+    "trip": "T041"
+   },
+   "prev_hash": "aed8d70365b2ee5f59ca8920a143daea1e88a84718f85463f9b7583d1a74e9df",
+   "hash": "a25be5340999b6314abc895ebb1a4634e542aae0da42e026532b89bab6368171",
+   "signature": "e4739c3e60580d31f5aa7a9816254c41feb04497b719dd38eb7987bd8d84da836b36ff931cf0285aa049fa5a08ae0a480ea8da2f95f3ac80f4dd23fb6f2ca70e"
+  },
+  {
+   "seq": 257,
+   "minute": 99.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-fb525e1e09",
+    "trip": "T041"
+   },
+   "prev_hash": "a25be5340999b6314abc895ebb1a4634e542aae0da42e026532b89bab6368171",
+   "hash": "28e9b628eee91f02114a796f94200cbf5b3dfb08fb0db1831ec3faeee39f4edd",
+   "signature": "9f64c2416607782ff60b36fa853fcdf513cb412372ebf22a6b3c1c55a925ed82f5fc3a1712cb0678c899b00603b3e8603b06b0a3cad98aa9e07924c9f5433304"
+  },
+  {
+   "seq": 258,
+   "minute": 99.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 235,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-fb525e1e09",
+    "trip": "T041"
+   },
+   "prev_hash": "28e9b628eee91f02114a796f94200cbf5b3dfb08fb0db1831ec3faeee39f4edd",
+   "hash": "440ab833445a81d07738b827d7d9f5acacb46a773399ba78bbbd0da58d2c102a",
+   "signature": "cbe9d191ee1ea363eed48d43a3b71139c3ff26da61bbedd6f80ec581f610f32372cf9336a6d69ecb71be1363d5d8f809567bab6f24f511788e9e4615f05b420c"
+  },
+  {
+   "seq": 259,
+   "minute": 100.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A05",
+    "expected_survival": 0.856,
+    "hospital": "H9",
+    "patient": "PT-52e829f84b",
+    "triage": "YELLOW",
+    "trip": "T051"
+   },
+   "prev_hash": "440ab833445a81d07738b827d7d9f5acacb46a773399ba78bbbd0da58d2c102a",
+   "hash": "a0fd902d535387545996bc76793ab2f15191cd2af3ae4f940c80bce43e601f31",
+   "signature": "ffea37f9f7af38c8dd1b1c8f483d489b54a7257343357d6f8123f5f34ce80266c0568720b3bc76de44f92e6a6aba2dbcc64e85f434cc0388a51bfca8285c790e"
+  },
+  {
+   "seq": 260,
+   "minute": 100.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A14",
+    "expected_survival": 0.8769,
+    "hospital": "H3",
+    "patient": "PT-fec39a8fa7",
+    "triage": "YELLOW",
+    "trip": "T052"
+   },
+   "prev_hash": "a0fd902d535387545996bc76793ab2f15191cd2af3ae4f940c80bce43e601f31",
+   "hash": "8a36da8bfe292791643e08ebaf9aa1403959e2266c8e90bc159937b4640f8f73",
+   "signature": "dfaa4582441ff6f4fade4e717997b7c0db5e93cd5df0583fd7d491f30089bdd2c8d2c45080096f58eed3e13673d38a635cda3be0c340ea8fa0f90c23aeb80d0a"
+  },
+  {
+   "seq": 261,
+   "minute": 100.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A03",
+    "expected_survival": 0.8856,
+    "hospital": "H1",
+    "patient": "PT-0ce0ff861d",
+    "triage": "YELLOW",
+    "trip": "T053"
+   },
+   "prev_hash": "8a36da8bfe292791643e08ebaf9aa1403959e2266c8e90bc159937b4640f8f73",
+   "hash": "b48a92f7b6ac584addd7e7b0ba33f03b644ad958c9933f9f7e8bb13b29172a3b",
+   "signature": "92b5ed0007bb80ca6a94425942294a66663d62cd944fff443976f1beaf000ab5f8dddb97017e5ae156c4a967973923b66cee30c872e21b7838b392804d3e8609"
+  },
+  {
+   "seq": 262,
+   "minute": 100.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A05",
+    "eta_min": 125.0,
+    "hospital": "H9",
+    "otp_hash": "bd5db5add6ed53e99f5db23989efe3f87abf490e6eb7150cda060c580726142c",
+    "patient": "PT-52e829f84b",
+    "trip": "T051"
+   },
+   "prev_hash": "b48a92f7b6ac584addd7e7b0ba33f03b644ad958c9933f9f7e8bb13b29172a3b",
+   "hash": "bf6b8fe6b821203af62daf77168645bf44b80c697a85f578899574f4c175e410",
+   "signature": "83e36c4e7fa79f0535e16578cb5e27736ab1807e7eddaaf5574f708616c75d60f26b74ba1e76ed11e4cc03221163afee8b8db152d80a669d7663e3ff4e0cfc0a"
+  },
+  {
+   "seq": 263,
+   "minute": 100.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A14",
+    "eta_min": 115.4,
+    "hospital": "H3",
+    "otp_hash": "6c6372a5c88ec027328855e5ac40daad5a543e1f0a1e3ff99e07e0c503c67e41",
+    "patient": "PT-fec39a8fa7",
+    "trip": "T052"
+   },
+   "prev_hash": "bf6b8fe6b821203af62daf77168645bf44b80c697a85f578899574f4c175e410",
+   "hash": "6ff0a80abac7710ced113d9646b54592a9291dcc21577a7bcb808a4104abe403",
+   "signature": "e2cd7ba08b411fe430037a16d05585b8900bd545633947bbccd6bc59fe517003604baecab1c4499c82f97fa63761a7a8cd19bc84baaeab1826301d46a13cfd04"
+  },
+  {
+   "seq": 264,
+   "minute": 100.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A03",
+    "eta_min": 111.4,
+    "hospital": "H1",
+    "otp_hash": "f48c3e2a9907e4fac71b7de3272e14d64033ae7fd438601e104117448f004097",
+    "patient": "PT-0ce0ff861d",
+    "trip": "T053"
+   },
+   "prev_hash": "6ff0a80abac7710ced113d9646b54592a9291dcc21577a7bcb808a4104abe403",
+   "hash": "6b2de21f17098dd2b4da192433735cca8a9a0e77cb92321a76e308cbeca45a8b",
+   "signature": "0b3e7b2d56352a3d1e3643e754a6da81ab7ebc225a2cfbe1cd3ff8ca68f49c86177bcb6354d3d7d31c5b3635dfe3c0765519a39a02a4a13feaa6731f578a330f"
+  },
+  {
+   "seq": 265,
+   "minute": 101.5,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-c611d32b9c",
+    "trip": "T046"
+   },
+   "prev_hash": "6b2de21f17098dd2b4da192433735cca8a9a0e77cb92321a76e308cbeca45a8b",
+   "hash": "0f7102191a637702c617113d3b91911e8a72b5b4d1770b40e0fabf2547980c2a",
+   "signature": "dce9b2ccda0bbdc5d3c92eb51787f4063e63a81bdf098cf8c4e44ebf51f2f89baffd2d2967e522b60e56a875809176d9010c1b580f338ae653242b1af5c2490f"
+  },
+  {
+   "seq": 266,
+   "minute": 101.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H9",
+    "patient": "PT-c611d32b9c",
+    "trip": "T046"
+   },
+   "prev_hash": "0f7102191a637702c617113d3b91911e8a72b5b4d1770b40e0fabf2547980c2a",
+   "hash": "9729e9db1c3b2bf9f2a371e3b715f41a3d6d0488e59679f6ea0cd5e84e084612",
+   "signature": "3f145ba5283ffb97092eac93a9257a9a6c7565281c0c52103b352ad48a5c1911c500be40750fce3ae6ce7c67e4cf367ffa4e068bc425cd7bf9eee439c3e48603"
+  },
+  {
+   "seq": 267,
+   "minute": 101.5,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 78,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-c611d32b9c",
+    "trip": "T046"
+   },
+   "prev_hash": "9729e9db1c3b2bf9f2a371e3b715f41a3d6d0488e59679f6ea0cd5e84e084612",
+   "hash": "6a174daa82644a4d00365c17cca461a5b0ed8dc1bf0874dee2e595ea8aad345a",
+   "signature": "e85b0959f1708320818d97e9c64eb879cf527872ec05707f82b5bd6e60536da3d57b1e27ec62ead735d4c9a204d4b0fd5c720e17d74b3878aaa4b1ca12496103"
+  },
+  {
+   "seq": 268,
+   "minute": 102.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-90f29b151d",
+    "trip": "T045"
+   },
+   "prev_hash": "6a174daa82644a4d00365c17cca461a5b0ed8dc1bf0874dee2e595ea8aad345a",
+   "hash": "fe75aef22e673629e992e389f4a8557a370e6f555a80588ca51303028e3eaf80",
+   "signature": "f48a1d40ca4fe95af269667f2c58192d77ff2caf4694d9bd043322e96c7d77b916efa614c9f7c8cf1087e291f6cc93f5b637f1c66ace65a29322e8b5c8cc6e0c"
+  },
+  {
+   "seq": 269,
+   "minute": 102.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H1",
+    "patient": "PT-90f29b151d",
+    "trip": "T045"
+   },
+   "prev_hash": "fe75aef22e673629e992e389f4a8557a370e6f555a80588ca51303028e3eaf80",
+   "hash": "7769d383a01fc8046893e53e7dc937c225cada7ce5dcba88537b6596dc0fbe7c",
+   "signature": "c88ab5a6580860976ed7a2b71723737ff00a476313ad4f820e722f9abd5e397e11b12f6d2bf9bd6531ab2c53f687e7619e8a7c4393b082842732c1b20949b504"
+  },
+  {
+   "seq": 270,
+   "minute": 102.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-90f29b151d",
+    "trip": "T045"
+   },
+   "prev_hash": "7769d383a01fc8046893e53e7dc937c225cada7ce5dcba88537b6596dc0fbe7c",
+   "hash": "ff0514a881da1df443d8039afc1b19e99fb88299529b88b88617b12a503aac9a",
+   "signature": "31c7b8f4a7ae2a8c9ba463cb356611ad63bc4bbad4baaec5703b69cb4fc6988bef92060df796f55725bfc599b3083ab85f90f8468587307c8cfe3e9724a3ce0d"
+  },
+  {
+   "seq": 271,
+   "minute": 102.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 310,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-90f29b151d",
+    "trip": "T045"
+   },
+   "prev_hash": "ff0514a881da1df443d8039afc1b19e99fb88299529b88b88617b12a503aac9a",
+   "hash": "6763111106b9789c94a297d0303d19212af5db9fb62f8bb73592db0ebdaa2800",
+   "signature": "0b64f21a65c9e865f2dad90b5ff2606032fe04ecf26b59d107678b53a8f7a9dcb341cade19c73055d4bd4e519485bb435bf3a2da8064aceed292ab6038534000"
+  },
+  {
+   "seq": 272,
+   "minute": 106.1,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-c243f0f857",
+    "trip": "T042"
+   },
+   "prev_hash": "6763111106b9789c94a297d0303d19212af5db9fb62f8bb73592db0ebdaa2800",
+   "hash": "d2517d686089c983940ebb4de423791888da0af6e115f5bad86f867347188fd2",
+   "signature": "4aaefe0da42a58196d0badfbfa9aea17a0d4da0ffbd25ac0366c992421fe6a8f2a2412c6d2fde235c9a49b21ec89b60dc75b5ba1bef9a69f211f60c30e162f01"
+  },
+  {
+   "seq": 273,
+   "minute": 106.1,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-2be02aafe5",
+    "trip": "T050"
+   },
+   "prev_hash": "d2517d686089c983940ebb4de423791888da0af6e115f5bad86f867347188fd2",
+   "hash": "45135b5eaa9e32c8f27b01ca74e176f8fedbe68901fdb552c16246d998191e8a",
+   "signature": "e0a4844220a521e92e2b57a68980795114e8e05524cd7dd0fb47e224ee1fd40dbfb8c036b156c98efb8dd5c82c734439d8ab1a9ce75f9252611e1a213a9fa40e"
+  },
+  {
+   "seq": 274,
+   "minute": 106.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H3",
+    "patient": "PT-c243f0f857",
+    "trip": "T042"
+   },
+   "prev_hash": "45135b5eaa9e32c8f27b01ca74e176f8fedbe68901fdb552c16246d998191e8a",
+   "hash": "99069266117cae37add745678e5e086ad4567ccdeaa6ba34f14541471e577618",
+   "signature": "3c0a61879de7411bd714469769819a9b0df750627fb933d8f032eb3777ed4c3f49fccc86f5ede209013abe5bc07a946fcd0dc67727253c816fe259a0a5321c07"
+  },
+  {
+   "seq": 275,
+   "minute": 106.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 253,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-c243f0f857",
+    "trip": "T042"
+   },
+   "prev_hash": "99069266117cae37add745678e5e086ad4567ccdeaa6ba34f14541471e577618",
+   "hash": "c5242511d6307e0ec102ff50e7bcd67d85b55e21dfdadcbebb8282900e295e19",
+   "signature": "f114c8b9ee5f32999dda339551ca41071c041e3dc9edacc574810229b0d11c3087f24e47367ef5dd5895266dfb7426065b39fb73f7abd907896822f2c008bb0a"
+  },
+  {
+   "seq": 276,
+   "minute": 106.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H3",
+    "patient": "PT-2be02aafe5",
+    "trip": "T050"
+   },
+   "prev_hash": "c5242511d6307e0ec102ff50e7bcd67d85b55e21dfdadcbebb8282900e295e19",
+   "hash": "a04da6f87a27977b15fea8518c47072cb65522ec30b76d9fdefdf6e8112dba8c",
+   "signature": "0fc32a9a43f06ba847d6c5891c9c5d91ec615930daca7f4e6d30d7ce0dd0a25fb8f84df02fdbfdb040cc74ab5124cde345c8f889e62c6385f6f6e36835dab103"
+  },
+  {
+   "seq": 277,
+   "minute": 106.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H3",
+    "patient": "PT-2be02aafe5",
+    "trip": "T050"
+   },
+   "prev_hash": "a04da6f87a27977b15fea8518c47072cb65522ec30b76d9fdefdf6e8112dba8c",
+   "hash": "116f660dd5d883db31370d95863996ef20a60f6bc744e0c7908ead4a4c010bc3",
+   "signature": "9c2bbad98ad490df7d2a47e3a261f258894cb16eda3dcccb0ffd94190bdd3171f5fdbf984d6cbe36f6c024dd5e1d6f64acec538e89d2bd594e2af293d0f3760d"
+  },
+  {
+   "seq": 278,
+   "minute": 106.1,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 73,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-2be02aafe5",
+    "trip": "T050"
+   },
+   "prev_hash": "116f660dd5d883db31370d95863996ef20a60f6bc744e0c7908ead4a4c010bc3",
+   "hash": "a73ff5dbdab7baf2732605545aab191d6238cc841db80f43f7cf646b49b903c5",
+   "signature": "423feb6f6d003835a2dd8d87acf8e6be202b41485f7fee81a9dd0872bb71011605df5ee79d2219a02a5c1eaaa6a2767a25561cf14c9206c5030f1f63df8c4c0b"
+  },
+  {
+   "seq": 279,
+   "minute": 106.9,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-ddb93828a8",
+    "trip": "T049"
+   },
+   "prev_hash": "a73ff5dbdab7baf2732605545aab191d6238cc841db80f43f7cf646b49b903c5",
+   "hash": "55ed84efa82281f8f11cc171b333ad4c4fd4db41da005b5f61254eb776bd79c2",
+   "signature": "49875098c348455c9387c89fef82115d48e22b92bb07278796b650342ef851b6dfa45aa36d3fdffd960e44655ddc8ea64fe77dcfe196566cbbe2b8186a974b08"
+  },
+  {
+   "seq": 280,
+   "minute": 106.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H9",
+    "patient": "PT-ddb93828a8",
+    "trip": "T049"
+   },
+   "prev_hash": "55ed84efa82281f8f11cc171b333ad4c4fd4db41da005b5f61254eb776bd79c2",
+   "hash": "cf3572bfba25093eaa9a6b608c4c67c059fb10d1eeb6e7c23669494aeae4e684",
+   "signature": "2da5ba2b0d95e116dad8f3b2857fffbec3ad6d7d9293598575a17312dff92b0aefdc58b8a0a26621d0d9ceb3063748e7e9a1fba62ac1b6ed1c9ef70a25babd0d"
+  },
+  {
+   "seq": 281,
+   "minute": 106.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 6000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H9",
+    "patient": "PT-ddb93828a8",
+    "trip": "T049"
+   },
+   "prev_hash": "cf3572bfba25093eaa9a6b608c4c67c059fb10d1eeb6e7c23669494aeae4e684",
+   "hash": "2a30f8ef6bb4525fcdc9af3dae63e0b5cd49390c2d7be56db0e1f3997858ffc5",
+   "signature": "48d143acec74823643a74fe31e74e6a7d5ab1315d8b15f9ee2d5956fe869b194cd9c1db9d60425719a230454b249c2b6de2225875981a63dda2fb9eb1f64750c"
+  },
+  {
+   "seq": 282,
+   "minute": 106.9,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 166,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-ddb93828a8",
+    "trip": "T049"
+   },
+   "prev_hash": "2a30f8ef6bb4525fcdc9af3dae63e0b5cd49390c2d7be56db0e1f3997858ffc5",
+   "hash": "c773c631bb55c5d2fae3b04363a998b18a1f30100b4f398f54ad70e275ca7d94",
+   "signature": "0bc60e1c322ed939e5c5bc6eef11608e181e3ffcdd56a6ebe62f75e0d13bc4bd4812492dd406a3ef04add135eb2d568a5cb46e4e9b0e3059f3e9d4cdc7b34900"
+  },
+  {
+   "seq": 283,
+   "minute": 111.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H1",
+    "otp_verified": true,
+    "patient": "PT-0ce0ff861d",
+    "trip": "T053"
+   },
+   "prev_hash": "c773c631bb55c5d2fae3b04363a998b18a1f30100b4f398f54ad70e275ca7d94",
+   "hash": "a0a15aee0026c4d6cf2853532b20cd166c591b14f45239b532d3c75fddb4b77f",
+   "signature": "a6c876077ba1424d67429a4440751b1eaf6e34c95c6552969ec430bcd8e840c5a471552f21c7c29c2c444c0be1b01fe6b0f6a5ca61fc1f4cc5c5a549a654ad0b"
+  },
+  {
+   "seq": 284,
+   "minute": 111.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H1",
+    "patient": "PT-0ce0ff861d",
+    "trip": "T053"
+   },
+   "prev_hash": "a0a15aee0026c4d6cf2853532b20cd166c591b14f45239b532d3c75fddb4b77f",
+   "hash": "462b2e603facf641c36525922d240d913e036f1524eba940042fe30af4a0eaf3",
+   "signature": "66dcc7f212b3064cc55b70985d1275444e81c18efd797102083409a6c941025035a61221ec54a5396172065ae9c1d21e9eb50444e77846755bd07b0e320e1509"
+  },
+  {
+   "seq": 285,
+   "minute": 111.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H1",
+    "patient": "PT-0ce0ff861d",
+    "trip": "T053"
+   },
+   "prev_hash": "462b2e603facf641c36525922d240d913e036f1524eba940042fe30af4a0eaf3",
+   "hash": "44363b34d5b8c8bdecc5176104e3fd86fcaf5ca2bcc68a3f63f2109ee891f0d1",
+   "signature": "48ef8230840a988e407f4923f31aca2d979c72c4a6764150ee9008fbfffe68f5b97e48fa22320d55c7e30029cd95e4b11871055fc0274a4730b5ca29886dd10d"
+  },
+  {
+   "seq": 286,
+   "minute": 111.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 154,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H1",
+    "patient": "PT-0ce0ff861d",
+    "trip": "T053"
+   },
+   "prev_hash": "44363b34d5b8c8bdecc5176104e3fd86fcaf5ca2bcc68a3f63f2109ee891f0d1",
+   "hash": "c1b8f5734da1716c4cf43fe9d2432df2885c8a894ce5048b5c41e3491e93f0f2",
+   "signature": "383613d31ec6a77072890517d0ef884434c1ced361303adb9d21d3142e3f80e791667c1ad4173034cef4dcc30760a4b2ac2b13d367bc99786525bd58755d6c0c"
+  },
+  {
+   "seq": 287,
+   "minute": 112.3,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H4",
+    "otp_verified": true,
+    "patient": "PT-d6be564898",
+    "trip": "T048"
+   },
+   "prev_hash": "c1b8f5734da1716c4cf43fe9d2432df2885c8a894ce5048b5c41e3491e93f0f2",
+   "hash": "f98d740147980b805401de3fae3fc0a046a8748c0efcc25e066ebe0c95f5f9c5",
+   "signature": "74935d7a25419ff1adc9de816120feddc6ca7403bdfeeaf6905f16ab841f1de7248520d24bd29f4e4317b13e86112997f2c295c1df8aad04cad34ab9dbe00205"
+  },
+  {
+   "seq": 288,
+   "minute": 112.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H4",
+    "patient": "PT-d6be564898",
+    "trip": "T048"
+   },
+   "prev_hash": "f98d740147980b805401de3fae3fc0a046a8748c0efcc25e066ebe0c95f5f9c5",
+   "hash": "c8eadf5fcdcf4f29a721d22d940576d54e3823a397a8251de63415079c89009c",
+   "signature": "bc9be2f24110e15fb8624ee9c34a592c9d6c038a5a4cc726117ac35f5908a4b5ba378bba8a3d574fe3626e683358c6a5be949aed22f49ada02a7e2d27a35bc02"
+  },
+  {
+   "seq": 289,
+   "minute": 112.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H4",
+    "patient": "PT-d6be564898",
+    "trip": "T048"
+   },
+   "prev_hash": "c8eadf5fcdcf4f29a721d22d940576d54e3823a397a8251de63415079c89009c",
+   "hash": "e8e1fff2514fd870aeb7de365bf6e5267c999520584471fa3492a8096fb690eb",
+   "signature": "82e71c5f744e249446dff7eb92e85ffa3dd50a3208c0f91d36e03adf55d476bda56cd0e1a23f9aca1195fdfe490533f2f16040046ba0c23c923b443830321401"
+  },
+  {
+   "seq": 290,
+   "minute": 112.3,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 207,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H4",
+    "patient": "PT-d6be564898",
+    "trip": "T048"
+   },
+   "prev_hash": "e8e1fff2514fd870aeb7de365bf6e5267c999520584471fa3492a8096fb690eb",
+   "hash": "66a28c700e96d0fe806bbe70030fb29ab468e6b41d0ce507a08f3274fe974e7e",
+   "signature": "ef9a19e9ebd5eeebd67be29aae368622c9edad5cd288f72e8174c437347acaa2f69c3eb16338fbcf0dc5e3b68835c21954199d1ce56fe2a54ba724b5f674b805"
+  },
+  {
+   "seq": 291,
+   "minute": 113.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-50c546ebe0",
+    "trip": "T047"
+   },
+   "prev_hash": "66a28c700e96d0fe806bbe70030fb29ab468e6b41d0ce507a08f3274fe974e7e",
+   "hash": "6e9fa258a012332bbe04e5fe6d183a94c225efd067a0bd54bc23aa18b48cca61",
+   "signature": "fbc0bb8a803da41d03d512fdd9107662f5aeb5165cd7b3dd5ba0bcfd71861afc756abbbbb27b0b907454c3bb79c5bd1468a997cb92f1aa5dc49ee35a0a86bd0c"
+  },
+  {
+   "seq": 292,
+   "minute": 113.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-01",
+    "hospital": "H9",
+    "patient": "PT-50c546ebe0",
+    "trip": "T047"
+   },
+   "prev_hash": "6e9fa258a012332bbe04e5fe6d183a94c225efd067a0bd54bc23aa18b48cca61",
+   "hash": "bff167449e177af01b0a279341c2276bf3a5bcbf5072cd616100c5ca99460c1b",
+   "signature": "96a18840fcc82104ab72cc6dc4156f557a82e8f63976adc412959c5cce89eeaa5a67b0fa6da19ddf120a4ce11a53971f14018e7275d95f541adfac0028257309"
+  },
+  {
+   "seq": 293,
+   "minute": 113.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 451,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-50c546ebe0",
+    "trip": "T047"
+   },
+   "prev_hash": "bff167449e177af01b0a279341c2276bf3a5bcbf5072cd616100c5ca99460c1b",
+   "hash": "60aa2bb951eb829dd764b65d98b386f7095ad7dcaad8004cdfb2505bc224a8cb",
+   "signature": "8067583f1765beaf97bf5cb35cb78ae6f6889dc74a707447ed9cfcfe800ff5b560ebe019a3dc9b639d360aeefaf9b27bfede6ae57b30448f529056064176b001"
+  },
+  {
+   "seq": 294,
+   "minute": 115.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A02",
+    "expected_survival": 0.464,
+    "hospital": "H2",
+    "patient": "PT-7075bd5310",
+    "triage": "RED",
+    "trip": "T054"
+   },
+   "prev_hash": "60aa2bb951eb829dd764b65d98b386f7095ad7dcaad8004cdfb2505bc224a8cb",
+   "hash": "f2238c11008b85e32157ef94249558032e3f7bef541ebb20e7d1fd02af65d09d",
+   "signature": "fa50b85f6b5f4b13348a63d9461743dd49049087e186104f7032d02cd1fb978e4c91ef9f42f7023f75ea0719f8433dc4f69653d3a1960d2d397540c29b059f04"
+  },
+  {
+   "seq": 295,
+   "minute": 115.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A02",
+    "eta_min": 134.6,
+    "hospital": "H2",
+    "otp_hash": "67de41224ec70bd59d214369a74f316f431bcd814945834dd7dcda912bcd97c8",
+    "patient": "PT-7075bd5310",
+    "trip": "T054"
+   },
+   "prev_hash": "f2238c11008b85e32157ef94249558032e3f7bef541ebb20e7d1fd02af65d09d",
+   "hash": "92fa4f6a6dd65696efba4d8653ab1074aa0fbc7228f78015009529738b9f1bd9",
+   "signature": "05513addf9ad9b5795cc77e86129449d1b7bd551efff2d665e02fb3c2b24e42c345209229813da1256f3cb1cf34c055a2ee5e00527a887332b20ba9bd8f93d06"
+  },
+  {
+   "seq": 296,
+   "minute": 115.4,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "otp_verified": true,
+    "patient": "PT-fec39a8fa7",
+    "trip": "T052"
+   },
+   "prev_hash": "92fa4f6a6dd65696efba4d8653ab1074aa0fbc7228f78015009529738b9f1bd9",
+   "hash": "0cbfb4326b3b3afd2bee9f27c330116fe0e79173a7cb404b6eb786b7ca022f88",
+   "signature": "fa0f01cbfaac7b2ea7d2d3e1071be599bbe429076c883a5f04fe8d4ed5c5a0968f13101be4f41dbe27d57bcc00253c57dde795b7965849bfe23620105bcf5a0f"
+  },
+  {
+   "seq": 297,
+   "minute": 115.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H3",
+    "patient": "PT-fec39a8fa7",
+    "trip": "T052"
+   },
+   "prev_hash": "0cbfb4326b3b3afd2bee9f27c330116fe0e79173a7cb404b6eb786b7ca022f88",
+   "hash": "d1d3c2cb87f7c2075ea86ee7a5a2795e8aa24c995642327ba019eb5c44348b5f",
+   "signature": "a5229a1ca22b4927e51e0c7bfa949233bbb81ec01a55abd0bff34c26f67c7748ca55942a782f94d087916e0d3ce601333a3a3f64b581496c1c99c2936a710c08"
+  },
+  {
+   "seq": 298,
+   "minute": 115.4,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 125,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H3",
+    "patient": "PT-fec39a8fa7",
+    "trip": "T052"
+   },
+   "prev_hash": "d1d3c2cb87f7c2075ea86ee7a5a2795e8aa24c995642327ba019eb5c44348b5f",
+   "hash": "fa7285f0dd276d7df1ff15aedf1835beff68d715d2ba6d1fa6cb97e788c4119f",
+   "signature": "e6960631bca4ebbadcb6377c63257688196a8949127b42c4e927346998e20045f94d7cb80fabd1443c27abd758f94bc6ac2b04f50f54c74de46eb62b153f9201"
+  },
+  {
+   "seq": 299,
+   "minute": 120.0,
+   "type": "ALLOCATE",
+   "actor_role": "optimizer",
+   "payload": {
+    "ambulance": "A01",
+    "expected_survival": 0.4331,
+    "hospital": "H10",
+    "patient": "PT-1b2030b666",
+    "triage": "RED",
+    "trip": "T055"
+   },
+   "prev_hash": "fa7285f0dd276d7df1ff15aedf1835beff68d715d2ba6d1fa6cb97e788c4119f",
+   "hash": "1a94d008c0fe2f13534fc49a5bca2e6d91cd7da972040d7652b64c14ad1b3476",
+   "signature": "596daf0f90f14bda5d9d0126135aca062fc85dc7a9c14d41e0acda7c673912e75d297d1d1fc7a4efb0fb55ae2f1755a6d921d1c9fdedeef18f8940a537cbd406"
+  },
+  {
+   "seq": 300,
+   "minute": 120.0,
+   "type": "DISPATCH",
+   "actor_role": "control_room",
+   "payload": {
+    "ambulance": "A01",
+    "eta_min": 140.8,
+    "hospital": "H10",
+    "otp_hash": "c12d5545c3a8c255cde8c00dcec6ccf1f3d07e44e4c9db3e04d392e21d84d63c",
+    "patient": "PT-1b2030b666",
+    "trip": "T055"
+   },
+   "prev_hash": "1a94d008c0fe2f13534fc49a5bca2e6d91cd7da972040d7652b64c14ad1b3476",
+   "hash": "92a88d019e605cd74f31df537d8fc1f1bfe6116f5a5553accbad8d5cce9b0f8f",
+   "signature": "3c94477182b5bb73ea7c2d119b4a843b6476bba4b7f58e715153528f83620ad2a6cae0dd2a5844137eb0e8b2f215d1d580d71465f3ccde939a50f5ca71bbf10b"
+  },
+  {
+   "seq": 301,
+   "minute": 125.0,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H9",
+    "otp_verified": true,
+    "patient": "PT-52e829f84b",
+    "trip": "T051"
+   },
+   "prev_hash": "92a88d019e605cd74f31df537d8fc1f1bfe6116f5a5553accbad8d5cce9b0f8f",
+   "hash": "2fba1a6095b700dab0dfbeed4ba365440af09bec0b07b85b139e1428354f3eb9",
+   "signature": "0c590164636ecfc33e0e15e60eef7bca0dcc7318ca5f39bd29a1a6d6c0805b01c23b53dcfc0a8d7674535d3a2491fd378faf08615f566a0ddb274416cca21a09"
+  },
+  {
+   "seq": 302,
+   "minute": 125.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 20000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H9",
+    "patient": "PT-52e829f84b",
+    "trip": "T051"
+   },
+   "prev_hash": "2fba1a6095b700dab0dfbeed4ba365440af09bec0b07b85b139e1428354f3eb9",
+   "hash": "798524b5bb0f8991a41fb79e9a0e6ce77ac202424695c204aac9b1d6426aac2a",
+   "signature": "a5c73ba0ed962b62e594b404ea98576865f4eed1c0c1b4448e7161534250e9cebf008191cc2b9cb6681251d328617da9569dcb8fbc7336d836b0082332071903"
+  },
+  {
+   "seq": 303,
+   "minute": 125.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 1500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H9",
+    "patient": "PT-52e829f84b",
+    "trip": "T051"
+   },
+   "prev_hash": "798524b5bb0f8991a41fb79e9a0e6ce77ac202424695c204aac9b1d6426aac2a",
+   "hash": "961add4fdbf4a9a275d26328296db261d966eff67232e76de5257212f610b6b5",
+   "signature": "071eb703fe5f7d564ddfd26852f522b85e2adf229ccd8218d6c961a8be9deea6b95fc70ab63d49599d8e7099920cc73357da3d75cef7c508dc3104f4ae11d404"
+  },
+  {
+   "seq": 304,
+   "minute": 125.0,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 480,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H9",
+    "patient": "PT-52e829f84b",
+    "trip": "T051"
+   },
+   "prev_hash": "961add4fdbf4a9a275d26328296db261d966eff67232e76de5257212f610b6b5",
+   "hash": "68381b02125cb6180d8987a9d0b845e6e86ea272457c9197005e51201d60c46a",
+   "signature": "0abca34b1a0bc71b69e8baa5ace76cd8dfd039cf53192d133b8d905cb1bbf90d9cd90cf8bd73e5daba9a95e2b8e9e16ba37faf665a9d682dbe55b300f80b6300"
+  },
+  {
+   "seq": 305,
+   "minute": 134.6,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H2",
+    "otp_verified": true,
+    "patient": "PT-7075bd5310",
+    "trip": "T054"
+   },
+   "prev_hash": "68381b02125cb6180d8987a9d0b845e6e86ea272457c9197005e51201d60c46a",
+   "hash": "6130ce5e9ac4d4b4fea8b10ff834ae40880a17e613242e5847d1748588e8ffdf",
+   "signature": "74254a48fe8408b8343bacdd695fd81698d332ae03ebd9edc2035577db5a2fabdddb088236390daea3e407848e0632c1c826a489c2a3489c01e872bcd7c83e08"
+  },
+  {
+   "seq": 306,
+   "minute": 134.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H2",
+    "patient": "PT-7075bd5310",
+    "trip": "T054"
+   },
+   "prev_hash": "6130ce5e9ac4d4b4fea8b10ff834ae40880a17e613242e5847d1748588e8ffdf",
+   "hash": "40d402e013c28da3c7c5cc0edb86f2c5b56c654c0fcad780005d59f4bd18ba79",
+   "signature": "fdeda8558f76cd8b6c9863633cddb6d14963238aaeaee7810252634aa816ff6e3b6acfda99ed2c3468d30eba9cec64c4a360cfda9af36e84ab3d4c1513de5d01"
+  },
+  {
+   "seq": 307,
+   "minute": 134.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 4500,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H2",
+    "patient": "PT-7075bd5310",
+    "trip": "T054"
+   },
+   "prev_hash": "40d402e013c28da3c7c5cc0edb86f2c5b56c654c0fcad780005d59f4bd18ba79",
+   "hash": "8d12d4e84da317dfa7162a2ec5a62607b06072c2a566bd25ae455a2c814aa56b",
+   "signature": "9afd0450b704d9a1e4c4471b70a6f52eb0f2aa5dfef061b255205caf75884034082a4dd5a760a91d3713ecd197b46d677107b2a20af926434f57d2ddf2938404"
+  },
+  {
+   "seq": 308,
+   "minute": 134.6,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 351,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H2",
+    "patient": "PT-7075bd5310",
+    "trip": "T054"
+   },
+   "prev_hash": "8d12d4e84da317dfa7162a2ec5a62607b06072c2a566bd25ae455a2c814aa56b",
+   "hash": "8f8054c4a2623f6f42877396f3f34fd48b321169334b6e098050f70b83192b90",
+   "signature": "80bd454b9add52dc31f5115ae7b80bb6a1642892e826ec21274e16c0d88a55c206d3446ce28d773e90a8362a4944d9bf03e6c7a9aaaaf2d7f4ec457892652802"
+  },
+  {
+   "seq": 309,
+   "minute": 140.8,
+   "type": "HANDOVER",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H10",
+    "otp_verified": true,
+    "patient": "PT-1b2030b666",
+    "trip": "T055"
+   },
+   "prev_hash": "8f8054c4a2623f6f42877396f3f34fd48b321169334b6e098050f70b83192b90",
+   "hash": "0224fb933a094ae7f0f027db1ca3096c25eab4c7b8f3ab57a6e0f202e2c4be4c",
+   "signature": "30322ad183b2d0484962788a844bcdbf3e07fe62ce013d96cdc7b7cf3404e7d84dd6b5e9798fe292a609b2826a4de2a4c17aff08416f0c0195d063667590cb06"
+  },
+  {
+   "seq": 310,
+   "minute": 140.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 60000,
+    "category": "treatment",
+    "delivered_verified": true,
+    "donation": "DN-04",
+    "hospital": "H10",
+    "patient": "PT-1b2030b666",
+    "trip": "T055"
+   },
+   "prev_hash": "0224fb933a094ae7f0f027db1ca3096c25eab4c7b8f3ab57a6e0f202e2c4be4c",
+   "hash": "fad5f49cdfe97a546c32e393e4c021d51a04b13b6caa82465750f23489b3c335",
+   "signature": "3649753549b422bf7f2cc37447ef219b570780ecccf2877c1b97182b4f7ea767b00e3c6eb9df2ffbc75b9f1427b95510cf91d869c254a491c395aa3188a49c08"
+  },
+  {
+   "seq": 311,
+   "minute": 140.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 6000,
+    "category": "blood",
+    "delivered_verified": true,
+    "donation": "DN-02",
+    "hospital": "H10",
+    "patient": "PT-1b2030b666",
+    "trip": "T055"
+   },
+   "prev_hash": "fad5f49cdfe97a546c32e393e4c021d51a04b13b6caa82465750f23489b3c335",
+   "hash": "f4d9afa2dc6d8b590fe705ec2c5b97ce225f60adc66a7a14538ebd0300acccdd",
+   "signature": "e870aba033dca27ac06d09f75994c3ab446ed7b6f82a5588882446f07f46fc0c1a631bed8c76644bc7908201f230ae6d303f59f6605d388135b12ee43834f10e"
+  },
+  {
+   "seq": 312,
+   "minute": 140.8,
+   "type": "SPEND",
+   "actor_role": "finance",
+   "payload": {
+    "amount": 380,
+    "category": "transport",
+    "delivered_verified": true,
+    "donation": "DN-03",
+    "hospital": "H10",
+    "patient": "PT-1b2030b666",
+    "trip": "T055"
+   },
+   "prev_hash": "f4d9afa2dc6d8b590fe705ec2c5b97ce225f60adc66a7a14538ebd0300acccdd",
+   "hash": "ba68b514daa9a8637f7c75c8fc6d823c1fedc5f806b807c63941b9986b0bd3e1",
+   "signature": "cde8df192da9a23a25faad3aa9bdcf1810a02f9338776d25ec4c22ea815f034465693a0cbe01114096a63661adef2327683a06a9c72948fbd19979852b38cb05"
+  },
+  {
+   "seq": 313,
+   "minute": 0.0,
+   "type": "HANDOVER_REJECTED",
+   "actor_role": "hospital",
+   "payload": {
+    "hospital": "H3",
+    "reason": "wrong OTP",
+    "trip": "T001"
+   },
+   "prev_hash": "ba68b514daa9a8637f7c75c8fc6d823c1fedc5f806b807c63941b9986b0bd3e1",
+   "hash": "7e10b4ef809bdb3f2503539db4768ab6d1d83cb0dfd254ebcd48fd0bddae9103",
+   "signature": "a41fd34649a6d8a29e8f382d343b1d5a8d03124ebd6d46ae247cef76b0c4f224cb0e9db57132d679afb4028298542c92a24444d8e16bfc9faca998d9e7131008"
+  }
+ ],
+ "batches": [
+  {
+   "batch": 1,
+   "first_seq": 1,
+   "last_seq": 45,
+   "merkle_root": "c312f103659be34cf6bc918c3f20bbb92f7ea17e68e045b1491a20305987f8df",
+   "anchor": null
+  },
+  {
+   "batch": 2,
+   "first_seq": 46,
+   "last_seq": 88,
+   "merkle_root": "ef7cc8306d254932e30264cfdf770a5a17540a209550453e7b04e31ecced2f9f",
+   "anchor": null
+  },
+  {
+   "batch": 3,
+   "first_seq": 89,
+   "last_seq": 125,
+   "merkle_root": "a6f65cff4a5269c746ad84938a01713c4e3198a29227c87ea24f680426fc8496",
+   "anchor": null
+  },
+  {
+   "batch": 4,
+   "first_seq": 126,
+   "last_seq": 159,
+   "merkle_root": "54718d6d8ee65558ac418f995a62544db098dab8c1acd71831cef6f2ad890b1b",
+   "anchor": null
+  },
+  {
+   "batch": 5,
+   "first_seq": 160,
+   "last_seq": 196,
+   "merkle_root": "6223a8a554507b24bf953e29ff4f8926bde9815d035e7dfd8df5cc5427eba59b",
+   "anchor": null
+  },
+  {
+   "batch": 6,
+   "first_seq": 197,
+   "last_seq": 234,
+   "merkle_root": "c1052a370a018da1998e6ee4f5ce16ecbb7400a507f697fdaa26ca68591ab78e",
+   "anchor": null
+  },
+  {
+   "batch": 7,
+   "first_seq": 235,
+   "last_seq": 271,
+   "merkle_root": "85981459c31d75e8628aac4e7cb49adca14c19aadb27d8bd68ed49caf74fd39e",
+   "anchor": null
+  },
+  {
+   "batch": 8,
+   "first_seq": 272,
+   "last_seq": 298,
+   "merkle_root": "e49d7d832dbc1729e7dfbf3c06005d5c07e03e3cd82f72fb1adc9a1dc7d8df1a",
+   "anchor": null
+  },
+  {
+   "batch": 9,
+   "first_seq": 299,
+   "last_seq": 308,
+   "merkle_root": "aec1d594a2edb030c8099dbd2a02eb9348c59bb752f3b5e7c6a0c14564564653",
+   "anchor": null
+  },
+  {
+   "batch": 10,
+   "first_seq": 309,
+   "last_seq": 312,
+   "merkle_root": "9f71c72ea472fd9068e09499ed71804aa7d16954a466346161c3a6415f6d6eb0",
+   "anchor": null
+  },
+  {
+   "batch": 11,
+   "first_seq": 313,
+   "last_seq": 313,
+   "merkle_root": "7e10b4ef809bdb3f2503539db4768ab6d1d83cb0dfd254ebcd48fd0bddae9103",
+   "anchor": null
+  }
+ ],
+ "anchor": {
+  "roots": [
+   "c312f103659be34cf6bc918c3f20bbb92f7ea17e68e045b1491a20305987f8df",
+   "ef7cc8306d254932e30264cfdf770a5a17540a209550453e7b04e31ecced2f9f",
+   "a6f65cff4a5269c746ad84938a01713c4e3198a29227c87ea24f680426fc8496",
+   "54718d6d8ee65558ac418f995a62544db098dab8c1acd71831cef6f2ad890b1b",
+   "6223a8a554507b24bf953e29ff4f8926bde9815d035e7dfd8df5cc5427eba59b",
+   "c1052a370a018da1998e6ee4f5ce16ecbb7400a507f697fdaa26ca68591ab78e",
+   "85981459c31d75e8628aac4e7cb49adca14c19aadb27d8bd68ed49caf74fd39e",
+   "e49d7d832dbc1729e7dfbf3c06005d5c07e03e3cd82f72fb1adc9a1dc7d8df1a",
+   "aec1d594a2edb030c8099dbd2a02eb9348c59bb752f3b5e7c6a0c14564564653",
+   "9f71c72ea472fd9068e09499ed71804aa7d16954a466346161c3a6415f6d6eb0",
+   "7e10b4ef809bdb3f2503539db4768ab6d1d83cb0dfd254ebcd48fd0bddae9103"
+  ],
+  "tx": null,
+  "network": "Polygon Amoy testnet (chain 80002)",
+  "wallet": "0xfe0Ac882e8306F97cf0C05866DBD794BfA4113c4"
+ },
+ "verified": true
+}
