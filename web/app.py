@@ -387,7 +387,7 @@ H(f"""<div class='sx-strip'>
 <div class='sx-read'><div class='k'>Audit ledger</div><div class='v'>{'Verified' if ok0 else 'Broken'}</div>
 <div class='d'><span class='flat'>{len(L0.rows())} signed records</span></div></div></div>""")
 
-tabs = st.tabs(["Live operations", "Impact", "Demand by zone", "Why this hospital", "Audit ledger", "Donor trace"])
+tabs = st.tabs(["Live operations", "Impact", "Demand by zone", "Why this hospital", "Audit ledger", "Donor trace", "Ask SENTINEL"])
 
 
 # ------------------------------------------------------------------ tab 1: live operations (fragment = fast)
@@ -751,6 +751,208 @@ with tabs[5]:
                 ok_p = lm.verify_proof(leaf, proof, b["merkle_root"])
                 H(f"<div class='sx-alert {'ok' if ok_p else 'red'}'>Merkle proof for record {mine[0]['seq']} {'checks out' if ok_p else 'fails'}.</div>")
 
+# ------------------------------------------------------------------ tab 7: Ask SENTINEL (Gemini assistant)
+import requests  # noqa: E402
+
+GEMINI = "https://generativelanguage.googleapis.com/v1beta"
+SKIP_WORDS = ["embedding", "image", "tts", "audio", "live", "vision", "aqa", "learnlm", "computer", "robotics", "native", "veo", "imagen"]
+
+
+def gemini_key():
+    try:
+        k = st.secrets.get("GEMINI_API_KEY")
+    except Exception:
+        k = None
+    return k or os.environ.get("GEMINI_API_KEY")
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def gemini_models(key):
+    # Asks Google which models this key may use, then ranks them: stable Flash first, Gemma last
+    try:
+        r = requests.get(f"{GEMINI}/models", params={"pageSize": 200}, headers={"x-goog-api-key": key}, timeout=20)
+        models = r.json().get("models", []) if r.ok else []
+    except Exception:
+        models = []
+    ranked = []
+    for m in models:
+        name = m.get("name", "").split("/")[-1]
+        if "generateContent" not in m.get("supportedGenerationMethods", []) or any(w in name for w in SKIP_WORDS):
+            continue
+        ver = 0.0
+        for part in name.replace("gemini-", "").replace("gemma-", "").split("-"):
+            try:
+                ver = float(part)
+                break
+            except ValueError:
+                continue
+        unstable = any(w in name for w in ["preview", "exp", "latest"])
+        if name.startswith("gemini") and "flash" in name and "lite" not in name:
+            tier = 0
+        elif name.startswith("gemini") and "flash" in name:
+            tier = 1
+        elif name.startswith("gemma"):
+            tier = 3
+        else:
+            tier = 2
+        ranked.append((tier, unstable, -ver, name))
+    ranked.sort()
+    names = [r[3] for r in ranked]
+    return names or ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemma-3-27b-it"]
+
+
+def ask_gemini(key, system, history, question):
+    # Returns (answer, model) or raises RuntimeError with a plain-English reason
+    last_err = "no model answered"
+    for model in gemini_models(key)[:4]:
+        contents = [{"role": "user" if m["role"] == "user" else "model", "parts": [{"text": m["text"]}]} for m in history[-8:]]
+        if model.startswith("gemma"):
+            contents.append({"role": "user", "parts": [{"text": system + "\n\nQuestion: " + question}]})
+            body = {"contents": contents}
+        else:
+            contents.append({"role": "user", "parts": [{"text": question}]})
+            body = {"systemInstruction": {"parts": [{"text": system}]}, "contents": contents}
+        body["generationConfig"] = {"temperature": 0.3, "maxOutputTokens": 2048}
+        try:
+            r = requests.post(f"{GEMINI}/models/{model}:generateContent", json=body,
+                              headers={"x-goog-api-key": key}, timeout=60)
+        except Exception:
+            last_err = "the AI service could not be reached"
+            continue
+        if r.status_code == 429:
+            last_err = "the free AI quota is busy right now; try again in a minute"
+            continue
+        if r.status_code in (400, 401, 403) and "API key" in r.text:
+            raise RuntimeError("the Gemini API key was rejected; check it in the app's Secrets")
+        if not r.ok:
+            last_err = f"the AI service returned an error ({r.status_code})"
+            continue
+        parts = (r.json().get("candidates") or [{}])[0].get("content", {}).get("parts", [])
+        text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
+        if text:
+            return text, model
+        last_err = "the AI returned an empty answer"
+    raise RuntimeError(last_err)
+
+
+@st.cache_data(show_spinner=False)
+def chat_context(key, role, viewer_h, viewer_d, scen_label):
+    S, results = state(key)
+    out = [f"SCENARIO: {scen_label}. Simulated monsoon flood and building collapse in Kurla-Sion, Mumbai, on the real "
+           f"OpenStreetMap road network. {len(S['casualties'])} casualties over {S['horizon_min']} minutes. "
+           f"Hospital capacities, survival curves and costs are synthetic demo values."]
+    out.append("EVENTS: " + "; ".join(f"minute {e['t']}: {e['text']}" for e in sorted(S["events"], key=lambda e: e["t"])))
+    out.append("RESULTS (same disaster, same scoring rules):")
+    for p in POLICIES:
+        out.append(f"- {POLICIES[p]}: " + ", ".join(f"{k} = {v}" for k, v in results[p]["metrics"].items()))
+    if has("benchmark.json"):
+        B = load_json("benchmark.json")
+        s = B["summary"]
+        out.append(f"BENCHMARK over {B['n_runs']} simulated disasters: SENTINEL {B['gain_vs_nearest_pct']:+.0f}% expected survivors "
+                   f"vs nearest hospital (better in {B['wins_vs_nearest']}/{B['n_runs']}), {B['gain_vs_fcfs_pct']:+.0f}% vs FCFS, "
+                   f"Red patients reach care {B['red_faster_vs_nearest_pct']:.0f}% faster; average wrong-hospital transfers "
+                   f"SENTINEL {s['sentinel']['transfers_mean']} vs nearest {s['nearest']['transfers_mean']}.")
+    load = {}
+    for a in results["sentinel"]["allocations"]:
+        load[a["hospital"]] = load.get(a["hospital"], 0) + 1
+    out.append("HOSPITALS (id, name, size, free beds, ICU, specialties, patients SENTINEL sent):")
+    for h in S["hospitals"]:
+        out.append(f"- {h['id']} {h['name']}: {h['tier']}, {h['beds']} beds, {h['icu']} ICU, "
+                   f"{', '.join(h['specialties'])}; received {load.get(h['id'], 0)}")
+    starts = dm.incident_starts(S["events"])
+    for t in (30, 60, 90):
+        z = dm.total_demand(S["casualties"], t, S["zones"], starts)
+        out.append(f"DEMAND at minute {t} (with buffer U): beds {z['beds']:.0f}, ICU {z['icu']:.0f}, operations {z['ot']:.0f}, "
+                   f"blood units {z['blood_units']:.0f}, ALS trips {z['als_trips']:.0f}")
+    if role in ("Commander", "Hospital"):
+        out.append("SENTINEL DECISIONS (patient, colour, zone, specialty, hospital, ambulance, minutes, survival, alternatives):")
+        for a in results["sentinel"]["allocations"]:
+            if role == "Hospital" and a["hospital"] != viewer_h:
+                continue
+            alts = [f"{w['hospital']} ({w['reason']})" for w in a.get("why", []) if w["reason"] != "CHOSEN"][:3]
+            out.append(f"- {a['patient']} {a['colour_at_dispatch']} {a['zone']} {a['specialty']} -> {a['hospital']} by "
+                       f"{a['ambulance']} ({a['ambulance_type']}), dispatched {a['dispatch_min']}, arrives {a['arrival_min']:.0f}, "
+                       f"care {a['care_min']:.0f}, survival {a['survival']:.0%}; not chosen: {', '.join(alts) or 'n/a'}")
+        sent = {a["patient"] for a in results["sentinel"]["allocations"]}
+        waiting = [c["id"] + " " + c["triage"] for c in S["casualties"] if c["triage"] in ("RED", "YELLOW") and c["id"] not in sent]
+        if role == "Commander":
+            out.append(f"NOT REACHED WITHIN THE HORIZON: {', '.join(waiting) or 'none'}")
+    else:
+        out.append("PRIVACY: this viewer may not see patient-level decisions. Answer with totals only.")
+    L = official_ledger()
+    rows = L.rows()
+    ok, _, _ = L.verify_chain()
+    out.append(f"LEDGER: {len(rows)} signed SHA-256 hash-chained records, {len(L.batches())} Merkle batches, verifier {'valid' if ok else 'broken'}.")
+    spends = [r["payload"] for r in rows if r["type"] == "SPEND"]
+    for d in S["donations"]:
+        if role == "Donor" and d["id"] != viewer_d:
+            continue
+        mine = [p for p in spends if p.get("donation") == d["id"]]
+        by_h = {}
+        for p in mine:
+            by_h[p["hospital"]] = by_h.get(p["hospital"], 0) + p["amount"]
+        out.append(f"DONATION {d['id']} ({d['donor']}, Rs {d['amount']:,}, earmark {d['earmark']}): used Rs {sum(p['amount'] for p in mine):,} "
+                   f"in {len(mine)} payments; by hospital: {', '.join(f'{k} Rs {v:,}' for k, v in sorted(by_h.items())) or 'none'}")
+    return "\n".join(out)
+
+
+def chat_system(role, context):
+    return ("You are the assistant inside SENTINEL, a disaster-relief command dashboard built for a hackathon prototype. "
+            f"The person asking is viewing as: {role}. Answer only from the DATA below. If the answer is not in the data, say so "
+            "plainly; never invent numbers, patients or hospitals. SENTINEL's OR-Tools CP-SAT optimiser makes the allocation "
+            "decisions; you explain and summarise them, you do not change them. If the viewer is Public or a Donor, never discuss "
+            "individual patients. Keep answers short (under 120 words) unless asked for a report, use plain English, cite patient "
+            "and hospital IDs and minutes, and mention that values are simulated when giving numbers to someone outside the team.\n\n"
+            "DATA:\n" + context)
+
+
+SUGGEST = {
+    "Commander": ["Give me a 5-line situation report", "Which hospital is under the most pressure?",
+                  "Why was P012 sent where it went?", "How does SENTINEL beat the nearest-hospital rule?"],
+    "Hospital": ["Which patients are coming to us?", "Which of our patients are Red?",
+                 "Why were patients sent here instead of elsewhere?", "Summarise our load for the shift lead"],
+    "Donor": ["Where did my donation go?", "Is the ledger verified?", "What did my money pay for?", "How is fraud prevented?"],
+    "Public": ["What is happening right now?", "How is relief money tracked?", "How many people were helped?",
+               "Is the data trustworthy?"],
+}
+
+with tabs[6]:
+    st.markdown("### Ask SENTINEL")
+    st.caption("Ask in plain English. Answers come only from this disaster's data on this page, using Google Gemini; "
+               "SENTINEL's optimiser still makes every decision.")
+    api_key = gemini_key()
+    chat_id = f"chat_{role}_{viewer_h}_{viewer_d}_{key}"
+    history = st.session_state.setdefault(chat_id, [])
+    if not api_key:
+        H("<div class='sx-alert warn'>The assistant needs a Gemini API key. On share.streamlit.io open this app's "
+          "<b>Settings → Secrets</b> and add one line: <code>GEMINI_API_KEY = \"your key\"</code>, then save.</div>")
+    cols = st.columns(4)
+    picked = None
+    for i, (col, q) in enumerate(zip(cols, SUGGEST[role])):
+        if col.button(q, key=f"sg_{role}_{i}", width="stretch", disabled=not api_key):
+            picked = q
+    for m in history:
+        with st.chat_message("user" if m["role"] == "user" else "assistant"):
+            st.markdown(m["text"])
+    typed = st.chat_input("Ask about patients, hospitals, routes, funds or the ledger", disabled=not api_key, key=f"ci_{chat_id}")
+    question = typed or picked
+    if question and api_key:
+        with st.chat_message("user"):
+            st.markdown(question)
+        with st.chat_message("assistant"):
+            with st.spinner("Reading SENTINEL's data…"):
+                try:
+                    answer, used = ask_gemini(api_key, chat_system(role, chat_context(key, role, viewer_h, viewer_d, scen_label)),
+                                              history, question)
+                    st.markdown(answer)
+                    st.caption(f"Answered by {used} from SENTINEL's data")
+                    history += [{"role": "user", "text": question}, {"role": "assistant", "text": answer}]
+                except RuntimeError as e:
+                    H(f"<div class='sx-alert red'>No answer: {esc(e)}.</div>")
+    if history and st.button("Clear the conversation", key=f"clr_{chat_id}"):
+        st.session_state[chat_id] = []
+        st.rerun()
+
 H("<div class='sx-foot'>Running here: a SimPy scenario engine, the demand model, Dijkstra and A* routing on OpenStreetMap roads, "
-  "OR-Tools CP-SAT allocation, and a SHA-256 and Merkle audit ledger. Capacities, costs and survival curves are synthetic "
+  "OR-Tools CP-SAT allocation, a SHA-256 and Merkle audit ledger, and a Gemini assistant that explains the data. Capacities, costs and survival curves are synthetic "
   "demo values, and survival gains are simulation results.</div>")
