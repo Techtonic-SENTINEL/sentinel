@@ -1,0 +1,11 @@
+{
+ "url": "https://raw.githubusercontent.com/techtonic-sentinel/sentinel/main/data/satellite.jpg",
+ "bounds": [
+  72.8173828125,
+  19.010190294396057,
+  72.938232421875,
+  19.124409528084872
+ ],
+ "attribution": "Esri, Maxar, Earthstar Geographics and the GIS user community",
+ "zoom": 15
+}
